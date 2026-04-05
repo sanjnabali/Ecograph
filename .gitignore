@@ -1,0 +1,50 @@
+# --- Secrets and Config ---
+.env
+*.env
+credentials.json
+.streamlit/secrets.toml
+
+# --- Python Virtual Environment ---
+venv/
+.venv/
+env/
+bin/
+lib/
+include/
+build/
+dist/
+
+# --- Python Caches and Metadata ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+
+# --- Project Specific Data (Large Files) ---
+# We keep the folder structure but ignore the actual files
+data/*
+!data/.gitkeep
+outputs/
+*.pdf
+*.csv
+*.json
+*.parquet
+*.tif
+*.geotiff
+
+# --- Database / Vector Store Local Persistence ---
+qdrant_storage/
+neo4j_data/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+.directory
+
+# --- IDE Specific ---
+.vscode/
+.idea/
+*.swp
+*.swo

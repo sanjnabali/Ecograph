@@ -1,0 +1,26 @@
+#AI Orchestration
+langgraph
+langchain
+langchain-community
+langchain-google-genai
+google-generativeai
+
+#Databases
+neo4j
+langchain-neo4j
+qdrant-client
+
+#Data Ingestion
+unstructured[all-docs]
+unstructured-client
+earthengine-api
+splink
+datasets
+requests
+
+#UI and Tools
+streamlit
+python-dotenv
+pandas
+geopandas
+rasterio
