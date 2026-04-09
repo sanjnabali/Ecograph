@@ -13,6 +13,8 @@ qdrant-client
 #Data Ingestion
 unstructured[all-docs]
 unstructured-client
+unstructured[pdf]
+unstructured_inference
 earthengine-api
 splink
 datasets
