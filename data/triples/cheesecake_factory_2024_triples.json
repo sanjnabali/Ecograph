@@ -1,0 +1,659 @@
+[
+    {
+        "subject": "The Company",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "Cattle Suppliers",
+        "metadata": {
+            "category": "Supply Chain"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "Holistic feed with no animal by-products",
+        "metadata": {
+            "target_year": "2025"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "Controlled atmosphere stunning (CAS)",
+        "metadata": {
+            "target_year": "2025"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "Controlled atmosphere killing (CAK)",
+        "metadata": {
+            "target_year": "2025"
+        }
+    },
+    {
+        "subject": "Cattle Supply Chain",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "79",
+        "metadata": {
+            "metric": "percentage of supply raised with holistic feed",
+            "unit": "%"
+        }
+    },
+    {
+        "subject": "Beef Suppliers",
+        "predicate": "ADHERES_TO_STANDARD",
+        "object_value": "North American Meat Institute (NAMI)",
+        "metadata": {
+            "compliance_rate": ">86%"
+        }
+    },
+    {
+        "subject": "Beef Suppliers",
+        "predicate": "ADHERES_TO_STANDARD",
+        "object_value": "Beef Quality Assurance (BQA)",
+        "metadata": {
+            "compliance_rate": ">86%"
+        }
+    },
+    {
+        "subject": "Beef Suppliers",
+        "predicate": "ADHERES_TO_STANDARD",
+        "object_value": "National Cattlemen\u2019s Beef Association (NCBA)",
+        "metadata": {
+            "compliance_rate": ">86%"
+        }
+    },
+    {
+        "subject": "Cattle Supply Chain",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "74",
+        "metadata": {
+            "metric": "transport under 8 hours",
+            "unit": "%"
+        }
+    },
+    {
+        "subject": "Cattle Supply Chain",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "85",
+        "metadata": {
+            "metric": "humane slaughter compliance",
+            "unit": "%"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "Ending long-distance live transport",
+        "metadata": {
+            "status": "In progress"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "PROMOTES_PRACTICE",
+        "object_value": "Third-party remote video auditing",
+        "metadata": {
+            "context": "Humane processing"
+        }
+    },
+    {
+        "subject": "Dairy Cow Suppliers",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "85",
+        "metadata": {
+            "metric": "rendered unconscious prior to slaughter",
+            "unit": "%"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "Sourcing antibiotic-free eggs (NAE)",
+        "metadata": {
+            "target_year": "2025"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "100% cage-free eggs for restaurant operations",
+        "metadata": {
+            "target_year": "2020"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "100% cage-free eggs for bakery operations",
+        "metadata": {
+            "target_year": "2025"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "International cage-free eggs",
+        "metadata": {
+            "target_year": "2030"
+        }
+    },
+    {
+        "subject": "Egg Suppliers",
+        "predicate": "REPORTS_PERFORMANCE",
+        "object_value": "97%",
+        "metadata": {
+            "metric": "Responsible use of antibiotics with veterinary oversight",
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "Egg Supply",
+        "predicate": "REPORTS_PERFORMANCE",
+        "object_value": "63%",
+        "metadata": {
+            "metric": "Confirmed never administered antibiotics",
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "Egg Supply",
+        "predicate": "REPORTS_PERFORMANCE",
+        "object_value": "97.4%",
+        "metadata": {
+            "metric": "Total cage-free eggs purchased",
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "International Licensees",
+        "predicate": "REPORTS_PERFORMANCE",
+        "object_value": "58%",
+        "metadata": {
+            "metric": "Achieved 100% cage-free egg goals",
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "Egg Supply",
+        "predicate": "REPORTS_PERFORMANCE",
+        "object_value": "82%",
+        "metadata": {
+            "metric": "Welfare outcome measures usage",
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "Egg Supply",
+        "predicate": "REPORTS_PERFORMANCE",
+        "object_value": "97%",
+        "metadata": {
+            "metric": "Hens that are beak trimmed",
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "Supply Chain",
+        "predicate": "EXPERIENCED_DISRUPTION",
+        "object_value": "Avian flu",
+        "metadata": {
+            "impact": "Minimal substitute products purchased",
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "PHASING_OUT",
+        "object_value": "Physical alterations",
+        "metadata": {
+            "scope": "Laying hens",
+            "types": "beak trimming, dubbing, de-spurring, de-toeing"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "2025 Goal",
+        "metadata": {
+            "description": "Offering environmental enrichments for egg laying hens"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "2025 Goal",
+        "metadata": {
+            "description": "Ensuring eggs come from suppliers using holistic feed with no animal by-products"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "Egg Suppliers",
+        "metadata": {
+            "commodity": "Eggs"
+        }
+    },
+    {
+        "subject": "Egg Suppliers",
+        "predicate": "REPORTS_ENRICHMENT_RATE",
+        "object_value": "66%",
+        "metadata": {
+            "details": "perches, litter, hanging alfalfa, and nest pads",
+            "age_of_provision": "1 day"
+        }
+    },
+    {
+        "subject": "Egg Suppliers",
+        "predicate": "REPORTS_NATURAL_LIGHT_RATE",
+        "object_value": "3%",
+        "metadata": {
+            "status": "current performance"
+        }
+    },
+    {
+        "subject": "Egg Suppliers",
+        "predicate": "REPORTS_HOLISTIC_FEED_RATE",
+        "object_value": "95%",
+        "metadata": {
+            "status": "current performance"
+        }
+    },
+    {
+        "subject": "Egg Suppliers",
+        "predicate": "UTILIZES_FEED",
+        "object_value": "Holistic feed",
+        "metadata": {
+            "restriction": "no animal by-products"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "Sourcing NAE broiler chickens",
+        "metadata": {
+            "target_year": "2025",
+            "definition": "no-antibiotics ever"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "Phasing out physical alterations",
+        "metadata": {
+            "target_year": "2025",
+            "scope": "broiler chickens"
+        }
+    },
+    {
+        "subject": "Broiler Chicken Suppliers",
+        "predicate": "PRACTICE_RESPONSIBLE_ANTIBIOTIC_USE",
+        "object_value": "92%",
+        "metadata": {
+            "context": "veterinary oversight"
+        }
+    },
+    {
+        "subject": "Broiler Chicken Suppliers",
+        "predicate": "SOURCE_NAE",
+        "object_value": "85%",
+        "metadata": null
+    },
+    {
+        "subject": "Supply Chain",
+        "predicate": "HAS_NO_PHYSICAL_ALTERATIONS",
+        "object_value": "92%",
+        "metadata": {
+            "details": "no beak modifications"
+        }
+    },
+    {
+        "subject": "Supply Chain",
+        "predicate": "USES_WELFARE_OUTCOME_MEASURES",
+        "object_value": "85%",
+        "metadata": {
+            "examples": "gait scores, footpad health"
+        }
+    },
+    {
+        "subject": "Supply Chain",
+        "predicate": "TRANSPORTED_UNDER_8_HOURS",
+        "object_value": "92%",
+        "metadata": {
+            "destination": "slaughter"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "Broiler Chicken Suppliers",
+        "metadata": {
+            "category": "Supply Chain"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "ALIGNS_WITH",
+        "object_value": "Global Animal Partnership (GAP) 5-Step Animal Welfare Rating Standards",
+        "metadata": {
+            "version": "v2.0"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "2025",
+        "metadata": {
+            "goal": "100% holistic feed with no animal by-products"
+        }
+    },
+    {
+        "subject": "Broiler Chicken Supply",
+        "predicate": "HAS_PERFORMANCE_METRIC",
+        "object_value": "89%",
+        "metadata": {
+            "metric": "holistic feed usage"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "2025",
+        "metadata": {
+            "goal": "Slower growing breeds and practices"
+        }
+    },
+    {
+        "subject": "Broiler Chicken Supply",
+        "predicate": "HAS_PERFORMANCE_METRIC",
+        "object_value": "7%",
+        "metadata": {
+            "metric": "slower growing breeds"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "2025",
+        "metadata": {
+            "goal": "Stocking density <= 6 lbs per sq ft"
+        }
+    },
+    {
+        "subject": "Broiler Chicken Supply",
+        "predicate": "HAS_PERFORMANCE_METRIC",
+        "object_value": "<1%",
+        "metadata": {
+            "metric": "stocking density compliance"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "2025",
+        "metadata": {
+            "goal": "Environmental enrichments"
+        }
+    },
+    {
+        "subject": "Broiler Chicken Supply",
+        "predicate": "HAS_PERFORMANCE_METRIC",
+        "object_value": "3%",
+        "metadata": {
+            "metric": "environmental enrichments"
+        }
+    },
+    {
+        "subject": "Broiler Chicken Supply",
+        "predicate": "HAS_PERFORMANCE_METRIC",
+        "object_value": "<1%",
+        "metadata": {
+            "metric": "natural light"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "2025",
+        "metadata": {
+            "goal": "Humane slaughter (CAS/CAK)"
+        }
+    },
+    {
+        "subject": "Broiler Chicken Supply",
+        "predicate": "HAS_PERFORMANCE_METRIC",
+        "object_value": "89%",
+        "metadata": {
+            "metric": "humane slaughter compliance"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "SETS_TARGET",
+        "object_value": "Eliminating the use of confinement crates for veal calves",
+        "metadata": {
+            "target_year": "2025",
+            "original_deadline": "2017"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "SOURCES_PRODUCT",
+        "object_value": "Veal",
+        "metadata": {
+            "status": "not currently sourcing"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "HAS_SUPPLY_CHAIN_POLICY",
+        "object_value": "Source from producers that do not utilize confinement crates",
+        "metadata": {
+            "scope": "future sourcing"
+        }
+    },
+    {
+        "subject": "The Cheesecake Factory Incorporated",
+        "predicate": "ADOPTS_STANDARD",
+        "object_value": "SASB accounting metrics",
+        "metadata": {
+            "version": "2023-12",
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "The Cheesecake Factory Incorporated",
+        "predicate": "REPORTS_IN",
+        "object_value": "2023 Corporate Social Responsibility Report",
+        "metadata": {
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_ENERGY_CONSUMPTION",
+        "object_value": "Total energy consumed",
+        "metadata": {
+            "unit": "kWh",
+            "code": "FB-RN-130a.1",
+            "reference": "Environmental Data Summary (Page 44)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_GRID_ELECTRICITY_RATIO",
+        "object_value": "percentage grid electricity",
+        "metadata": {
+            "unit": "Percentage (%)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_RENEWABLE_ENERGY_RATIO",
+        "object_value": "percentage renewable",
+        "metadata": {
+            "unit": "Percentage (%)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_WATER_WITHDRAWAL",
+        "object_value": "Total water withdrawn",
+        "metadata": {
+            "unit": "kGal",
+            "code": "FB-RN-140a.1",
+            "reference": "Environmental Data Summary (Page 44)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_WASTE_TOTAL",
+        "object_value": "Total amount of waste",
+        "metadata": {
+            "unit": "mt",
+            "code": "FB-RN-150a.1",
+            "reference": "Environmental Data Summary (Page 44)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_FOOD_WASTE_RATIO",
+        "object_value": "percentage food waste",
+        "metadata": {
+            "unit": "Percentage (%)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_WASTE_DIVERSION_RATIO",
+        "object_value": "percentage diverted",
+        "metadata": {
+            "unit": "Percentage (%)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_PACKAGING_WEIGHT",
+        "object_value": "Total weight of packaging",
+        "metadata": {
+            "unit": "mt",
+            "code": "FB-RN-150a.2",
+            "reference": "Environment (Page 40)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_RECYCLED_PACKAGING_RATIO",
+        "object_value": "percentage made from recycled and/or renewable materials",
+        "metadata": {
+            "unit": "Percentage (%)"
+        }
+    },
+    {
+        "subject": "Food & Beverage - Restaurants",
+        "predicate": "REPORTS_RECYCLABLE_PACKAGING_RATIO",
+        "object_value": "percentage that is recyclable, reusable, and/or compostable",
+        "metadata": {
+            "unit": "Percentage (%)"
+        }
+    },
+    {
+        "subject": "Restaurants",
+        "predicate": "INSPECTED_BY",
+        "object_value": "Regulatory Body",
+        "metadata": {
+            "percentage": "100",
+            "frequency": "annual"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "REPORTS_RECALLS",
+        "object_value": "7",
+        "metadata": {
+            "year": "2023",
+            "unit": "number"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "REPORTS_RECALLED_WEIGHT",
+        "object_value": "805.7",
+        "metadata": {
+            "year": "2023",
+            "unit": "lbs"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "REPORTS_OUTBREAKS",
+        "object_value": "0",
+        "metadata": {
+            "year": "2023",
+            "metric": "confirmed foodborne illness outbreaks"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "REQUIRES_COMPLIANCE",
+        "object_value": "Certificate of Destruction",
+        "metadata": {
+            "timeframe": "2 hours",
+            "scope": "all product recalls"
+        }
+    },
+    {
+        "subject": "The Company",
+        "predicate": "USES_SYSTEM",
+        "object_value": "Automated system",
+        "metadata": {
+            "purpose": "initiate and document product recalls"
+        }
+    },
+    {
+        "subject": "Children's meal options",
+        "predicate": "COMPLIES_WITH",
+        "object_value": "National dietary guidelines",
+        "metadata": {
+            "code": "FB-RN-260a.2",
+            "unit": "Percentage"
+        }
+    },
+    {
+        "subject": "Marketing efforts",
+        "predicate": "TARGETS",
+        "object_value": "Children",
+        "metadata": {
+            "is_targeted": "false",
+            "code": "FB-RN-260a.3"
+        }
+    },
+    {
+        "subject": "Restaurant employees",
+        "predicate": "HAS_TURNOVER_RATE",
+        "object_value": "Voluntary and involuntary",
+        "metadata": {
+            "code": "FB-RN-310a.1",
+            "source": "Page 9"
+        }
+    },
+    {
+        "subject": "Restaurant employees",
+        "predicate": "HAS_AVERAGE_WAGE",
+        "object_value": "Average hourly wage by region",
+        "metadata": {
+            "code": "FB-RN-310a.2",
+            "source": "Page 4"
+        }
+    },
+    {
+        "subject": "Legal proceedings",
+        "predicate": "HAS_MONETARY_LOSSES",
+        "object_value": "Labor law violations and employment discrimination",
+        "metadata": {
+            "code": "FB-RN-310a.3",
+            "source": "Fiscal Year 2023 Form 10-K"
+        }
+    }
+]

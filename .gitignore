@@ -24,12 +24,7 @@ __pycache__/
 
 # --- Project Specific Data (Large Files) ---
 # We keep the folder structure but ignore the actual files
-data/*
-!data/.gitkeep
-outputs/
-*.pdf
-*.csv
-*.json
+
 *.parquet
 *.tif
 *.geotiff
