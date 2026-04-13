@@ -1,0 +1,97 @@
+2026-04-13 23:06:55,090 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:06:55,091 | INFO     | __main__ |  ║        EcoGraph - Scope 3 Knowledge Graph Pipeline         ║
+2026-04-13 23:06:55,092 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝
+2026-04-13 23:06:55,094 | ERROR    | __main__ |  data/parsed_content/ exists but contains no .json files.
+2026-04-13 23:06:55,094 | CRITICAL | __main__ |  Pre-flight checks failed. Fix the above errors and re-run.
+2026-04-13 23:08:03,240 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:08:03,240 | INFO     | __main__ |  ║        EcoGraph - Scope 3 Knowledge Graph Pipeline         ║
+2026-04-13 23:08:03,241 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝
+2026-04-13 23:08:03,241 | INFO     | __main__ |  Found 5 parsed JSON file(s) in data/parsed_content/ ✓
+2026-04-13 23:08:03,242 | INFO     | __main__ |  ============================================================
+2026-04-13 23:08:03,242 | INFO     | __main__ |  STAGE 1-3: LangGraph Pipeline (Extract -> Load -> Resolve)
+2026-04-13 23:08:03,242 | INFO     | __main__ |  ============================================================
+2026-04-13 23:08:06,155 | CRITICAL | __main__ |  Import error - check your src/ __init__.py files: No module named 'Langchain_core'
+2026-04-13 23:08:06,155 | ERROR    | __main__ |  Pipeline failed. Check logs above. Skipping ERP and Geo stages.
+2026-04-13 23:08:06,156 | INFO     | __main__ |  
+2026-04-13 23:08:06,156 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:08:06,156 | INFO     | __main__ |  ║                      PIPELINE SUMMARY                      ║
+2026-04-13 23:08:06,156 | INFO     | __main__ |  ╠════════════════════════════════════════════════════════════╣
+2026-04-13 23:08:06,156 | INFO     | __main__ |  ║ Status        : failed                             ║
+2026-04-13 23:08:06,156 | INFO     | __main__ |  ║ Triple files  : 0                                  ║
+2026-04-13 23:08:06,157 | INFO     | __main__ |  ║ Neo4j written : N/A                                ║
+2026-04-13 23:08:06,157 | INFO     | __main__ |  ║ Neo4j errors  : N/A                                ║
+2026-04-13 23:08:06,157 | INFO     | __main__ |  ║ Resolved      : False                              ║
+2026-04-13 23:08:06,157 | INFO     | __main__ |  ║  Warnings/Errors :                                         ║
+2026-04-13 23:08:06,157 | INFO     | __main__ |  ║   • No module named 'Langchain_core'                 ║
+2026-04-13 23:08:06,157 | INFO     | __main__ |  ╠════════════════════════════════════════════════════════════╣
+2026-04-13 23:08:06,157 | INFO     | __main__ |  ║ Full log saved  : ecograph_run.log                         ║
+2026-04-13 23:08:06,157 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝
+2026-04-13 23:08:36,695 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:08:36,696 | INFO     | __main__ |  ║        EcoGraph - Scope 3 Knowledge Graph Pipeline         ║
+2026-04-13 23:08:36,696 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝
+2026-04-13 23:08:36,697 | INFO     | __main__ |  Found 5 parsed JSON file(s) in data/parsed_content/ ✓
+2026-04-13 23:08:36,697 | INFO     | __main__ |  ============================================================
+2026-04-13 23:08:36,698 | INFO     | __main__ |  STAGE 1-3: LangGraph Pipeline (Extract -> Load -> Resolve)
+2026-04-13 23:08:36,698 | INFO     | __main__ |  ============================================================
+2026-04-13 23:08:37,627 | CRITICAL | __main__ |  Import error - check your src/ __init__.py files: No module named 'Langchain_core'
+2026-04-13 23:08:37,627 | ERROR    | __main__ |  Pipeline failed. Check logs above. Skipping ERP and Geo stages.
+2026-04-13 23:08:37,628 | INFO     | __main__ |  
+2026-04-13 23:08:37,628 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:08:37,628 | INFO     | __main__ |  ║                      PIPELINE SUMMARY                      ║
+2026-04-13 23:08:37,628 | INFO     | __main__ |  ╠════════════════════════════════════════════════════════════╣
+2026-04-13 23:08:37,628 | INFO     | __main__ |  ║ Status        : failed                             ║
+2026-04-13 23:08:37,629 | INFO     | __main__ |  ║ Triple files  : 0                                  ║
+2026-04-13 23:08:37,629 | INFO     | __main__ |  ║ Neo4j written : N/A                                ║
+2026-04-13 23:08:37,629 | INFO     | __main__ |  ║ Neo4j errors  : N/A                                ║
+2026-04-13 23:08:37,629 | INFO     | __main__ |  ║ Resolved      : False                              ║
+2026-04-13 23:08:37,629 | INFO     | __main__ |  ║  Warnings/Errors :                                         ║
+2026-04-13 23:08:37,629 | INFO     | __main__ |  ║   • No module named 'Langchain_core'                 ║
+2026-04-13 23:08:37,629 | INFO     | __main__ |  ╠════════════════════════════════════════════════════════════╣
+2026-04-13 23:08:37,629 | INFO     | __main__ |  ║ Full log saved  : ecograph_run.log                         ║
+2026-04-13 23:08:37,630 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝
+2026-04-13 23:09:43,492 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:09:43,492 | INFO     | __main__ |  ║        EcoGraph - Scope 3 Knowledge Graph Pipeline         ║
+2026-04-13 23:09:43,492 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝
+2026-04-13 23:09:43,494 | INFO     | __main__ |  Found 5 parsed JSON file(s) in data/parsed_content/ ✓
+2026-04-13 23:09:43,494 | INFO     | __main__ |  ============================================================
+2026-04-13 23:09:43,494 | INFO     | __main__ |  STAGE 1-3: LangGraph Pipeline (Extract -> Load -> Resolve)
+2026-04-13 23:09:43,495 | INFO     | __main__ |  ============================================================
+2026-04-13 23:09:44,856 | CRITICAL | __main__ |  Import error - check your src/ __init__.py files: No module named 'Langchain_core'
+2026-04-13 23:09:44,857 | ERROR    | __main__ |  Pipeline failed. Check logs above. Skipping ERP and Geo stages.
+2026-04-13 23:09:44,857 | INFO     | __main__ |  
+2026-04-13 23:09:44,857 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:09:44,857 | INFO     | __main__ |  ║                      PIPELINE SUMMARY                      ║
+2026-04-13 23:09:44,857 | INFO     | __main__ |  ╠════════════════════════════════════════════════════════════╣
+2026-04-13 23:09:44,858 | INFO     | __main__ |  ║ Status        : failed                             ║
+2026-04-13 23:09:44,858 | INFO     | __main__ |  ║ Triple files  : 0                                  ║
+2026-04-13 23:09:44,858 | INFO     | __main__ |  ║ Neo4j written : N/A                                ║
+2026-04-13 23:09:44,858 | INFO     | __main__ |  ║ Neo4j errors  : N/A                                ║
+2026-04-13 23:09:44,858 | INFO     | __main__ |  ║ Resolved      : False                              ║
+2026-04-13 23:09:44,858 | INFO     | __main__ |  ║  Warnings/Errors :                                         ║
+2026-04-13 23:09:44,859 | INFO     | __main__ |  ║   • No module named 'Langchain_core'                 ║
+2026-04-13 23:09:44,859 | INFO     | __main__ |  ╠════════════════════════════════════════════════════════════╣
+2026-04-13 23:09:44,859 | INFO     | __main__ |  ║ Full log saved  : ecograph_run.log                         ║
+2026-04-13 23:09:44,859 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝
+2026-04-13 23:10:45,972 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:10:45,973 | INFO     | __main__ |  ║        EcoGraph - Scope 3 Knowledge Graph Pipeline         ║
+2026-04-13 23:10:45,973 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝
+2026-04-13 23:10:45,974 | INFO     | __main__ |  Found 5 parsed JSON file(s) in data/parsed_content/ ✓
+2026-04-13 23:10:45,974 | INFO     | __main__ |  ============================================================
+2026-04-13 23:10:45,974 | INFO     | __main__ |  STAGE 1-3: LangGraph Pipeline (Extract -> Load -> Resolve)
+2026-04-13 23:10:45,974 | INFO     | __main__ |  ============================================================
+2026-04-13 23:10:47,180 | CRITICAL | __main__ |  Import error - check your src/ __init__.py files: No module named 'Langchain_core'
+2026-04-13 23:10:47,180 | ERROR    | __main__ |  Pipeline failed. Check logs above. Skipping ERP and Geo stages.
+2026-04-13 23:10:47,181 | INFO     | __main__ |  
+2026-04-13 23:10:47,181 | INFO     | __main__ |  ╔════════════════════════════════════════════════════════════╗
+2026-04-13 23:10:47,181 | INFO     | __main__ |  ║                      PIPELINE SUMMARY                      ║
+2026-04-13 23:10:47,181 | INFO     | __main__ |  ╠════════════════════════════════════════════════════════════╣
+2026-04-13 23:10:47,182 | INFO     | __main__ |  ║ Status        : failed                             ║
+2026-04-13 23:10:47,182 | INFO     | __main__ |  ║ Triple files  : 0                                  ║
+2026-04-13 23:10:47,182 | INFO     | __main__ |  ║ Neo4j written : N/A                                ║
+2026-04-13 23:10:47,182 | INFO     | __main__ |  ║ Neo4j errors  : N/A                                ║
+2026-04-13 23:10:47,182 | INFO     | __main__ |  ║ Resolved      : False                              ║
+2026-04-13 23:10:47,182 | INFO     | __main__ |  ║  Warnings/Errors :                                         ║
+2026-04-13 23:10:47,183 | INFO     | __main__ |  ║   • No module named 'Langchain_core'                 ║
+2026-04-13 23:10:47,183 | INFO     | __main__ |  ╠════════════════════════════════════════════════════════════╣
+2026-04-13 23:10:47,183 | INFO     | __main__ |  ║ Full log saved  : ecograph_run.log                         ║
+2026-04-13 23:10:47,183 | INFO     | __main__ |  ╚════════════════════════════════════════════════════════════╝

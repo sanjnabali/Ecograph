@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap");
+
+:root {
+    --brand: #bdeecf;
+}
+
+::-webkit-scrollbar      {width: 6px; height: 6px;}
+::-webkit-scrollbar-track {background: #28344f;}
+::-webkit-scrollbar-thumb {background: #8299bd; border-radius: 3px;}
+::-webkit-scrollbar-thumb:hover {background: #88919e;}
