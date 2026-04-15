@@ -1,6 +1,6 @@
-# 🌱 EcoGraph: Multi-Modal Knowledge Graph for Scope 3 Decarbonization
+# EcoGraph: Multi-Modal Knowledge Graph for Scope 3 Decarbonization
 
-## 📖 What We Are Doing (Project Overview)
+## What We Are Doing (Project Overview)
 **EcoGraph** is an autonomous, AI-driven pipeline designed to extract complex, unstructured environmental data from corporate ESG (Environmental, Social, and Governance) reports and transform it into a structured, queryable **Knowledge Graph**. 
 
 **The Problem:** Tracking **Scope 3 emissions** (supply chain and indirect emissions) is notoriously difficult. This critical data is buried inside hundreds of pages of dense PDFs, complex financial tables, and qualitative narrative text across different companies using different reporting standards. 
@@ -9,7 +9,7 @@
 
 ---
 
-## 🧠 Architecture Deep Dive: How It Works Under the Hood
+## Architecture Deep Dive: How It Works Under the Hood
 
 EcoGraph combines several cutting-edge AI and data architectures to turn unstructured human language into machine-readable logic.
 
@@ -36,7 +36,7 @@ We use `with_structured_output` via Pydantic to control the LLM.
 
 ---
 
-## 🏗️ Method Pipeline
+## Method Pipeline
 
 EcoGraph is built on a deterministic, 4-stage data transformation pipeline:
 
@@ -53,7 +53,7 @@ EcoGraph is built on a deterministic, 4-stage data transformation pipeline:
 
 ---
 
-## 🛠️ Key Technologies (Tech Stack)
+## Key Technologies (Tech Stack)
 * **LLM / Inference Engine:** Gemini 1.5 Flash (Google GenAI)
 * **AI Orchestration:** LangChain, LangGraph
 * **Data Parsing:** Unstructured (`unstructured[all-docs]`)
@@ -63,7 +63,7 @@ EcoGraph is built on a deterministic, 4-stage data transformation pipeline:
 
 ---
 
-## 📂 Directory Structure
+## Directory Structure
 
 ```text
 ECOGRAPH/
@@ -86,7 +86,7 @@ ECOGRAPH/
 │       ├── geo_loader.py     # Geospatial data processing
 │       ├── pdf_loader.py     # HuggingFace dataset downloader
 │       └── parsing.py        # Unstructured PDF to JSON parser
-├── ui/                       # Streamlit frontend application
+├── ui/                       
 ├── .env                      # Environment variables and API Keys
 ├── .gitignore
 └── requirements.txt          # Python dependencies
