@@ -52,14 +52,14 @@ TRIPLES_DIR           : Path = DATA_DIR / "triples"
 LOG_FILE              : Path = ROOT_DIR / "ecograph.Log"
 
 GROQ_API_KEY      : str = os.getenv("GROQ_API_KEY", "")
-GROQ_MODEL: str = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
+GROQ_MODEL: str = os.getenv("GROQ_MODEL", "mixtral-8x7b-32768")
 LLM_Provider: str = os.getenv("LLM_Provider", "groq")
 
 GEMINI_MODEL       : str = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 GEMINI_TEMPERATURE : float = _safe_float("GEMINI_TEMPERATURE", 0.0)
 
 
-RATE_LIMIT_DELAY   : float = _safe_float("RATE_LIMIT_DELAY", 5.0)
+RATE_LIMIT_DELAY   : float = _safe_float("RATE_LIMIT_DELAY", 20.0)
 MAX_RETRIES        : int = _safe_int("MAX_RETRIES", 3)
 RETRY_BACKOFF      : float = _safe_float("RETRY_BACKOFF", 30.0)
 

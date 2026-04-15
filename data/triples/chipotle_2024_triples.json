@@ -1,0 +1,1018 @@
+[
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "45 Environmental Goals",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "46 Climate Emissions",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "48 Sustainable Design and Development",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "49 Scope 3 Emissions",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "50 Regenerative Agriculture",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "51 Real Foodprint",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "52 Water",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "53 Waste",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "54 Materials",
+        "metadata": null
+    },
+    {
+        "subject": "CHAPTER 3",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "55",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill, Inc.",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Cultivate a Better World",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "9.9 billion in revenue",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill, Inc.",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "None",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill, Inc.",
+        "predicate": "HAS_EMPLOYEE",
+        "object_value": "116,000",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill, Inc.",
+        "predicate": "OPERATES_IN",
+        "object_value": "United States, Canada, France, Germany, and the United Kingdom",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill, Inc.",
+        "predicate": "HAS_SUBSIDIARY",
+        "object_value": "Chipotle",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill, Inc.",
+        "predicate": "HAS_FOUNDER",
+        "object_value": "Steve Ells",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill, Inc.",
+        "predicate": "REPORTS_YEAR",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "40 million pounds of produce",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "304 acres of conventional farmland converted to organic farmland",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "100% of beef and chicken suppliers met No Antibiotics Ever standard",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "100% of pork suppliers met no Sub-Therapeautic Antibiotics Ever standard",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "5 million pounds of produce sourced from within 350 miles of a distribution center is defined as local",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "null",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "commitment to sourcing ingredients that are grown, raised, and harvested with respect for people, animals, and the land",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_STANDARD",
+        "object_value": "Supplier Code of Conduct",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "COMMITTED_TO",
+        "object_value": "sourcing ingredients that are grown, raised, and harvested with respect for people, animals, and the land",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "23 regional distribution centers",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "null",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMMITTED_TO",
+        "object_value": "complying with the law and maintaining the highest standards of honesty, integrity, and conduct",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMMITTED_TO",
+        "object_value": "upholding the same principles",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "all applicable laws, regulations, customs, and industry standards relating to employment and human rights",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROVIDE",
+        "object_value": "fairly compensated wages and benefits",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROVIDE",
+        "object_value": "reasonable daily and weekly work schedules",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "all laws and industry standards pertaining to the number of hours worked per day or week",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "applicable immigration laws",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROHIBIT",
+        "object_value": "forced labor",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROHIBIT",
+        "object_value": "physical punishment, confinement, use of weapons, threats of violence, or other forms of physical, sexual, psychological, or verbal harassment or abuse",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "laws prohibiting discrimination in hiring and employment practices",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "laws prohibiting unlawful harassment and retaliation",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "the United States Foreign Corrupt Practices Act, United Kingdom Bribery Act, the European Union Anti-Corruption Framework and related regulations",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROVIDE",
+        "object_value": "safe and healthy working and living conditions",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROVIDE",
+        "object_value": "potable drinking water, clean restrooms, adequate ventilation, fire exits, essential safety and protective equipment, and related training",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROHIBIT",
+        "object_value": "child labor",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_PURCHASE",
+        "object_value": "366 million pounds of produce",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_PLATFORM",
+        "object_value": "Local Line",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "SUPPORTS_FARMERS",
+        "object_value": "Local Line",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "Local Line",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_AUDIT",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_AUDIT",
+        "object_value": "regular supplier auditing process",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_AUDIT",
+        "object_value": "negative environmental impacts",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_AUDIT",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_STANDARD",
+        "object_value": "no artificial flavors, colors, or preservatives",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "COOKS_WITH",
+        "object_value": "simple, whole ingredients",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "3,371 new restaurants",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "less than 900 milligrams of sodium",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Young Farmer Grant Program",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "PARTNERS_WITH",
+        "object_value": "National Young Farmer’s Coalition",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "COMMITTED_TO",
+        "object_value": "$5 million by 2025 to support the future of farming",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_PROGRESS",
+        "object_value": "$5M, $1M",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "PARTNERS_WITH",
+        "object_value": "National Young Farmers Coalition",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Cultivating a Better World",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_BENEFITS",
+        "object_value": "HOURLY MANAGER* SEMI-ANNUAL SEMI-ANNUAL QUARTERLY PERFORMANCE BONUS ANNUAL SERVICE BONUS PEOPLE DEVELOPMENT BONUS ANNUAL PERFORMANCE BONUS EQUITY MEDICAL, DENTAL, VISION INSURANCE FINANCIAL WELL-BEING RETIREMENT SAVINGS MENTAL AND EMOTIONAL WELL-BEING TUITION REIMBURSEMENT AND DEBT-FREE DEGREES PAID TIME OFF BRAND NAME DISCOUNTS EMPLOYEE STOCK PURCHASE PLAN FREE MEALS FREE UNIFORMS PARENTAL LEAVE LIFE & DISABILITY INSURANCE VOLUNTARY BENEFITS FLEXIBLE SPENDING ACCOUNTS ADOPTION ASSISTANCE STRIVE WELLNESS PROGRAM PAID SABBATICAL",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REQUIRES_SERVICE_YEARS_FOR_BENEFITS",
+        "object_value": "1 year",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_TUITION_REIMBURSEMENT",
+        "object_value": "up to $5,250 in Tuition Reimbursement for any degree",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_PAID_TIME_OFF",
+        "object_value": "day one",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_DISCOUNTS",
+        "object_value": "things like Apple, AT&T, airfare, hotel, and much more",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_STOCK_PURCHASE_PLAN",
+        "object_value": "after one year of service",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_FREE_MEALS",
+        "object_value": "during and gets 50% off food at their home restaurant",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REQUIRES_SERVICE_YEARS_FOR_STOCK",
+        "object_value": "1 year",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_PARENTAL_LEAVE",
+        "object_value": "up to 12 weeks with the new child",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_LIFE_DISABILITY_INSURANCE",
+        "object_value": "employees and their family members",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_HEALTHCARE_COVERAGE",
+        "object_value": "available to all employees",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_HEALTH_PREMIUM_DISCOUNTS",
+        "object_value": "up to $1400 in health insurance premium discounts and gift card rewards",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REQUIRES_SERVICE_YEARS_FOR_SABBATICAL",
+        "object_value": "5 years",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "OFFERS_PAID_SABBATICAL",
+        "object_value": "8 weeks",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2,605",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2,271",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "334",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1,793",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1,426",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "13%",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "20%",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "87%",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (UNITED STATES)",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "80%",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (CANADA)",
+        "predicate": "REPORTS_HIRE",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (CANADA)",
+        "predicate": "REPORTS_PROMOTION",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (CANADA)",
+        "predicate": "REPORTS_TOTAL_HIRE",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (CANADA)",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "23%",
+        "metadata": null
+    },
+    {
+        "subject": "POPULATION (CANADA)",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "77%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "183%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "33%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "18%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "22%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "0%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "193%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "44%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "19%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "23%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_TURNOVER_RATE",
+        "object_value": "14%",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_TRAINING_PROGRAM",
+        "object_value": "Spice Hub",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_TRAINING_HOURS",
+        "object_value": "every shift",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_TRAINING_DURATION",
+        "object_value": "three weeks",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_TRAINING_DURATION",
+        "object_value": "four weeks",
+        "metadata": null
+    },
+    {
+        "subject": "Crew",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "2 hours",
+        "metadata": null
+    },
+    {
+        "subject": "Crew",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "1 week",
+        "metadata": null
+    },
+    {
+        "subject": "Crew",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "Crew Cash Training",
+        "metadata": null
+    },
+    {
+        "subject": "Crew",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "Crew Digital Training",
+        "metadata": null
+    },
+    {
+        "subject": "Crew",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "Crew Prep Training",
+        "metadata": null
+    },
+    {
+        "subject": "Crew",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "Crew Grill Training",
+        "metadata": null
+    },
+    {
+        "subject": "Crew",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "1 week",
+        "metadata": null
+    },
+    {
+        "subject": "Kitchen Leader",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "3 weeks",
+        "metadata": null
+    },
+    {
+        "subject": "Service Leader",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "4 weeks",
+        "metadata": null
+    },
+    {
+        "subject": "Apprentice",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "4 weeks",
+        "metadata": null
+    },
+    {
+        "subject": "Internal GM",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "3 weeks",
+        "metadata": null
+    },
+    {
+        "subject": "External GM",
+        "predicate": "REQUIRES_TRAINING",
+        "object_value": "12 weeks",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "COMMITTED_TO",
+        "object_value": "regenerative agriculture",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "improving soil health",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "adopted one or more regenerative agriculture management principles or philosophies",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_STANDARD",
+        "object_value": "Food with Integrity",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "evolve current Food with Integrity standards",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "water, soil, and biodiversity",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "increasing farmer profitability and livelihood",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "suppliers",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "partnerships and work with local communities",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "future generations",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "regenerative agriculture will help support the future of farming",
+        "metadata": null
+    },
+    {
+        "subject": "Company",
+        "predicate": "REPORTS_EMPLOYMENT_STATS",
+        "object_value": "as of December 31, 2023",
+        "metadata": {
+            "year": "2023"
+        }
+    },
+    {
+        "subject": "Company",
+        "predicate": "REPORTS_EMPLOYMENT_STATS",
+        "object_value": "United States only",
+        "metadata": {
+            "region": "United States"
+        }
+    },
+    {
+        "subject": "US Total",
+        "predicate": "REPORTS_EMPLOYEE",
+        "object_value": "114,042",
+        "metadata": null
+    },
+    {
+        "subject": "US Total",
+        "predicate": "REPORTS_EMPLOYEE",
+        "object_value": "102,772",
+        "metadata": null
+    },
+    {
+        "subject": "US Total",
+        "predicate": "REPORTS_EMPLOYEE",
+        "object_value": "104,400",
+        "metadata": null
+    },
+    {
+        "subject": "US Total",
+        "predicate": "REPORTS_EMPLOYEE",
+        "object_value": "96,445",
+        "metadata": null
+    },
+    {
+        "subject": "US Total",
+        "predicate": "REPORTS_EMPLOYEE",
+        "object_value": "98,055",
+        "metadata": null
+    },
+    {
+        "subject": "US Total",
+        "predicate": "REPORTS_CONTRACTOR",
+        "object_value": "1,087",
+        "metadata": null
+    },
+    {
+        "subject": "US Total",
+        "predicate": "REPORTS_CONTRACTOR",
+        "object_value": "1,628",
+        "metadata": null
+    },
+    {
+        "subject": "Inclusion Stats",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "17,18",
+        "metadata": null
+    },
+    {
+        "subject": "Inclusion Stats",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "17,18",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2023 Sustainability Report",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill",
+        "predicate": "USES_STANDARD",
+        "object_value": "Global Reporting Initiative (GRI) Standards: Index",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill",
+        "predicate": "REPORTS_SUSTAINABILITY_REPORT",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle Mexican Grill",
+        "predicate": "REPORTS_ON",
+        "object_value": "GRI Standards",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Number of company-owned restaurants",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Number of employees at company-owned locations",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "strategy to manage environmental and social risks within the supply chain, including animal welfare",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Percentage of food purchased that meets environmental and social sourcing standards",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Percentage of eggs that originated from a cage-free environment",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Percentage of pork that was produced without the use of gestation crates",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Number of franchise restaurants",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Number of employees at franchise locations",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_STANDARD",
+        "object_value": "SASB Standards SUPPLY CHAIN MANAGEMENT & FOOD SOURCING",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_STANDARD",
+        "object_value": "Meat & Dairy Supply Chain, Meat & Dairy Standards",
+        "metadata": null
+    },
+    {
+        "subject": "organization",
+        "predicate": "IDENTIFIES_RISKS",
+        "object_value": "climate related",
+        "metadata": {
+            "term": "short, medium, and long term"
+        }
+    },
+    {
+        "subject": "organization",
+        "predicate": "IDENTIFIES_OPPORTUNITIES",
+        "object_value": "climate related",
+        "metadata": {
+            "term": "short, medium, and long term"
+        }
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_ENERGY_SOURCE",
+        "object_value": "natural gas and electricity",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_ON",
+        "object_value": "climate related risks and opportunities",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_GOAL",
+        "object_value": "increasing efficiency",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "EVALUATES_ALTERNATIVES",
+        "object_value": "low-carbon alternatives",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Training Managers",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "General Managers",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Apprentices",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Restauranteurs",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Field Leader",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Team Director",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Regional Vice President",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Executive Leadership Team",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Restaurant Support Center Staff",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_EMPLOYEE_CATEGORY",
+        "object_value": "Field Staff",
+        "metadata": null
+    }
+]

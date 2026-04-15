@@ -1,0 +1,38 @@
+[
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "NO POVERTY",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "ZERO HUNGER",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "QUALITY EDUCATION",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "DECENT WORK AND ECONOMIC GROWTH",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "RESPONSIBLE CONSUMPTION AND PRODUCTION",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "PARTNERSHIPS FOR THE GOALS",
+        "metadata": null
+    }
+]

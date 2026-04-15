@@ -1,0 +1,68 @@
+[
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1,200 individual appointments scheduled in 2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "309 grants fulfilled in 2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "$327,500 total grants fulfilled in 2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Mental health counseling with licensed psychologists and psychiatrists",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Virtual support for alcohol and opioid addiction",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Hardship and Emergency Lifeline Program (HELP)",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Caring for staff and managers' physical, mental and emotional health",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Supporting staff and managers' financial well-being",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "RANKED_AS",
+        "object_value": "Fortune 100 Best Companies to Work For",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "RANKED_AS",
+        "object_value": "Best Workplaces for Millennials",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "RANKED_AS",
+        "object_value": "PEOPLE Companies that Care",
+        "metadata": null
+    }
+]

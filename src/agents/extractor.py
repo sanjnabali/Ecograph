@@ -71,7 +71,7 @@ class Scope3Extractor:
         
         llm = ChatGroq(
             api_key=os.getenv("GROQ_API_KEY"),
-            model=os.getenv("GROQ_MODEL", "llama-3.1-8b-instant"),
+            model=os.getenv("GROQ_MODEL", "mixtral-8x7b-32768"),
             temperature=0.0,
         )
         structured_llm = llm.with_structured_output(ExtractionResult)
