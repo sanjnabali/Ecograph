@@ -41,22 +41,12 @@ Each triple must follow the format:
     predicate -> an UPPER_SNAKE_CASE relationship
     object    -> a target entity, numeric value, or year
 
-CRITICAL RULES FOR ENTITY RESOLUTION:
-1. SUBJECT STANDARDIZATION: Never use pronouns or generic terms like "Company", "Our company", "our staff", "we", or "they". You MUST resolve these to the primary name of the corporation (e.g., "The Cheesecake Factory" or "Boston Pizza").
-2. FIX OCR ERRORS: If you see garbled text like "The GES (g§esecake factory)", correct it to the obvious intended corporate name.
+CRITICAL RULES FOR EXTRACTION:
+1. UNIFY SUBJECTS: Never use "The company", "The Company", "Incorporated", "we", or "our staff". You MUST resolve these to the exact, primary brand name (e.g., "The Cheesecake Factory").
+2. CONTEXTUALIZE METRICS: When using REPORTS_METRIC, the object_value MUST include the number AND the descriptive context (e.g., "3,371 new restaurants", not just "3,371").
+3. NO NOISE & NO EMPTY FILES: Ignore nutritional labels, website URLs, and phone numbers. If a report is sparse, extract at least the basic operational facts. Never return an empty list.
 
-CRITICAL RULES FOR PREDICATES:
-1. BROAD CATEGORIES ONLY: Do not invent hyper-specific predicates like "EXPANDING_ONLINE_LEARNING_TO_CORPORATE_STAFF". 
-2. Use standard, reusable predicates such as: 
-   - HAS_INITIATIVE (for programs and policies)
-   - REPORTS_METRIC (for stats, retention rates, or hours)
-   - REPORTS_EMISSION (for Scope 1/2/3 data)
-   - HAS_SUPPLIER (for supply chain entities)
-   - USES_STANDARD (for GRI, SASB, GHG Protocol)
-   - COMMITTED_TO (for forward-looking targets)
-3. Put the specific details into the 'object_value' field.
-
-Only extract explicitly stated information. Do not infer values.
+Use standard predicates like: HAS_INITIATIVE, REPORTS_METRIC, REPORTS_EMISSION, HAS_SUPPLIER, USES_STANDARD, COMMITTED_TO.
 """
 _HUMAN_PROMPT = "Extract all relevant triples from the following text:\n\n{text}"
 
