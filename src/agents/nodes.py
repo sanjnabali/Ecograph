@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Any, Dict
 
 from src.agents.extractor import Scope3Extractor
-from src.agents.state import EcographState
+from src.agents.state import EcoGraphState
 from src.config.settings import TRIPLES_DIR
 from src.graph.connection import get_driver
 from src.graph.store import apply_schema, ingest_all_triples
@@ -28,7 +28,7 @@ logger = logging.getLogger(__name__)
 #LLM triple extraction
 
 
-def node_extract(state: EcographState) -> Dict[str, Any]:
+def node_extract(state: EcoGraphState) -> Dict[str, Any]:
     """
     Runs Scope3Extractor on all parsed JSON files and saves triples to data/triples/.
     on success: populates triple_files and advance status.
@@ -39,7 +39,7 @@ def node_extract(state: EcographState) -> Dict[str, Any]:
 
     try:
         extractor = Scope3Extractor()
-        extractor.process_all_documents
+        extractor.process_all_documents()
     except ValueError as exc:
         errors.append(str(exc))
         logger.error(f"Extraction failed: {exc}")
@@ -59,7 +59,7 @@ def node_extract(state: EcographState) -> Dict[str, Any]:
     }
 
 #noe4j graph loading
-def node_load_graph(state: EcographState) -> Dict[str, Any]:
+def node_load_graph(state: EcoGraphState) -> Dict[str, Any]:
     """
     Connects to Neo4j, applies schema, and ingests triples from triple_files.
     Connection / auth errors mark the pipeline as failed.
@@ -90,7 +90,7 @@ def node_load_graph(state: EcographState) -> Dict[str, Any]:
     }
 
 #Entity resolution
-def node_resolve(state: EcographState) -> Dict[str, Any]:
+def node_resolve(state: EcoGraphState) -> Dict[str, Any]:
     """
     Runs entity resolution on the Neo4j graph to deduplicate entities.
     any failure is logged but does not mark the pipeline as failed, 

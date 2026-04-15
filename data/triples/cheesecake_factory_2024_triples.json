@@ -1,659 +1,1046 @@
 [
     {
-        "subject": "The Company",
-        "predicate": "HAS_SUPPLIER",
-        "object_value": "Cattle Suppliers",
-        "metadata": {
-            "category": "Supply Chain"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "Holistic feed with no animal by-products",
-        "metadata": {
-            "target_year": "2025"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "Controlled atmosphere stunning (CAS)",
-        "metadata": {
-            "target_year": "2025"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "Controlled atmosphere killing (CAK)",
-        "metadata": {
-            "target_year": "2025"
-        }
-    },
-    {
-        "subject": "Cattle Supply Chain",
-        "predicate": "REPORTS_METRIC",
-        "object_value": "79",
-        "metadata": {
-            "metric": "percentage of supply raised with holistic feed",
-            "unit": "%"
-        }
-    },
-    {
-        "subject": "Beef Suppliers",
-        "predicate": "ADHERES_TO_STANDARD",
-        "object_value": "North American Meat Institute (NAMI)",
-        "metadata": {
-            "compliance_rate": ">86%"
-        }
-    },
-    {
-        "subject": "Beef Suppliers",
-        "predicate": "ADHERES_TO_STANDARD",
-        "object_value": "Beef Quality Assurance (BQA)",
-        "metadata": {
-            "compliance_rate": ">86%"
-        }
-    },
-    {
-        "subject": "Beef Suppliers",
-        "predicate": "ADHERES_TO_STANDARD",
-        "object_value": "National Cattlemen\u2019s Beef Association (NCBA)",
-        "metadata": {
-            "compliance_rate": ">86%"
-        }
-    },
-    {
-        "subject": "Cattle Supply Chain",
-        "predicate": "REPORTS_METRIC",
-        "object_value": "74",
-        "metadata": {
-            "metric": "transport under 8 hours",
-            "unit": "%"
-        }
-    },
-    {
-        "subject": "Cattle Supply Chain",
-        "predicate": "REPORTS_METRIC",
-        "object_value": "85",
-        "metadata": {
-            "metric": "humane slaughter compliance",
-            "unit": "%"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "Ending long-distance live transport",
-        "metadata": {
-            "status": "In progress"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "PROMOTES_PRACTICE",
-        "object_value": "Third-party remote video auditing",
-        "metadata": {
-            "context": "Humane processing"
-        }
-    },
-    {
-        "subject": "Dairy Cow Suppliers",
-        "predicate": "REPORTS_METRIC",
-        "object_value": "85",
-        "metadata": {
-            "metric": "rendered unconscious prior to slaughter",
-            "unit": "%"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "Sourcing antibiotic-free eggs (NAE)",
-        "metadata": {
-            "target_year": "2025"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "100% cage-free eggs for restaurant operations",
-        "metadata": {
-            "target_year": "2020"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "100% cage-free eggs for bakery operations",
-        "metadata": {
-            "target_year": "2025"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "International cage-free eggs",
-        "metadata": {
-            "target_year": "2030"
-        }
-    },
-    {
-        "subject": "Egg Suppliers",
-        "predicate": "REPORTS_PERFORMANCE",
-        "object_value": "97%",
-        "metadata": {
-            "metric": "Responsible use of antibiotics with veterinary oversight",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "Egg Supply",
-        "predicate": "REPORTS_PERFORMANCE",
-        "object_value": "63%",
-        "metadata": {
-            "metric": "Confirmed never administered antibiotics",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "Egg Supply",
-        "predicate": "REPORTS_PERFORMANCE",
-        "object_value": "97.4%",
-        "metadata": {
-            "metric": "Total cage-free eggs purchased",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "International Licensees",
-        "predicate": "REPORTS_PERFORMANCE",
-        "object_value": "58%",
-        "metadata": {
-            "metric": "Achieved 100% cage-free egg goals",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "Egg Supply",
-        "predicate": "REPORTS_PERFORMANCE",
-        "object_value": "82%",
-        "metadata": {
-            "metric": "Welfare outcome measures usage",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "Egg Supply",
-        "predicate": "REPORTS_PERFORMANCE",
-        "object_value": "97%",
-        "metadata": {
-            "metric": "Hens that are beak trimmed",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "Supply Chain",
-        "predicate": "EXPERIENCED_DISRUPTION",
-        "object_value": "Avian flu",
-        "metadata": {
-            "impact": "Minimal substitute products purchased",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "The Company",
-        "predicate": "PHASING_OUT",
-        "object_value": "Physical alterations",
-        "metadata": {
-            "scope": "Laying hens",
-            "types": "beak trimming, dubbing, de-spurring, de-toeing"
-        }
-    },
-    {
-        "subject": "Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "2025 Goal",
-        "metadata": {
-            "description": "Offering environmental enrichments for egg laying hens"
-        }
-    },
-    {
-        "subject": "Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "2025 Goal",
-        "metadata": {
-            "description": "Ensuring eggs come from suppliers using holistic feed with no animal by-products"
-        }
-    },
-    {
-        "subject": "Company",
-        "predicate": "HAS_SUPPLIER",
-        "object_value": "Egg Suppliers",
-        "metadata": {
-            "commodity": "Eggs"
-        }
-    },
-    {
-        "subject": "Egg Suppliers",
-        "predicate": "REPORTS_ENRICHMENT_RATE",
-        "object_value": "66%",
-        "metadata": {
-            "details": "perches, litter, hanging alfalfa, and nest pads",
-            "age_of_provision": "1 day"
-        }
-    },
-    {
-        "subject": "Egg Suppliers",
-        "predicate": "REPORTS_NATURAL_LIGHT_RATE",
-        "object_value": "3%",
-        "metadata": {
-            "status": "current performance"
-        }
-    },
-    {
-        "subject": "Egg Suppliers",
-        "predicate": "REPORTS_HOLISTIC_FEED_RATE",
-        "object_value": "95%",
-        "metadata": {
-            "status": "current performance"
-        }
-    },
-    {
-        "subject": "Egg Suppliers",
-        "predicate": "UTILIZES_FEED",
-        "object_value": "Holistic feed",
-        "metadata": {
-            "restriction": "no animal by-products"
-        }
-    },
-    {
-        "subject": "Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "Sourcing NAE broiler chickens",
-        "metadata": {
-            "target_year": "2025",
-            "definition": "no-antibiotics ever"
-        }
-    },
-    {
-        "subject": "Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "Phasing out physical alterations",
-        "metadata": {
-            "target_year": "2025",
-            "scope": "broiler chickens"
-        }
-    },
-    {
-        "subject": "Broiler Chicken Suppliers",
-        "predicate": "PRACTICE_RESPONSIBLE_ANTIBIOTIC_USE",
-        "object_value": "92%",
-        "metadata": {
-            "context": "veterinary oversight"
-        }
-    },
-    {
-        "subject": "Broiler Chicken Suppliers",
-        "predicate": "SOURCE_NAE",
-        "object_value": "85%",
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "extensive training and development programs",
         "metadata": null
     },
     {
-        "subject": "Supply Chain",
-        "predicate": "HAS_NO_PHYSICAL_ALTERATIONS",
-        "object_value": "92%",
-        "metadata": {
-            "details": "no beak modifications"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "41%",
+        "metadata": null
     },
     {
-        "subject": "Supply Chain",
-        "predicate": "USES_WELFARE_OUTCOME_MEASURES",
-        "object_value": "85%",
-        "metadata": {
-            "examples": "gait scores, footpad health"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2023",
+        "metadata": null
     },
     {
-        "subject": "Supply Chain",
-        "predicate": "TRANSPORTED_UNDER_8_HOURS",
-        "object_value": "92%",
-        "metadata": {
-            "destination": "slaughter"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Diploma and Degree and education reimbursement programs",
+        "metadata": null
     },
     {
-        "subject": "The Company",
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Cheesecake Factory Institute (CFI)",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "90",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "7",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "online CFI curriculum",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "First 6 program",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "best practices for retaining external managers",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "connecting new managers with their fellow managers, a mentor, their General Manager (GM) / Executive Kitchen Manager (EKM) and Area Director of Operations (ADO) / Area Kitchen Operations Manager (AKOM)",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "regular check-in meetings and a specialty “stay interview”",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "opportunity to attend CFI after they complete their sixth month of employment",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_GENDER_REPRESENTATION",
+        "object_value": "46.4%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_GENDER_REPRESENTATION",
+        "object_value": "52.9%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_GENDER_REPRESENTATION",
+        "object_value": "0.3%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_GENDER_REPRESENTATION",
+        "object_value": "0.4%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_RACE_REPRESENTATION",
+        "object_value": "26.7%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_RACE_REPRESENTATION",
+        "object_value": "3.1%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_RACE_REPRESENTATION",
+        "object_value": "16.3%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_RACE_REPRESENTATION",
+        "object_value": "48.4%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_RACE_REPRESENTATION",
+        "object_value": "5.5%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Diversity, Equity, Inclusion and Belonging working group",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Female Kitchen Leaders Program",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "The Cheesecake Factory Women’s Network Group (WNG)",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "pay equity",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "three-fourths",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "one-half",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "46.4%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "52.9%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "0.3%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "0.4%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "0.1%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "0.1%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "0.4%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "26.7%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "3.1%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "16.3%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "48.4%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "5.5%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "12/26/2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "EEO-1",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Make-A-Wish child's dream of becoming a chef",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of pizzas baked",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "almost 30",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
         "predicate": "HAS_SUPPLIER",
-        "object_value": "Broiler Chicken Suppliers",
-        "metadata": {
-            "category": "Supply Chain"
-        }
+        "object_value": "local suppliers",
+        "metadata": null
     },
     {
-        "subject": "The Company",
-        "predicate": "ALIGNS_WITH",
-        "object_value": "Global Animal Partnership (GAP) 5-Step Animal Welfare Rating Standards",
-        "metadata": {
-            "version": "v2.0"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "none specified",
+        "metadata": null
     },
     {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "serving with heart",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "learning about business and industry",
+        "metadata": null
+    },
+    {
+        "subject": "Luke Rutherford",
+        "predicate": "WORKS_AT",
+        "object_value": "CCF Cumberland",
+        "metadata": null
+    },
+    {
+        "subject": "Luke Rutherford",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of years working at CCF Cumberland",
+        "metadata": null
+    },
+    {
+        "subject": "Luke Rutherford",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of years dating Nick",
+        "metadata": null
+    },
+    {
+        "subject": "Luke Rutherford",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "4 years to propose to Nick",
+        "metadata": null
+    },
+    {
+        "subject": "Nick Rutherford",
+        "predicate": "WORKS_AT",
+        "object_value": "CCF Cumberland",
+        "metadata": null
+    },
+    {
+        "subject": "Nick Rutherford",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of years working at CCF Cumberland",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "none specified",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "DEI & Belonging program",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of pizzas baked for kids",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "almost 30 pizzas",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of kids participating in DEI program",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of years of cultural heritage",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of years of Asian influence on menu",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "number of years of Western food influence on menu",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "Scope 3 food and beverage related emissions",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "setting science-based targets aligned with the Paris Agreement (1.5°C trajectory)",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "GHG baseline",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "GHG reduction targets",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "Greenhouse Gas Protocol (GHG Protocol)",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "SBTi Guidance",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "draft Land Sector and Removals Guidance by the GHG Protocol",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "SBTi’s FLAG target setting guidance",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "FLAG emissions and removals",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "stationary combustion for restaurants, corporate offices, and bakeries",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "mobile combustion from fleet of vehicles",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "indirect emissions from purchased electricity, steam and heat used at North American restaurants",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "business travel (both air and vehicle), landfilled, recycled, and composted waste",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "Greenhouse Gas Protocol (GHGP) guidance and standards",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "6% absolute electricity usage drop in 2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "3% natural gas usage drop in 2023",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "reduce energy consumption",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "source cleaner and more renewable energy",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "SBTi targets",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "international licensee",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "natural gas and propane usage",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "8 restaurants with LEED certification",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "4 restaurants built to LEED standards",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "8 restaurants with solar thermal energy systems",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "70%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "99%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "pre-competitive projects with Seafood Watch team",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "sourcing of squid and crab",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "Monterey Bay Aquarium's Seafood Watch Program",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "2025 goal",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "48%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
         "object_value": "2025",
-        "metadata": {
-            "goal": "100% holistic feed with no animal by-products"
-        }
+        "metadata": null
     },
     {
-        "subject": "Broiler Chicken Supply",
-        "predicate": "HAS_PERFORMANCE_METRIC",
-        "object_value": "89%",
-        "metadata": {
-            "metric": "holistic feed usage"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "no deforestation",
+        "metadata": null
     },
     {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "SBTi’s FLAG Guidance",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "GHG Protocol’s draft Land Sector and Removals Guidance",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "Accountability Framework initiative (AFi)",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "European Union Deforestation Regulation",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "sourcing sustainably certified palm oil",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "deforestation free",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "suppliers who have committed to no deforestation and no development on peat/ high carbon stock forests",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2020",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
         "object_value": "2025",
-        "metadata": {
-            "goal": "Slower growing breeds and practices"
-        }
+        "metadata": null
     },
     {
-        "subject": "Broiler Chicken Supply",
-        "predicate": "HAS_PERFORMANCE_METRIC",
-        "object_value": "7%",
-        "metadata": {
-            "metric": "slower growing breeds"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Eliminating pig gestation crates from our supply chain by 2025",
+        "metadata": null
     },
     {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "2025",
-        "metadata": {
-            "goal": "Stocking density <= 6 lbs per sq ft"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Ensuring all pigs are housed in a group pen setting from birth as appropriate and are provided environmental enrichments",
+        "metadata": null
     },
     {
-        "subject": "Broiler Chicken Supply",
-        "predicate": "HAS_PERFORMANCE_METRIC",
-        "object_value": "<1%",
-        "metadata": {
-            "metric": "stocking density compliance"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Ensuring our pigs come from suppliers who utilize a wholesome, quality, and holistic feed with no animal by-products",
+        "metadata": null
     },
     {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "2025",
-        "metadata": {
-            "goal": "Environmental enrichments"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "73% of our supply is raised at 0 days of gestation crate use",
+        "metadata": null
     },
     {
-        "subject": "Broiler Chicken Supply",
-        "predicate": "HAS_PERFORMANCE_METRIC",
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "11% of our supply is raised in gestation crates for <45 days",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "16% of our supply is unknown/raised in gestation crates for more than 45 days",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "92% of our supply is housed in farrowing crates",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1% in farrowing pens",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "<1% of our supply is provided enrichments including hanging toys, ropes, chains, bar-mounts, movable objects, and straw",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "79% of our supply uses welfare outcome measures",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "88% of our supply is raised with a high quality and holistic feed",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "Gestation crate free (GCF) pork",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "less GCF volume than expected",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "smaller suppliers",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "USES_STANDARD",
+        "object_value": "welfare outcome measures",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "use and adoption of welfare outcome measures (EX: lameness, cleanliness, tail biting, etc...) within our supply",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "increase the use of high quality and holistic feed",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "66%",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
         "object_value": "3%",
-        "metadata": {
-            "metric": "environmental enrichments"
-        }
+        "metadata": null
     },
     {
-        "subject": "Broiler Chicken Supply",
-        "predicate": "HAS_PERFORMANCE_METRIC",
-        "object_value": "<1%",
-        "metadata": {
-            "metric": "natural light"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "95%",
+        "metadata": null
     },
     {
-        "subject": "The Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "2025",
-        "metadata": {
-            "goal": "Humane slaughter (CAS/CAK)"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Offering environmental enrichments (such as perches, litter, and pecking objects) for egg laying hens",
+        "metadata": null
     },
     {
-        "subject": "Broiler Chicken Supply",
-        "predicate": "HAS_PERFORMANCE_METRIC",
-        "object_value": "89%",
-        "metadata": {
-            "metric": "humane slaughter compliance"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Ensuring our eggs from laying hens come from suppliers who utilize a wholesome, quality, and holistic feed with no animal by-products",
+        "metadata": null
     },
     {
-        "subject": "Company",
-        "predicate": "SETS_TARGET",
-        "object_value": "Eliminating the use of confinement crates for veal calves",
-        "metadata": {
-            "target_year": "2025",
-            "original_deadline": "2017"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1 day",
+        "metadata": null
     },
     {
-        "subject": "Company",
-        "predicate": "SOURCES_PRODUCT",
-        "object_value": "Veal",
-        "metadata": {
-            "status": "not currently sourcing"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "natural light",
+        "metadata": null
     },
     {
-        "subject": "Company",
-        "predicate": "HAS_SUPPLY_CHAIN_POLICY",
-        "object_value": "Source from producers that do not utilize confinement crates",
-        "metadata": {
-            "scope": "future sourcing"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "evaluate opportunities for further improvement",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "increase the use of high quality and holistic feed",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Eliminating the use of confinement crates for veal calves by 2017",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "0 (no veal or veal products sourced currently)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "USES_STANDARD",
+        "object_value": "No specific standard mentioned",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "HAS_POLICY",
+        "object_value": "Sourcing veal from producers that do not utilize confinement crates",
+        "metadata": null
     },
     {
         "subject": "The Cheesecake Factory Incorporated",
-        "predicate": "ADOPTS_STANDARD",
-        "object_value": "SASB accounting metrics",
-        "metadata": {
-            "version": "2023-12",
-            "year": "2023"
-        }
+        "predicate": "USES_STANDARD",
+        "object_value": "SASB",
+        "metadata": null
+    },
+    {
+        "subject": "The Cheesecake Factory Incorporated",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "SASB accounting metrics (version 2023-12)",
+        "metadata": null
     },
     {
         "subject": "The Cheesecake Factory Incorporated",
         "predicate": "REPORTS_IN",
         "object_value": "2023 Corporate Social Responsibility Report",
-        "metadata": {
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_ENERGY_CONSUMPTION",
-        "object_value": "Total energy consumed",
-        "metadata": {
-            "unit": "kWh",
-            "code": "FB-RN-130a.1",
-            "reference": "Environmental Data Summary (Page 44)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_GRID_ELECTRICITY_RATIO",
-        "object_value": "percentage grid electricity",
-        "metadata": {
-            "unit": "Percentage (%)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_RENEWABLE_ENERGY_RATIO",
-        "object_value": "percentage renewable",
-        "metadata": {
-            "unit": "Percentage (%)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_WATER_WITHDRAWAL",
-        "object_value": "Total water withdrawn",
-        "metadata": {
-            "unit": "kGal",
-            "code": "FB-RN-140a.1",
-            "reference": "Environmental Data Summary (Page 44)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_WASTE_TOTAL",
-        "object_value": "Total amount of waste",
-        "metadata": {
-            "unit": "mt",
-            "code": "FB-RN-150a.1",
-            "reference": "Environmental Data Summary (Page 44)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_FOOD_WASTE_RATIO",
-        "object_value": "percentage food waste",
-        "metadata": {
-            "unit": "Percentage (%)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_WASTE_DIVERSION_RATIO",
-        "object_value": "percentage diverted",
-        "metadata": {
-            "unit": "Percentage (%)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_PACKAGING_WEIGHT",
-        "object_value": "Total weight of packaging",
-        "metadata": {
-            "unit": "mt",
-            "code": "FB-RN-150a.2",
-            "reference": "Environment (Page 40)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_RECYCLED_PACKAGING_RATIO",
-        "object_value": "percentage made from recycled and/or renewable materials",
-        "metadata": {
-            "unit": "Percentage (%)"
-        }
-    },
-    {
-        "subject": "Food & Beverage - Restaurants",
-        "predicate": "REPORTS_RECYCLABLE_PACKAGING_RATIO",
-        "object_value": "percentage that is recyclable, reusable, and/or compostable",
-        "metadata": {
-            "unit": "Percentage (%)"
-        }
-    },
-    {
-        "subject": "Restaurants",
-        "predicate": "INSPECTED_BY",
-        "object_value": "Regulatory Body",
-        "metadata": {
-            "percentage": "100",
-            "frequency": "annual"
-        }
+        "metadata": null
     },
     {
         "subject": "The Company",
-        "predicate": "REPORTS_RECALLS",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "100%",
+        "metadata": null
+    },
+    {
+        "subject": "The Company",
+        "predicate": "REPORTS_METRIC",
         "object_value": "7",
-        "metadata": {
-            "year": "2023",
-            "unit": "number"
-        }
+        "metadata": null
     },
     {
         "subject": "The Company",
-        "predicate": "REPORTS_RECALLED_WEIGHT",
-        "object_value": "805.7",
-        "metadata": {
-            "year": "2023",
-            "unit": "lbs"
-        }
+        "predicate": "REPORTS_METRIC",
+        "object_value": "805.7 lbs",
+        "metadata": null
     },
     {
         "subject": "The Company",
-        "predicate": "REPORTS_OUTBREAKS",
+        "predicate": "REPORTS_METRIC",
         "object_value": "0",
-        "metadata": {
-            "year": "2023",
-            "metric": "confirmed foodborne illness outbreaks"
-        }
+        "metadata": null
     },
     {
-        "subject": "The Company",
-        "predicate": "REQUIRES_COMPLIANCE",
-        "object_value": "Certificate of Destruction",
-        "metadata": {
-            "timeframe": "2 hours",
-            "scope": "all product recalls"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_USING_STANDARD",
+        "object_value": "GRI Standards",
+        "metadata": null
     },
     {
-        "subject": "The Company",
-        "predicate": "USES_SYSTEM",
-        "object_value": "Automated system",
-        "metadata": {
-            "purpose": "initiate and document product recalls"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_USING_STANDARD",
+        "object_value": "Food Processing Supplement",
+        "metadata": null
     },
     {
-        "subject": "Children's meal options",
-        "predicate": "COMPLIES_WITH",
-        "object_value": "National dietary guidelines",
-        "metadata": {
-            "code": "FB-RN-260a.2",
-            "unit": "Percentage"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_USING_STANDARD",
+        "object_value": "GRI Standards: Core Option",
+        "metadata": null
     },
     {
-        "subject": "Marketing efforts",
-        "predicate": "TARGETS",
-        "object_value": "Children",
-        "metadata": {
-            "is_targeted": "false",
-            "code": "FB-RN-260a.3"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "2016",
+        "metadata": null
     },
     {
-        "subject": "Restaurant employees",
-        "predicate": "HAS_TURNOVER_RATE",
-        "object_value": "Voluntary and involuntary",
-        "metadata": {
-            "code": "FB-RN-310a.1",
-            "source": "Page 9"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "65",
+        "metadata": null
     },
     {
-        "subject": "Restaurant employees",
-        "predicate": "HAS_AVERAGE_WAGE",
-        "object_value": "Average hourly wage by region",
-        "metadata": {
-            "code": "FB-RN-310a.2",
-            "source": "Page 4"
-        }
+        "subject": "The Cheesecake Factory",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Page 42",
+        "metadata": null
     },
     {
-        "subject": "Legal proceedings",
-        "predicate": "HAS_MONETARY_LOSSES",
-        "object_value": "Labor law violations and employment discrimination",
-        "metadata": {
-            "code": "FB-RN-310a.3",
-            "source": "Fiscal Year 2023 Form 10-K"
-        }
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "GRI 400: SOCIAL STANDARDS",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Employment 401-1 New employee hires and employee turnover",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Employment 401-2 Benefits provided to full-time employees that are not provided to temporary or part-time employees",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Employment 401-3 Parental leave",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Occupational Health & Safety 403-1 Occupational health and safety management system",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Occupational Health & Safety 403-2 Hazard identification, risk assessment, and incident investigation",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Occupational Health & Safety 403-5 Worker training on occupational health and safety",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Training & Education 404-2 Programs for upgrading employee skills and transition assistance programs",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Training & Education 404-3 Percentage of employees receiving regular performance and career development reviews",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "Sourcing (Page 26)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Environment (Page 36)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Staff (Page 4)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Diversity, Equity & Inclusion (Page 16)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Staff (Page 4)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Staff (Page 4)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Staff (Page 4)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Staff (Page 4)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Sourcing (Page 26)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Staff (Page 4)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Staff (Page 4)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Diversity, Equity & Inclusion (Page 16)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Staff (Page 4)",
+        "metadata": null
+    },
+    {
+        "subject": "The company",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "All of our staff set performance and development goals which they review with their managers on at least an annual basis.",
+        "metadata": null
     }
 ]

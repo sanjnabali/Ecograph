@@ -1,0 +1,446 @@
+[
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "3,371",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "66",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Food with Integrity",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "thousands of communities",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "millions of pounds",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_STANDARD",
+        "object_value": "GRI",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Cultivate a Better World",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2024",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMMITTED_TO",
+        "object_value": "complying with the law and maintaining the highest standards of honesty, integrity, and conduct",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMMITTED_TO",
+        "object_value": "upholding the same principles",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "all applicable laws, regulations, customs, and industry standards relating to employment and human rights",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROVIDE",
+        "object_value": "fairly compensated wages and benefits",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROVIDE",
+        "object_value": "reasonable daily and weekly work schedules",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "applicable immigration laws",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROHIBITED_FROM",
+        "object_value": "forced labor",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROHIBITED_FROM",
+        "object_value": "physical punishment, confinement, use of weapons, threats of violence, or other forms of physical, sexual, psychological, or verbal harassment or abuse",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "laws prohibiting discrimination in hiring and employment practices",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "laws prohibiting unlawful harassment and retaliation",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROHIBITED_FROM",
+        "object_value": "offering or accepting bribes or kickbacks",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROHIBITED_FROM",
+        "object_value": "falsifying documents, collusive bidding and price fixing, and unfair trade practices",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "COMPLY_WITH",
+        "object_value": "the United States Foreign Corrupt Practices Act, United Kingdom Bribery Act, the European Union Anti-Corruption Framework and related regulations",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROVIDE",
+        "object_value": "safe and healthy working and living conditions",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROVIDE",
+        "object_value": "potable drinking water, clean restrooms, adequate ventilation, fire exits, essential safety and protective equipment, and related training",
+        "metadata": null
+    },
+    {
+        "subject": "Suppliers",
+        "predicate": "PROHIBITED_FROM",
+        "object_value": "child labor",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "87%",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "90%",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Cultivate Me",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "COMMITTED_TO",
+        "object_value": "decrease turnover",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "USES_STANDARD",
+        "object_value": "Pulse Surveys",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "internal promotion rate",
+        "metadata": null
+    },
+    {
+        "subject": "Chipotle",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "employee satisfaction",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1,569",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "264",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1,833",
+        "metadata": null
+    },
+    {
+        "subject": "Europe",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "181",
+        "metadata": null
+    },
+    {
+        "subject": "Europe",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "37",
+        "metadata": null
+    },
+    {
+        "subject": "Europe",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "218",
+        "metadata": null
+    },
+    {
+        "subject": "United Kingdom",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "408",
+        "metadata": null
+    },
+    {
+        "subject": "United Kingdom",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "108",
+        "metadata": null
+    },
+    {
+        "subject": "United Kingdom",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "516",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "196,425",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "24,127",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "220,552",
+        "metadata": null
+    },
+    {
+        "subject": "Total",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "198,583",
+        "metadata": null
+    },
+    {
+        "subject": "Total",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "24,536",
+        "metadata": null
+    },
+    {
+        "subject": "Total",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "223,119",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "86%",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "83%",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "79%",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "89%",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "14%",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "17%",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "21%",
+        "metadata": null
+    },
+    {
+        "subject": "Canada",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "11%",
+        "metadata": null
+    },
+    {
+        "subject": "Europe",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "89%",
+        "metadata": null
+    },
+    {
+        "subject": "Europe",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "11%",
+        "metadata": null
+    },
+    {
+        "subject": "United Kingdom",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "89%",
+        "metadata": null
+    },
+    {
+        "subject": "United Kingdom",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "11%",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "86%",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "14%",
+        "metadata": null
+    },
+    {
+        "subject": "Total",
+        "predicate": "REPORTS_HIRE_RATE",
+        "object_value": "86%",
+        "metadata": null
+    },
+    {
+        "subject": "Total",
+        "predicate": "REPORTS_PROMOTION_RATE",
+        "object_value": "14%",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2,605",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1,793",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "13%",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "20%",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "87%",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "80%",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "334",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2,271",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "367",
+        "metadata": null
+    },
+    {
+        "subject": "United States",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1,426",
+        "metadata": null
+    }
+]

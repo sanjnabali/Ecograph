@@ -1,1 +1,500 @@
-[]
+[
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Community Groups",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "Women in Business",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Professional development and team-building activities",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "Around Our Table conversation series",
+        "metadata": null
+    },
+    {
+        "subject": "Kylie Oberweather",
+        "predicate": "IS",
+        "object_value": "local Owner-Operator of Chick-fil-A 135th and 69 Highway in Overland Park, Kansas",
+        "metadata": null
+    },
+    {
+        "subject": "David Chen",
+        "predicate": "IS",
+        "object_value": "local Owner-Operator of two Chick-fil-A restaurants in Tulsa, Oklahoma",
+        "metadata": null
+    },
+    {
+        "subject": "Kylie Oberweather",
+        "predicate": "HAS_EXPERTISE",
+        "object_value": "Marriage and family therapy",
+        "metadata": null
+    },
+    {
+        "subject": "David Chen",
+        "predicate": "HAS_EXPERTISE",
+        "object_value": "Inclusive environments",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "HAS_PROGRAM",
+        "object_value": "Talent Development Program",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "HAS_PROGRAM",
+        "object_value": "Chick-fil-A Leadership Development Program",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "36 months",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "24-36 months",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "6 months",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "True Inspiration Awards program",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "$5.48 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "51 nonprofit recipients",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "640,000 votes cast",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "None",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "HAS_SUPPLIER",
+        "object_value": "None",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "USES_STANDARD",
+        "object_value": "None",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "COMMITTED_TO",
+        "object_value": "None",
+        "metadata": null
+    },
+    {
+        "subject": "Joy Meadows",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "provides support and resources to foster children and families across Kansas",
+        "metadata": null
+    },
+    {
+        "subject": "Joy Meadows",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "$350,000 grant",
+        "metadata": null
+    },
+    {
+        "subject": "Joy Meadows",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "second campus",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "10th anniversary",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2015",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2024",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2023",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "300 nonprofits across North America",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "$27 million in True Inspiration Awards grants",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Leader Academy",
+        "predicate": "HAS_INITIATIVE",
+        "object_value": "10th year",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Leader Academy",
+        "predicate": "AWARDS_GRANTS",
+        "object_value": "$1 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Leader Academy",
+        "predicate": "PARTICIPANTS",
+        "object_value": "228,000 students",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Leader Academy",
+        "predicate": "SCHOOLS_PARTICIPATING",
+        "object_value": "2,300 schools",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Leader Academy",
+        "predicate": "STATES_PARTICIPATING",
+        "object_value": "45 U.S. states",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Leader Academy",
+        "predicate": "SPONSORS",
+        "object_value": "1,100 Chick-fil-A local Owner-Operators",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Leader Academy",
+        "predicate": "HOURS_OF_COMMUNITY_SERVICE",
+        "object_value": "3.1 million hours",
+        "metadata": null
+    },
+    {
+        "subject": "Stacie Anderson",
+        "predicate": "COMMITTED_TO",
+        "object_value": "raising up the next generation of community leaders",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Colonial Heights",
+        "predicate": "MISSION_STATEMENT",
+        "object_value": "To become the business our community cannot live without",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Atlanta Community Food Bank",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Boys and Girls Clubs of Metro Atlanta",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "COMMITTED_TO",
+        "object_value": "City of Refuge",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Clark Atlanta University",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "COMMITTED_TO",
+        "object_value": "University of Georgia",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "COMMITTED_TO",
+        "object_value": "Westside Future Fund",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "DONATION_AMOUNT",
+        "object_value": "$1.5 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "DONATION_AMOUNT",
+        "object_value": "$1 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "DONATION_AMOUNT",
+        "object_value": "$4.5 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "DONATION_AMOUNT",
+        "object_value": "$1 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "DONATION_AMOUNT",
+        "object_value": "$1.5 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "DONATION_AMOUNT",
+        "object_value": "$5 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "PARTNERSHIP",
+        "object_value": "Morris Brown College",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "GIFT_AMOUNT",
+        "object_value": "$1 million",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "PROGRAM_TYPE",
+        "object_value": "leadership development program",
+        "metadata": null
+    },
+    {
+        "subject": "Justin Lindsey",
+        "predicate": "PARTNERSHIP",
+        "object_value": "WOW Center",
+        "metadata": null
+    },
+    {
+        "subject": "Justin Lindsey",
+        "predicate": "DONATION_AMOUNT",
+        "object_value": "Chick-fil-A True Inspiration Awards grant",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Kendall",
+        "predicate": "PARTNERSHIP",
+        "object_value": "WOW Center",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "2,000",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "DONATES_TO",
+        "object_value": "area nonprofits",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "USES_RECYCLING",
+        "object_value": "food scraps or waste",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "COMPOSTS",
+        "object_value": "food scraps",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "EXPANDS_INFRASTRUCTURE",
+        "object_value": "composting infrastructure",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "HOSTS_EVENT",
+        "object_value": "Compostable Manufacturing Alliance 2023 Summit",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Support Center: Buffington",
+        "predicate": "LOCATED_IN",
+        "object_value": "Atlanta",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "PARTNERS_WITH",
+        "object_value": "DAR PRO Solutions",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "626,000 gallons",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "1,680",
+        "metadata": null
+    },
+    {
+        "subject": "R. City",
+        "predicate": "OPERATES_FARM",
+        "object_value": "organic vegetables",
+        "metadata": null
+    },
+    {
+        "subject": "Loveland Living Planet Aquarium",
+        "predicate": "RECEIVES_GRANT",
+        "object_value": "$75,000",
+        "metadata": null
+    },
+    {
+        "subject": "Loveland Living Planet Aquarium",
+        "predicate": "COMMITTED_TO",
+        "object_value": "sustainability and environmental stewardship",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "USES_TECHNOLOGY",
+        "object_value": "ORCA digester",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "23.6 million pounds",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A restaurants",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "25 million pounds",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A, Inc.",
+        "predicate": "SET_GOAL",
+        "object_value": "diverting 25 million pounds of Restaurant food waste to landfill by 2025",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A Green Team",
+        "predicate": "SUPPORTS",
+        "object_value": "Support Center Staff and others",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "OPERATES_FROM",
+        "object_value": "United States of America",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "MAINTAINS_WEBSITE",
+        "object_value": "http://www.chick-fil-a.com/Connect/Contact-Us-CARES",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "HAS_OFFICE",
+        "object_value": "5200 Buffington Road Atlanta, Georgia 30349",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "HAS_PHONE_NUMBER",
+        "object_value": "1-866-CFA-2040",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "HAS_EMAIL_ADDRESS",
+        "object_value": "http://www.chick-fil-a.com/Connect/Contact-Us-CARES",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "IS_GOVERNED_BY",
+        "object_value": "laws of the State of Georgia, U.S.A.",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "MAINTAINS_PRIVACY_POLICY",
+        "object_value": "Privacy Policy",
+        "metadata": null
+    },
+    {
+        "subject": "Chick-fil-A",
+        "predicate": "HAS_RIGHTS_RESERVED",
+        "object_value": "2023 CFA Properties, Inc. All rights reserved.",
+        "metadata": null
+    }
+]

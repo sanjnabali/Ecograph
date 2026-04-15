@@ -5,10 +5,10 @@ Every Node in the LangGraph workflow reads from and writes to this TypeDict.
 LangGraph passes a copy of this dict between nodes automatically.
 """
 
-from typing import TypeDict, List, Optional
+from typing import TypedDict, List, Optional
 
 
-class EcoGraphState(TypeDict):
+class EcoGraphState(TypedDict):
     """
     Shared state that flows through the entire LangGraph pipeline.
     

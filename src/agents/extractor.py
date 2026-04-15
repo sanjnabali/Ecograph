@@ -13,13 +13,11 @@ import time
 from pathlib import Path
 from typing import List, Optional
 
-from Langchain_core.prompts import ChatPRomptTemplate
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_groq import ChatGroq
 
 from src.agents.schema import ExtractionResult, Triple
 from src.config.settings import(
-    GEMINI_MODEL,
-    GEMINI_TEMPERATURE,
     MAX_RETRIES,
     MIN_CHUNK_LENGTH,
     PARSED_CONTENT_DIR,
@@ -37,20 +35,29 @@ logger = logging.getLogger(__name__)
 _SYSTEM_PROMPT = """\
 You are an expert ESG analyst and knowledge graph engineer.
 
-Your job is to extract structured triples from coorporate sustainability reports.
+Your job is to extract structured triples from corporate sustainability reports.
 Each triple must follow the format:
-    subject   -> a named entity(Company, Facility, Scope Label)
-    predicate -> an UPPER_SNAKE_CASE relationship (REPORTS_EMISSION, HAS_SUPPLIER, etc.)
+    subject   -> a named entity (Company, Facility, Scope Label)
+    predicate -> an UPPER_SNAKE_CASE relationship
     object    -> a target entity, numeric value, or year
 
-Rules:
-- Only extract information that is explicitly stated in the text.
-- Do not invent, infer or hallucinate values.
-- Ignore boilerplate, legal disclaimers, and table-of-contents text.
-- Focus on: Scope 1 / 2 / 3 emissions, net-zero targets, supplier names, \
-GHG reduction commitments, reporting standards used.
-"""
+CRITICAL RULES FOR ENTITY RESOLUTION:
+1. SUBJECT STANDARDIZATION: Never use pronouns or generic terms like "Company", "Our company", "our staff", "we", or "they". You MUST resolve these to the primary name of the corporation (e.g., "The Cheesecake Factory" or "Boston Pizza").
+2. FIX OCR ERRORS: If you see garbled text like "The GES (g§esecake factory)", correct it to the obvious intended corporate name.
 
+CRITICAL RULES FOR PREDICATES:
+1. BROAD CATEGORIES ONLY: Do not invent hyper-specific predicates like "EXPANDING_ONLINE_LEARNING_TO_CORPORATE_STAFF". 
+2. Use standard, reusable predicates such as: 
+   - HAS_INITIATIVE (for programs and policies)
+   - REPORTS_METRIC (for stats, retention rates, or hours)
+   - REPORTS_EMISSION (for Scope 1/2/3 data)
+   - HAS_SUPPLIER (for supply chain entities)
+   - USES_STANDARD (for GRI, SASB, GHG Protocol)
+   - COMMITTED_TO (for forward-looking targets)
+3. Put the specific details into the 'object_value' field.
+
+Only extract explicitly stated information. Do not infer values.
+"""
 _HUMAN_PROMPT = "Extract all relevant triples from the following text:\n\n{text}"
 
 
@@ -68,13 +75,15 @@ class Scope3Extractor:
     """
 
     def __init__(
-        self,
-        model_name: str = GEMINI_MODEL,
-        temperature: float = GEMINI_TEMPERATURE,
+        self
 ) -> None:
         self._validate_api_key()
         
-        llm = ChatGoogleGenerativeAI(model=model_name, temperature=temperature)
+        llm = ChatGroq(
+            api_key=os.getenv("GROQ_API_KEY"),
+            model=os.getenv("GROQ_MODEL", "llama-3.1-8b-instant"),
+            temperature=0.0,
+        )
         structured_llm = llm.with_structured_output(ExtractionResult)
 
         prompt = ChatPromptTemplate.from_messages([
@@ -83,7 +92,8 @@ class Scope3Extractor:
         ])
 
         self._chain = prompt | structured_llm
-        logger.info(f"Scope3Extractor ready model={model_name} temperature={temperature}")
+        logger.info(f"Scope3Extractor ready model={os.getenv('GROQ_MODEL', 'llama-3.1-8b-instant')}")
+
 
 
         #Public api
@@ -112,7 +122,7 @@ class Scope3Extractor:
         logger.info(
             f"Found {len(json_files)} parsed file(S)."
             f"Rate-limit: {RATE_LIMIT_DELAY}s/call"
-            f"(~{int(60 / RATE_LIMIT_DELAY)} RPM - within Gemini free-tier)."
+            f"(~{int(60 / RATE_LIMIT_DELAY)} RPM - within Groq free-tier)."
         )
 
 
@@ -145,7 +155,7 @@ class Scope3Extractor:
         if elements is None:
             return None
         
-        chunks = self.filter_chunks(elements, input_path.name)
+        chunks = self._filter_chunks(elements, input_path.name)
         triples = self._extract_all_chunks(chunks)
 
         self.save(triples, output_file, input_path.name)
@@ -155,10 +165,10 @@ class Scope3Extractor:
 
     @staticmethod
     def _validate_api_key():
-        if not os.getenv("GOOGLE_API_KEY"):
+        if not os.getenv("GROQ_API_KEY"):
             raise ValueError(
-                "GOOGLE_API_KEY environment variable not set. "
-                "Please set it to your Gemini API key before running."
+                "GROQ_API_KEY environment variable not set. "
+                "Please set it to your GROQ API key before running."
             )
         
     @staticmethod

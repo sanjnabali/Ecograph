@@ -1,92 +1,43 @@
 [
     {
         "subject": "Boston Pizza",
-        "predicate": "HAS_SUPPLY_CHAIN_POLICY",
-        "object_value": "Responsible Food Sourcing",
-        "metadata": {
-            "category": "Supply Chain"
-        }
+        "predicate": "REPORTS_METRIC",
+        "object_value": "4",
+        "metadata": null
     },
     {
         "subject": "Boston Pizza",
-        "predicate": "REPORTS_ON",
-        "object_value": "Impact at a Glance",
-        "metadata": {
-            "category": "ESG"
-        }
+        "predicate": "REPORTS_METRIC",
+        "object_value": "6",
+        "metadata": null
     },
     {
         "subject": "Boston Pizza",
-        "predicate": "HAS_COMMITMENT",
-        "object_value": "Serving up Quality Food",
-        "metadata": {
-            "category": "Product Quality"
-        }
+        "predicate": "REPORTS_METRIC",
+        "object_value": "9",
+        "metadata": null
     },
     {
         "subject": "Boston Pizza",
-        "predicate": "HAS_COMMITMENT",
-        "object_value": "Food Safety",
-        "metadata": {
-            "category": "Health and Safety"
-        }
+        "predicate": "REPORTS_METRIC",
+        "object_value": "4",
+        "metadata": null
     },
     {
         "subject": "Boston Pizza",
-        "predicate": "HAS_COMMITMENT",
-        "object_value": "Improving Choice, Nutrition & Transparency",
-        "metadata": {
-            "category": "Product Responsibility"
-        }
-    },
-    {
-        "subject": "Organization",
-        "predicate": "HAS_GOVERNANCE_STRUCTURE",
-        "object_value": "Governance Structure",
-        "metadata": {
-            "section": "1.D",
-            "page": "10"
-        }
-    },
-    {
-        "subject": "Organization",
-        "predicate": "HAS_SUPPLIER_NETWORK",
-        "object_value": "Franchisees",
-        "metadata": {
-            "context": "Franchisee Spotlight"
-        }
-    },
-    {
-        "subject": "Organization",
-        "predicate": "HAS_SOCIAL_INITIATIVE",
-        "object_value": "Community Giving and Philanthropy",
-        "metadata": {
-            "page": "13"
-        }
-    },
-    {
-        "subject": "Organization",
-        "predicate": "HAS_FOUNDATION",
-        "object_value": "Foundation",
-        "metadata": {
-            "context": "Foundation History"
-        }
-    },
-    {
-        "subject": "Boston Pizza",
-        "predicate": "HAS_ESG_FOCUS",
+        "predicate": "HAS_EMPLOYEE_DEVELOPMENT_PROGRAM",
         "object_value": "Employee Development & Training",
         "metadata": null
     },
     {
-        "subject": "BPI",
-        "predicate": "HAS_ESG_FOCUS",
-        "object_value": "Employee Wellness",
+        "subject": "Boston Pizza",
+        "predicate": "HAS_EMPLOYEE_WELLNESS_PROGRAM",
+        "object_value": "Employee Wellness at BPI",
         "metadata": null
     },
     {
         "subject": "Boston Pizza",
-        "predicate": "HAS_ESG_FOCUS",
+        "predicate": "HAS_DIVERSITY_EQUIITY_AND_INCLUSION_PROGRAM",
         "object_value": "Diversity, Equity and Inclusion",
         "metadata": null
     },
@@ -94,180 +45,96 @@
         "subject": "Boston Pizza",
         "predicate": "OPERATES_IN",
         "object_value": "Canada",
-        "metadata": {
-            "geographic_scope": "ten provinces and two territories"
-        }
-    },
-    {
-        "subject": "Boston Pizza",
-        "predicate": "HAS_RESTAURANT_COUNT",
-        "object_value": "365",
-        "metadata": {
-            "context": "full-service restaurant brand"
-        }
-    },
-    {
-        "subject": "Boston Pizza",
-        "predicate": "COMMITS_TO",
-        "object_value": "Corporate Citizenship",
-        "metadata": {
-            "focus_areas": "food and planet"
-        }
-    },
-    {
-        "subject": "Boston Pizza",
-        "predicate": "REPORTS_ON",
-        "object_value": "Managing Our Waste",
         "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "HAS_FRANCHISEE_NETWORK_SIZE",
+        "subject": "Boston Pizza",
+        "predicate": "REPORTS_NUMBER_OF_LOCATIONS",
         "object_value": "365",
-        "metadata": {
-            "unit": "restaurants",
-            "region": "Canada"
-        }
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "HAS_EMPLOYEE_COUNT",
-        "object_value": "20000",
-        "metadata": {
-            "context": "corporate offices and restaurants"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "HAS_COMMUNITY_HUB",
+        "object_value": "small towns in British Columbia",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza Foundation",
-        "predicate": "TOTAL_DONATIONS",
-        "object_value": "40000000",
-        "metadata": {
-            "currency": "CAD",
-            "period": "since 1990"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "VALUES_CORPORATE_CITIZENSHIP",
+        "object_value": "good and responsible Corporate Citizenship",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "HAS_SUPPLY_CHAIN_STRUCTURE",
-        "object_value": "Franchisee-led",
-        "metadata": {
-            "detail": "Independently owned and operated restaurants"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "SERVES_COMMUNITY",
+        "object_value": "many communities",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "HAS_CORPORATE_LOCATIONS",
-        "object_value": "1",
-        "metadata": {
-            "region": "Canada"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "EMPLOYS_PEOPLE",
+        "object_value": "those we employ",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "SETS_TARGET",
-        "object_value": "Looking after our shared planet",
-        "metadata": {
-            "type": "environmental_commitment"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "VALUES_LOCAL_COMMUNITY",
+        "object_value": "the power of local",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "HAS_PROGRAM",
-        "object_value": "Looking After Local",
-        "metadata": {
-            "goal": "100% of funds raised remains in the local community"
-        }
+        "subject": "Galnnes 500kcal Protein I5g Carbohydrates 84g Dietary Fiber 3g Total Sugars 5g Fat l2g Saturated Fat 3g Trans Fatty Acid 0.100g Cholesterol 5mg Vitamin A - RE 0% Vitamin C 6% Calcium 4% lron 45% Sodium 670mg",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "500kcal Protein I5g Carbohydrates 84g Dietary Fiber 3g Total Sugars 5g Fat l2g Saturated Fat 3g Trans Fatty Acid 0.100g Cholesterol 5mg Vitamin A - RE 0% Vitamin C 6% Calcium 4% lron 45% Sodium 670mg",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "ANNUAL_GUEST_COUNT",
-        "object_value": "40000000",
-        "metadata": {
-            "region": "Canada"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "USES_PARTNERSHIP",
+        "object_value": "Steritech",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "HAS_SUPPLIER",
-        "object_value": "Supplier Partners",
-        "metadata": {
-            "activity": "Building homes in Dominican Republic",
-            "year": "2019"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "USES_PARTNERSHIP",
+        "object_value": "Ecolab",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "HAS_SUPPLIER",
-        "object_value": "Supplier community",
-        "metadata": {
-            "activity": "Boston Pizza Foundation Invitational fundraising",
-            "total_raised": "18000000",
-            "unit": "CAD"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "Core Brand Standards Assessment",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "HAS_FRANCHISEE",
-        "object_value": "365 independently owned restaurant locations",
-        "metadata": {
-            "region": "Canada"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "REPORTS_METRIC",
+        "object_value": "National Service and Standards Report (NSSR)",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "SOURCES_FROM",
-        "object_value": "Canadian Beef",
-        "metadata": {
-            "scope": "Scope 3",
-            "year": "2023"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "HAS_AWARD",
+        "object_value": "All-Stars",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "SOURCES_FROM",
-        "object_value": "Canadian Mozzarella",
-        "metadata": {
-            "scope": "Scope 3",
-            "year": "2023"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "COMMITTED_TO",
+        "object_value": "2025",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "SOURCES_FROM",
-        "object_value": "Canadian Wheat",
-        "metadata": {
-            "scope": "Scope 3",
-            "year": "2023"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "2023",
+        "metadata": null
     },
     {
-        "subject": "Boston Pizza International",
-        "predicate": "REDUCES_ENVIRONMENTAL_IMPACT",
-        "object_value": "Take-out and delivery packaging",
-        "metadata": {
-            "scope": "Scope 3",
-            "status": "Reviewing",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "Boston Pizza International",
-        "predicate": "DEVELOPS_INFRASTRUCTURE",
-        "object_value": "Electric restaurant",
-        "metadata": {
-            "impact": "Decarbonization",
-            "status": "Started development",
-            "year": "2023"
-        }
-    },
-    {
-        "subject": "Boston Pizza Foundation",
-        "predicate": "DONATED_AMOUNT",
-        "object_value": "1180000",
-        "metadata": {
-            "unit": "CAD",
-            "year": "2023",
-            "program": "Looking After Local"
-        }
+        "subject": "Boston Pizza",
+        "predicate": "REPORTS_EMISSION",
+        "object_value": "2024",
+        "metadata": null
     }
 ]
