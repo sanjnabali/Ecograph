@@ -157,21 +157,82 @@ ecograph/
 │   ├── esgrfm_ontology.md             ← ESG Research Focus Map schema definition
 │   └── evaluation_results.md          ← Benchmark results & ablation study
 │
-├── data/                              ← All data (gitignored except samples)
-│   ├── raw/
-│   │   ├── erp_invoices/              ← Simulated ERP CSV exports
-│   │   │   └── sample_invoices.csv
-│   │   ├── esg_reports/               ← Publicly available ESG PDFs
-│   │   │   └── sample_esg_report.pdf
-│   │   └── satellite/                 ← Sentinel-5P TROPOMI NetCDF files
-│   │       └── .gitkeep               ← Files downloaded at runtime (large)
-│   ├── processed/
-│   │   ├── entities_resolved.parquet  ← Post-Splink entity resolution output
-│   │   ├── graph_nodes.jsonl          ← Nodes ready for Neo4j import
-│   │   └── graph_edges.jsonl          ← Edges ready for Neo4j import
-│   └── synthetic/
-│       ├── generate_synthetic_erp.py  ← Script to generate realistic fake ERP data
-│       └── synthetic_supply_chain.json
+├── data/
+|   |──raw/                          ← Everything you download, untouched
+│      ├── satellite/
+│   │       └── tropomi_monthly/
+│   │            ├── southeast_asia/
+│   │            │   ├── tropomi_no2_seasia_202301.asc   ← Jan 2023
+│   │            │   ├── tropomi_no2_seasia_202307.asc   ← Jul 2023
+│   │            │   ├── tropomi_no2_seasia_202401.asc   ← Jan 2024
+│   │            │   ├── tropomi_no2_seasia_202407.asc   ← Jul 2024
+│   │            │   ├── tropomi_no2_seasia_202004.asc   ← Apr 2020 (COVID)
+│   │            │   └── tropomi_no2_seasia_201904.asc   ← Apr 2019 (pre-COVID)
+│   │            ├── europe/
+│   │            │   ├── tropomi_no2_europe_202301.asc
+│   │            │   └── tropomi_no2_europe_202307.asc
+│   │            └── north_asia/
+│   │                ├── tropomi_no2_northasia_202301.asc
+│   │                └── tropomi_no2_northasia_202307.asc
+│   │
+│      ├── facility_reference/
+│      │   └── global_power_plants.csv     ← WRI download, never modify
+│   │
+│      ├── supply_chain/
+│      │   └── open_supply_hub_facilities.csv   ← OSH download, never modify
+│   │
+│      ├── esg_reports/
+│      │   ├── 2025-Microsoft-Environmental-Sustainability-Report.pdf
+│      │   ├── HM-Group-Annual-and-sustainability-report-2025.pdf
+│      │   ├── Apple_Environmental_Progress_Report_2023.pdf
+│      │   ├── NVIDIA-Sustainability-Report-Fiscal-Year-2025.pdf
+           |── Samsung_Electronics_Sustainability_Report_2025_ENG.pdf
+│      │   └── README.txt               ← Note: source URL + download date for each
+│   │
+│      └── emission_factors/
+│          ├── epa_emission_factors_2024.xlsx    ← EPA download
+│          └── owid_co2_data.csv                ← Our World in Data download
+│
+│
+    ├── processed/                    ← Your code writes here, never manually edit
+│   │
+│       ├── satellite/
+│       │   ├── no2_grids/
+│       │   │   ├── seasia_202301_cleaned.parquet   ← After QA filter + normalization
+│       │   │   ├── seasia_202307_cleaned.parquet
+│       │   │   └── ...
+│       │   ├── hotspots/
+│       │   │   ├── seasia_202301_hotspots.geojson  ← Detected high-NO2 locations
+│       │   │   └── ...
+│       │   └── flux_estimates/
+│       │       ├── seasia_202301_flux.csv   ← tCO2/year per detected plume
+│       │       └── ...
+│       │
+│       ├── entity_resolution/
+│       │   ├── raw_entities_combined.parquet    ← OSH + power plants merged
+│       │   ├── splink_training_labels.parquet   ← Splink EM model output
+│       │   └── entities_resolved.parquet        ← Final canonical entity list
+│       │
+│       ├── esg_parsed/
+│       │   ├── apple_triples.jsonl         ← LLM extraction output per PDF
+│       │   ├── microsoft_triples.jsonl
+│       │   ├── hm_triples.jsonl
+│       │   ├── samsung_triples.jsonl
+            ├── nvidia_triples.jsonl
+    │   │   └── all_triples_combined.jsonl  ← Merged, deduplicated
+│       │
+│       ├── graph_import/
+│       │   ├── nodes.jsonl      ← Ready for Neo4j LOAD CSV / APOC import
+│       │   └── edges.jsonl
+│       │
+│       └── emission_factors/
+│           └── epa_factors_clean.csv    ← Cleaned, standardized from Excel
+│
+│
+   └── synthetic/                ← Generated fake data for dev/testing
+       ├── generate_erp.py           ← Script to create fake invoices
+       ├── synthetic_invoices.csv    ← Output: 500 fake invoices
+       └── synthetic_supply_chain.json   ← Fake company → supplier → facility tree
 │
 ├── notebooks/                         ← Jupyter notebooks for research & EDA
 │   ├── 01_data_exploration.ipynb      ← EDA on ERP and ESG data
