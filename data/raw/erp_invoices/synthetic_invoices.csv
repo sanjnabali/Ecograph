@@ -1,0 +1,501 @@
+invoice_id,invoice_date,buyer_id,buyer_name,supplier_id,supplier_name,commodity_category,volume_usd,invoice_qty,unit_of_measure,country
+INV_00000000,2023-04-17,BUY_006268,Samsung Electronics,SUP_000008,BASF,Steel,13287.51,132.88,tonnes,China
+INV_00000001,2023-10-06,BUY_005599,NVIDIA Corporation,SUP_000023,Global Electronics Corp,Chemicals,6371.57,63.72,tonnes,China
+INV_00000002,2024-12-04,BUY_001671,Apple Inc,SUP_000019,South Steel Inc,Chemicals,14218.58,142.19,tonnes,Japan
+INV_00000003,2023-04-05,BUY_001671,Apple Inc,SUP_000004,ArcelorMittal,Textiles,3765.24,376.52,units,India
+INV_00000004,2023-12-08,BUY_006268,Samsung Electronics,SUP_000019,South_Steel_Inc,Steel,21573.6,215.74,tonnes,USA
+INV_00000005,2024-03-28,BUY_001671,Apple Inc,SUP_000041,Global Chemicals Group,Energy,13051.37,1305.14,units,China
+INV_00000006,2023-04-25,BUY_001671,Apple Inc,SUP_000011,Huntsman,Electronics,9300.61,930.06,units,USA
+INV_00000007,2024-01-14,BUY_006268,Samsung Electronics,SUP_000033,Asian Energy Inc,Energy,16729.27,1672.93,units,Vietnam
+INV_00000008,2023-02-12,BUY_003452,Tesla Inc,SUP_000004,ArcelorMittal,Chemicals,3707.76,37.08,tonnes,India
+INV_00000009,2023-08-04,BUY_002443,Google/Alphabet,SUP_000025,North Energy Corp,Steel,16295.78,162.96,tonnes,Vietnam
+INV_00000010,2024-09-27,BUY_006268,Samsung Electronics,SUP_000018,South_Electronics_Corp,Steel,11160.96,111.61,tonnes,Vietnam
+INV_00000011,2023-07-01,BUY_002443,Google/Alphabet,SUP_000022,GTI,Textiles,2025.24,202.52,units,China
+INV_00000012,2024-11-16,BUY_002443,Google/Alphabet,SUP_000008,BASF,Steel,15561.42,155.61,tonnes,China
+INV_00000013,2023-02-09,BUY_003452,Tesla Inc,SUP_000036,Global Chemicals Industries,Textiles,78.05,7.8,units,China
+INV_00000014,2023-11-09,BUY_005599,NVIDIA Corporation,SUP_000049,Global_Electronics_Ltd,Steel,9180.59,91.81,tonnes,USA
+INV_00000015,2024-02-13,BUY_000316,H&M Group,SUP_000005,POSCO India,Chemicals,3551.14,35.51,tonnes,India
+INV_00000016,2023-12-26,BUY_003452,Tesla Inc,SUP_000040,Asian Steel Corp,Energy,17013.21,1701.32,units,Japan
+INV_00000017,2023-01-29,BUY_006268,Samsung Electronics,SUP_000019,South_Steel_Inc,Electronics,5403.35,540.34,units,USA
+INV_00000018,2024-08-17,BUY_002443,Google/Alphabet,SUP_000043,Euro_Chemicals_Inc,Chemicals,6674.05,66.74,tonnes,Japan
+INV_00000019,2023-12-20,BUY_005133,Microsoft Corporation,SUP_000039,Global Steel Manufacturing,Chemicals,5870.42,58.7,tonnes,USA
+INV_00000020,2024-01-30,BUY_002443,Google/Alphabet,SUP_000004,ArcelorMittal,Energy,19035.11,1903.51,units,India
+INV_00000021,2023-01-02,BUY_005599,NVIDIA Corporation,SUP_000040,Asian Steel Corp,Energy,16010.53,1601.05,units,Japan
+INV_00000022,2024-01-08,BUY_003452,Tesla Inc,SUP_000050,Asian Chemicals Group,Textiles,2977.24,297.72,units,USA
+INV_00000023,2024-09-30,BUY_000316,H&M Group,SUP_000009,Dow Chemical,Chemicals,4918.0,49.18,tonnes,USA
+INV_00000024,2024-06-03,BUY_002443,Google/Alphabet,SUP_000022,Global_Textiles_Industries,Chemicals,8022.23,80.22,tonnes,USA
+INV_00000025,2024-12-14,BUY_002443,Google/Alphabet,SUP_000014,Shell Germany,Chemicals,8124.45,81.24,tonnes,India
+INV_00000026,2024-11-11,BUY_000316,H&M Group,SUP_000013,DyStar,Textiles,1833.85,183.39,units,USA
+INV_00000027,2024-02-20,BUY_000316,H&M Group,SUP_000021,South Energy Manufacturing,Energy,13803.35,1380.34,units,China
+INV_00000028,2023-08-04,BUY_003452,Tesla Inc,SUP_000044,Euro Chemicals Manufacturing,Textiles,1931.12,193.11,units,China
+INV_00000029,2024-04-21,BUY_002759,Intel Corporation,SUP_000016,Exxon_Mobil,Textiles,2677.77,267.78,units,Japan
+INV_00000030,2023-06-23,BUY_003452,Tesla Inc,SUP_000049,Global_Electronics_Ltd,Electronics,4783.7,478.37,units,USA
+INV_00000031,2023-04-06,BUY_005599,NVIDIA Corporation,SUP_000017,Saudi Aramco,Steel,18438.66,184.39,tonnes,China
+INV_00000032,2023-05-31,BUY_005133,Microsoft Corporation,SUP_000037,South Chemicals Industries,Electronics,5470.31,547.03,units,Japan
+INV_00000033,2024-04-11,BUY_005599,NVIDIA Corporation,SUP_000041,GCG,Textiles,1544.18,154.42,units,Germany
+INV_00000034,2024-12-14,BUY_006268,Samsung Electronics,SUP_000018,SEC,Textiles,4403.17,440.32,units,China
+INV_00000035,2024-11-02,BUY_002443,Google/Alphabet,SUP_000008,BASF,Electronics,2455.98,245.6,units,China
+INV_00000036,2023-08-13,BUY_002759,Intel Corporation,SUP_000039,Global_Steel_Manufacturing,Steel,14760.77,147.61,tonnes,China
+INV_00000037,2023-02-21,BUY_002759,Intel Corporation,SUP_000009,Dow Chemical,Energy,3890.38,389.04,units,USA
+INV_00000038,2023-05-17,BUY_003452,Tesla Inc,SUP_000041,Global Chemicals Group,Textiles,806.18,80.62,units,China
+INV_00000039,2024-03-29,BUY_002443,Google/Alphabet,SUP_000038,NEL,Energy,21359.14,2135.91,units,Japan
+INV_00000040,2024-07-15,BUY_002759,Intel Corporation,SUP_000037,South Chemicals Industries,Textiles,4970.32,497.03,units,Japan
+INV_00000041,2023-09-23,BUY_002759,Intel Corporation,SUP_000020,Euro Electronics Ltd,Steel,20931.03,209.31,tonnes,USA
+INV_00000042,2024-10-03,BUY_000316,H&M Group,SUP_000006,Nippon Steel,Steel,12114.28,121.14,tonnes,China
+INV_00000043,2023-08-29,BUY_005133,Microsoft Corporation,SUP_000040,Asian_Steel_Corp,Chemicals,6528.95,65.29,tonnes,China
+INV_00000044,2023-05-22,BUY_005599,NVIDIA Corporation,SUP_000011,Huntsman,Steel,9128.87,91.29,tonnes,USA
+INV_00000045,2023-03-07,BUY_002759,Intel Corporation,SUP_000040,Asian_Steel_Corp,Textiles,1382.57,138.26,units,China
+INV_00000046,2024-03-01,BUY_002443,Google/Alphabet,SUP_000031,Euro Electronics Inc,Electronics,2753.14,275.31,units,India
+INV_00000047,2024-08-21,BUY_002443,Google/Alphabet,SUP_000041,GCG,Electronics,9408.59,940.86,units,Germany
+INV_00000048,2024-05-03,BUY_002443,Google/Alphabet,SUP_000021,South Energy Manufacturing,Electronics,4549.79,454.98,units,China
+INV_00000049,2024-03-05,BUY_005599,NVIDIA Corporation,SUP_000040,Asian_Steel_Corp,Energy,4244.89,424.49,units,China
+INV_00000050,2024-05-14,BUY_001671,Apple Inc,SUP_000038,North Electronics Ltd,Steel,13296.34,132.96,tonnes,China
+INV_00000051,2024-02-03,BUY_006268,Samsung Electronics,SUP_000029,Euro Textiles Manufacturing,Chemicals,5903.6,59.04,tonnes,Germany
+INV_00000052,2024-04-23,BUY_001671,Apple Inc,SUP_000040,Asian Steel Corp,Steel,12138.08,121.38,tonnes,Japan
+INV_00000053,2024-02-08,BUY_005133,Microsoft Corporation,SUP_000001,Taiwan Semiconductor,Energy,14936.05,1493.6,units,Vietnam
+INV_00000054,2024-10-20,BUY_006268,Samsung Electronics,SUP_000008,BASF Germany,Textiles,5728.59,572.86,units,USA
+INV_00000055,2023-02-21,BUY_002759,Intel Corporation,SUP_000004,ArcelorMittal Vietnam,Chemicals,6476.3,64.76,tonnes,Vietnam
+INV_00000056,2023-12-01,BUY_000316,H&M Group,SUP_000027,Pacific Textiles Ltd,Chemicals,5345.29,53.45,tonnes,India
+INV_00000057,2024-03-07,BUY_001671,Apple Inc,SUP_000037,South Chemicals Industries,Chemicals,7001.64,70.02,tonnes,Japan
+INV_00000058,2024-07-06,BUY_005599,NVIDIA Corporation,SUP_000024,Euro Energy Ltd,Electronics,4983.02,498.3,units,China
+INV_00000059,2024-10-27,BUY_001671,Apple Inc,SUP_000049,Global Electronics Ltd,Electronics,8393.44,839.34,units,Germany
+INV_00000060,2023-02-01,BUY_006268,Samsung Electronics,SUP_000001,Taiwan Semiconductor,Steel,7562.48,75.62,tonnes,Vietnam
+INV_00000061,2023-09-02,BUY_005599,NVIDIA Corporation,SUP_000002,SH,Steel,12383.1,123.83,tonnes,Vietnam
+INV_00000062,2024-04-21,BUY_005133,Microsoft Corporation,SUP_000012,Archroma,Chemicals,3557.56,35.58,tonnes,Vietnam
+INV_00000063,2023-06-17,BUY_000316,H&M Group,SUP_000001,Taiwan Semiconductor,Chemicals,3705.56,37.06,tonnes,Vietnam
+INV_00000064,2024-08-12,BUY_005133,Microsoft Corporation,SUP_000004,ArcelorMittal Vietnam,Textiles,3881.29,388.13,units,Vietnam
+INV_00000065,2024-08-29,BUY_005133,Microsoft Corporation,SUP_000006,Nippon Steel,Steel,20038.7,200.39,tonnes,China
+INV_00000066,2024-08-02,BUY_003452,Tesla Inc,SUP_000008,BASF,Electronics,4467.5,446.75,units,China
+INV_00000067,2023-03-12,BUY_002443,Google/Alphabet,SUP_000002,SK Hynix,Energy,18919.08,1891.91,units,India
+INV_00000068,2024-05-16,BUY_002759,Intel Corporation,SUP_000007,Global_Steel,Electronics,4578.62,457.86,units,Vietnam
+INV_00000069,2024-12-25,BUY_000316,H&M Group,SUP_000009,Dow_Chemical,Steel,12245.38,122.45,tonnes,China
+INV_00000070,2024-09-22,BUY_002443,Google/Alphabet,SUP_000036,Global_Chemicals_Industries,Energy,18885.21,1888.52,units,India
+INV_00000071,2024-08-29,BUY_005133,Microsoft Corporation,SUP_000005,POSCO,Chemicals,11604.98,116.05,tonnes,China
+INV_00000072,2023-10-13,BUY_002443,Google/Alphabet,SUP_000008,BASF Germany,Textiles,3712.29,371.23,units,USA
+INV_00000073,2023-12-11,BUY_006268,Samsung Electronics,SUP_000007,Global Steel,Electronics,7926.06,792.61,units,India
+INV_00000074,2024-05-14,BUY_003452,Tesla Inc,SUP_000005,POSCO India,Steel,1425.96,14.26,tonnes,India
+INV_00000075,2023-10-14,BUY_001671,Apple Inc,SUP_000020,Euro Electronics Ltd,Energy,33484.78,3348.48,units,USA
+INV_00000076,2024-06-13,BUY_002759,Intel Corporation,SUP_000008,BASF,Steel,12965.6,129.66,tonnes,China
+INV_00000077,2024-07-22,BUY_002759,Intel Corporation,SUP_000048,Asian Energy Manufacturing,Steel,17083.78,170.84,tonnes,Germany
+INV_00000078,2024-04-03,BUY_002443,Google/Alphabet,SUP_000005,POSCO,Electronics,3939.48,393.95,units,China
+INV_00000079,2024-12-09,BUY_003452,Tesla Inc,SUP_000010,LyondellBasell,Steel,7896.96,78.97,tonnes,USA
+INV_00000080,2024-04-29,BUY_003452,Tesla Inc,SUP_000008,BASF,Energy,13864.39,1386.44,units,China
+INV_00000081,2023-12-27,BUY_005599,NVIDIA Corporation,SUP_000005,POSCO India,Textiles,3447.28,344.73,units,India
+INV_00000082,2023-05-04,BUY_006268,Samsung Electronics,SUP_000009,DC,Steel,17911.58,179.12,tonnes,China
+INV_00000083,2023-07-16,BUY_000316,H&M Group,SUP_000020,Euro Electronics Ltd,Steel,16379.42,163.79,tonnes,USA
+INV_00000084,2023-04-13,BUY_006268,Samsung Electronics,SUP_000007,Global_Steel,Steel,8327.72,83.28,tonnes,Vietnam
+INV_00000085,2023-11-06,BUY_000316,H&M Group,SUP_000009,Dow_Chemical,Electronics,3836.63,383.66,units,China
+INV_00000086,2023-02-16,BUY_002759,Intel Corporation,SUP_000003,Micron Tech,Electronics,6147.72,614.77,units,USA
+INV_00000087,2023-04-16,BUY_002759,Intel Corporation,SUP_000009,Dow Chemical,Electronics,6449.55,644.96,units,USA
+INV_00000088,2024-03-27,BUY_000316,H&M Group,SUP_000002,SK Hynix,Chemicals,4327.24,43.27,tonnes,India
+INV_00000089,2024-05-04,BUY_002759,Intel Corporation,SUP_000029,Euro Textiles Manufacturing,Electronics,6930.52,693.05,units,Germany
+INV_00000090,2023-03-17,BUY_006268,Samsung Electronics,SUP_000004,ArcelorMittal Vietnam,Energy,14959.17,1495.92,units,Vietnam
+INV_00000091,2023-06-02,BUY_005599,NVIDIA Corporation,SUP_000007,Global Steel,Energy,21852.46,2185.25,units,India
+INV_00000092,2023-05-02,BUY_005599,NVIDIA Corporation,SUP_000044,Euro Chemicals Manufacturing,Energy,11506.86,1150.69,units,China
+INV_00000093,2024-06-19,BUY_000316,H&M Group,SUP_000008,BASF Germany,Textiles,3160.72,316.07,units,USA
+INV_00000094,2024-08-25,BUY_001671,Apple Inc,SUP_000011,Huntsman,Textiles,3328.34,332.83,units,USA
+INV_00000095,2024-09-16,BUY_005599,NVIDIA Corporation,SUP_000016,Exxon Mobil,Electronics,2622.31,262.23,units,Germany
+INV_00000096,2023-09-28,BUY_005133,Microsoft Corporation,SUP_000004,ArcelorMittal,Electronics,4613.6,461.36,units,India
+INV_00000097,2023-06-10,BUY_002759,Intel Corporation,SUP_000011,Huntsman,Electronics,6957.86,695.79,units,USA
+INV_00000098,2023-10-26,BUY_002759,Intel Corporation,SUP_000006,Nippon Steel,Electronics,4208.59,420.86,units,China
+INV_00000099,2023-03-14,BUY_005599,NVIDIA Corporation,SUP_000046,North Steel Manufacturing,Steel,13688.79,136.89,tonnes,Japan
+INV_00000100,2024-03-11,BUY_000316,H&M Group,SUP_000003,Micron Tech,Electronics,2342.8,234.28,units,USA
+INV_00000101,2023-05-26,BUY_000316,H&M Group,SUP_000006,Nippon Steel,Electronics,3326.97,332.7,units,China
+INV_00000102,2024-03-25,BUY_002443,Google/Alphabet,SUP_000006,Nippon Steel,Electronics,3106.49,310.65,units,China
+INV_00000103,2023-10-06,BUY_005133,Microsoft Corporation,SUP_000008,BASF Germany,Energy,17113.05,1711.3,units,USA
+INV_00000104,2024-09-04,BUY_000316,H&M Group,SUP_000022,Global_Textiles_Industries,Electronics,6174.21,617.42,units,USA
+INV_00000105,2023-01-27,BUY_001671,Apple Inc,SUP_000010,LyondellBasell,Electronics,5575.78,557.58,units,USA
+INV_00000106,2024-11-19,BUY_002759,Intel Corporation,SUP_000004,ArcelorMittal,Chemicals,12292.7,122.93,tonnes,India
+INV_00000107,2024-06-15,BUY_002443,Google/Alphabet,SUP_000014,Shell,Textiles,2739.97,274.0,units,Vietnam
+INV_00000108,2024-10-12,BUY_003452,Tesla Inc,SUP_000037,South Chemicals Industries,Textiles,3911.21,391.12,units,Japan
+INV_00000109,2024-02-23,BUY_006268,Samsung Electronics,SUP_000002,SH,Chemicals,4666.0,46.66,tonnes,Vietnam
+INV_00000110,2023-12-04,BUY_002443,Google/Alphabet,SUP_000020,Euro_Electronics_Ltd,Textiles,118.8,11.88,units,India
+INV_00000111,2024-07-17,BUY_000316,H&M Group,SUP_000007,Global Steel,Electronics,4081.25,408.13,units,India
+INV_00000112,2023-11-28,BUY_001671,Apple Inc,SUP_000029,Euro Textiles Manufacturing,Electronics,7066.24,706.62,units,Germany
+INV_00000113,2024-11-04,BUY_005599,NVIDIA Corporation,SUP_000002,SK Hynix,Energy,35735.34,3573.53,units,India
+INV_00000114,2024-06-14,BUY_002759,Intel Corporation,SUP_000038,North_Electronics_Ltd,Chemicals,6235.25,62.35,tonnes,China
+INV_00000115,2023-02-22,BUY_000316,H&M Group,SUP_000003,Micron Tech,Steel,14856.96,148.57,tonnes,USA
+INV_00000116,2024-03-24,BUY_005599,NVIDIA Corporation,SUP_000011,Huntsman,Textiles,3183.77,318.38,units,USA
+INV_00000117,2024-12-27,BUY_002443,Google/Alphabet,SUP_000001,Taiwan Semiconductor,Steel,9522.87,95.23,tonnes,Vietnam
+INV_00000118,2023-04-06,BUY_002759,Intel Corporation,SUP_000008,BASF Germany,Steel,23614.09,236.14,tonnes,USA
+INV_00000119,2023-05-01,BUY_000316,H&M Group,SUP_000006,Nippon Steel,Steel,15007.73,150.08,tonnes,China
+INV_00000120,2024-03-01,BUY_002759,Intel Corporation,SUP_000018,SEC,Textiles,3014.31,301.43,units,China
+INV_00000121,2024-07-18,BUY_006268,Samsung Electronics,SUP_000011,Huntsman,Steel,13798.04,137.98,tonnes,USA
+INV_00000122,2023-03-13,BUY_003452,Tesla Inc,SUP_000031,Euro Electronics Inc,Chemicals,8240.66,82.41,tonnes,India
+INV_00000123,2024-06-03,BUY_000316,H&M Group,SUP_000020,Euro_Electronics_Ltd,Chemicals,2988.13,29.88,tonnes,India
+INV_00000124,2024-08-24,BUY_006268,Samsung Electronics,SUP_000038,North Electronics Ltd,Energy,22719.27,2271.93,units,China
+INV_00000125,2024-04-02,BUY_002443,Google/Alphabet,SUP_000007,Global Steel,Energy,26735.6,2673.56,units,India
+INV_00000126,2024-04-11,BUY_002443,Google/Alphabet,SUP_000018,South_Electronics_Corp,Chemicals,3821.58,38.22,tonnes,Vietnam
+INV_00000127,2023-08-28,BUY_002443,Google/Alphabet,SUP_000009,Dow Chemical,Textiles,2967.76,296.78,units,USA
+INV_00000128,2024-01-31,BUY_006268,Samsung Electronics,SUP_000002,SK Hynix,Steel,9298.95,92.99,tonnes,India
+INV_00000129,2024-05-29,BUY_002759,Intel Corporation,SUP_000002,SH,Energy,12777.76,1277.78,units,Vietnam
+INV_00000130,2023-04-13,BUY_006268,Samsung Electronics,SUP_000002,SK Hynix,Energy,5411.22,541.12,units,India
+INV_00000131,2024-02-24,BUY_003452,Tesla Inc,SUP_000005,POSCO India,Steel,8630.33,86.3,tonnes,India
+INV_00000132,2024-09-30,BUY_002443,Google/Alphabet,SUP_000022,GTI,Textiles,1237.76,123.78,units,China
+INV_00000133,2023-11-21,BUY_005133,Microsoft Corporation,SUP_000003,Micron Tech,Textiles,5342.96,534.3,units,USA
+INV_00000134,2023-08-29,BUY_002443,Google/Alphabet,SUP_000007,Global_Steel,Chemicals,4822.39,48.22,tonnes,Vietnam
+INV_00000135,2023-04-11,BUY_001671,Apple Inc,SUP_000006,Nippon Steel,Electronics,6155.9,615.59,units,China
+INV_00000136,2023-02-17,BUY_003452,Tesla Inc,SUP_000020,EEL,Chemicals,4873.33,48.73,tonnes,Germany
+INV_00000137,2024-01-19,BUY_002443,Google/Alphabet,SUP_000009,Dow_Chemical,Textiles,1610.82,161.08,units,China
+INV_00000138,2024-08-02,BUY_002443,Google/Alphabet,SUP_000002,SK_Hynix,Steel,25216.88,252.17,tonnes,Germany
+INV_00000139,2024-09-26,BUY_006268,Samsung Electronics,SUP_000010,LyondellBasell,Steel,11676.3,116.76,tonnes,USA
+INV_00000140,2023-08-26,BUY_000316,H&M Group,SUP_000036,Global Chemicals Industries,Textiles,3073.89,307.39,units,China
+INV_00000141,2024-11-13,BUY_000316,H&M Group,SUP_000036,Global_Chemicals_Industries,Electronics,6852.86,685.29,units,India
+INV_00000142,2024-11-24,BUY_003452,Tesla Inc,SUP_000008,BASF Germany,Energy,10281.79,1028.18,units,USA
+INV_00000143,2024-08-24,BUY_000316,H&M Group,SUP_000032,Global Electronics Group,Chemicals,11312.53,113.13,tonnes,Germany
+INV_00000144,2024-04-12,BUY_002759,Intel Corporation,SUP_000007,GS,Chemicals,6255.5,62.55,tonnes,India
+INV_00000145,2023-04-20,BUY_000316,H&M Group,SUP_000007,Global_Steel,Steel,14370.93,143.71,tonnes,Vietnam
+INV_00000146,2024-12-17,BUY_000316,H&M Group,SUP_000007,GS,Chemicals,4181.92,41.82,tonnes,India
+INV_00000147,2023-01-09,BUY_002759,Intel Corporation,SUP_000004,ArcelorMittal Vietnam,Energy,6039.26,603.93,units,Vietnam
+INV_00000148,2023-10-21,BUY_005599,NVIDIA Corporation,SUP_000025,North Energy Corp,Steel,14792.15,147.92,tonnes,Vietnam
+INV_00000149,2024-10-13,BUY_006268,Samsung Electronics,SUP_000050,Asian_Chemicals_Group,Steel,13847.34,138.47,tonnes,Vietnam
+INV_00000150,2024-10-05,BUY_001671,Apple Inc,SUP_000048,Asian Energy Manufacturing,Electronics,6642.44,664.24,units,Germany
+INV_00000151,2023-11-13,BUY_006268,Samsung Electronics,SUP_000007,Global_Steel,Textiles,3378.89,337.89,units,Vietnam
+INV_00000152,2023-04-03,BUY_006268,Samsung Electronics,SUP_000008,BASF,Chemicals,4529.54,45.3,tonnes,China
+INV_00000153,2023-07-25,BUY_000316,H&M Group,SUP_000026,Euro Energy Manufacturing,Steel,20444.0,204.44,tonnes,Germany
+INV_00000154,2023-06-18,BUY_000316,H&M Group,SUP_000037,South_Chemicals_Industries,Chemicals,10255.5,102.55,tonnes,Japan
+INV_00000155,2023-12-13,BUY_006268,Samsung Electronics,SUP_000002,SK_Hynix,Electronics,5339.09,533.91,units,Germany
+INV_00000156,2023-08-20,BUY_003452,Tesla Inc,SUP_000041,Global Chemicals Group,Textiles,5334.77,533.48,units,China
+INV_00000157,2023-04-03,BUY_005133,Microsoft Corporation,SUP_000009,DC,Textiles,2820.17,282.02,units,China
+INV_00000158,2024-04-10,BUY_000316,H&M Group,SUP_000050,Asian_Chemicals_Group,Chemicals,3363.83,33.64,tonnes,Vietnam
+INV_00000159,2024-08-21,BUY_005133,Microsoft Corporation,SUP_000026,Euro_Energy_Manufacturing,Textiles,3666.04,366.6,units,China
+INV_00000160,2024-11-22,BUY_003452,Tesla Inc,SUP_000011,Huntsman,Steel,14582.29,145.82,tonnes,USA
+INV_00000161,2024-09-16,BUY_002759,Intel Corporation,SUP_000047,Euro Textiles Group,Steel,16663.17,166.63,tonnes,Vietnam
+INV_00000162,2024-12-18,BUY_006268,Samsung Electronics,SUP_000008,BASF Germany,Chemicals,17902.23,179.02,tonnes,USA
+INV_00000163,2023-02-16,BUY_005133,Microsoft Corporation,SUP_000009,Dow Chemical,Electronics,3022.77,302.28,units,USA
+INV_00000164,2023-04-10,BUY_002443,Google/Alphabet,SUP_000009,DC,Steel,15060.83,150.61,tonnes,China
+INV_00000165,2024-04-09,BUY_002443,Google/Alphabet,SUP_000040,Asian_Steel_Corp,Chemicals,7021.14,70.21,tonnes,China
+INV_00000166,2024-08-24,BUY_005133,Microsoft Corporation,SUP_000049,Global Electronics Ltd,Steel,25273.37,252.73,tonnes,Germany
+INV_00000167,2024-05-16,BUY_001671,Apple Inc,SUP_000005,POSCO India,Energy,26380.76,2638.08,units,India
+INV_00000168,2024-12-07,BUY_005599,NVIDIA Corporation,SUP_000008,BASF Germany,Chemicals,11331.58,113.32,tonnes,USA
+INV_00000169,2024-01-07,BUY_003452,Tesla Inc,SUP_000026,Euro_Energy_Manufacturing,Electronics,2235.22,223.52,units,China
+INV_00000170,2023-03-04,BUY_002759,Intel Corporation,SUP_000002,SH,Textiles,1199.32,119.93,units,Vietnam
+INV_00000171,2023-04-04,BUY_001671,Apple Inc,SUP_000043,Euro_Chemicals_Inc,Steel,11412.39,114.12,tonnes,Japan
+INV_00000172,2023-02-21,BUY_005599,NVIDIA Corporation,SUP_000003,Micron Tech,Chemicals,6991.83,69.92,tonnes,USA
+INV_00000173,2023-03-12,BUY_005599,NVIDIA Corporation,SUP_000004,ArcelorMittal Vietnam,Energy,16365.04,1636.5,units,Vietnam
+INV_00000174,2023-12-03,BUY_001671,Apple Inc,SUP_000043,Euro_Chemicals_Inc,Steel,23428.34,234.28,tonnes,Japan
+INV_00000175,2023-10-11,BUY_000316,H&M Group,SUP_000040,Asian_Steel_Corp,Steel,16074.17,160.74,tonnes,China
+INV_00000176,2023-06-28,BUY_006268,Samsung Electronics,SUP_000002,SH,Electronics,4221.84,422.18,units,Vietnam
+INV_00000177,2023-01-16,BUY_003452,Tesla Inc,SUP_000018,South_Electronics_Corp,Chemicals,7910.79,79.11,tonnes,Vietnam
+INV_00000178,2023-01-17,BUY_002443,Google/Alphabet,SUP_000003,Micron Tech,Steel,13129.65,131.3,tonnes,USA
+INV_00000179,2024-06-22,BUY_002759,Intel Corporation,SUP_000037,South Chemicals Industries,Electronics,12058.59,1205.86,units,Japan
+INV_00000180,2024-01-06,BUY_005599,NVIDIA Corporation,SUP_000008,BASF Germany,Energy,24005.13,2400.51,units,USA
+INV_00000181,2024-09-21,BUY_000316,H&M Group,SUP_000049,Global_Electronics_Ltd,Electronics,4337.1,433.71,units,USA
+INV_00000182,2024-04-14,BUY_002443,Google/Alphabet,SUP_000009,Dow Chemical,Electronics,3258.37,325.84,units,USA
+INV_00000183,2024-03-12,BUY_005133,Microsoft Corporation,SUP_000008,BASF Germany,Electronics,6442.14,644.21,units,USA
+INV_00000184,2023-03-24,BUY_006268,Samsung Electronics,SUP_000005,POSCO India,Chemicals,4947.49,49.47,tonnes,India
+INV_00000185,2023-10-09,BUY_003452,Tesla Inc,SUP_000040,ASC,Energy,21598.08,2159.81,units,China
+INV_00000186,2024-01-26,BUY_002443,Google/Alphabet,SUP_000008,BASF Germany,Energy,22834.46,2283.45,units,USA
+INV_00000187,2023-04-12,BUY_005599,NVIDIA Corporation,SUP_000049,Global Electronics Ltd,Electronics,5303.37,530.34,units,Germany
+INV_00000188,2024-03-16,BUY_003452,Tesla Inc,SUP_000030,Asian Steel Inc,Textiles,1245.46,124.55,units,Vietnam
+INV_00000189,2024-04-09,BUY_003452,Tesla Inc,SUP_000002,SH,Textiles,553.07,55.31,units,Vietnam
+INV_00000190,2024-03-13,BUY_006268,Samsung Electronics,SUP_000026,Euro_Energy_Manufacturing,Chemicals,4795.53,47.96,tonnes,China
+INV_00000191,2024-12-04,BUY_005133,Microsoft Corporation,SUP_000002,SK_Hynix,Textiles,6405.47,640.55,units,Germany
+INV_00000192,2024-03-18,BUY_006268,Samsung Electronics,SUP_000026,Euro_Energy_Manufacturing,Electronics,3908.29,390.83,units,China
+INV_00000193,2024-07-23,BUY_003452,Tesla Inc,SUP_000009,DC,Electronics,2207.5,220.75,units,China
+INV_00000194,2024-11-17,BUY_001671,Apple Inc,SUP_000008,BASF,Electronics,5132.51,513.25,units,China
+INV_00000195,2023-10-22,BUY_005599,NVIDIA Corporation,SUP_000002,SH,Energy,19389.33,1938.93,units,Vietnam
+INV_00000196,2023-06-08,BUY_003452,Tesla Inc,SUP_000002,SH,Textiles,1406.34,140.63,units,Vietnam
+INV_00000197,2024-07-23,BUY_005599,NVIDIA Corporation,SUP_000005,POSCO India,Chemicals,6980.47,69.8,tonnes,India
+INV_00000198,2024-03-15,BUY_001671,Apple Inc,SUP_000045,South_Electronics_Manufacturing,Energy,14735.28,1473.53,units,China
+INV_00000199,2024-09-15,BUY_000316,H&M Group,SUP_000005,POSCO India,Chemicals,3771.15,37.71,tonnes,India
+INV_00000200,2023-12-14,BUY_002443,Google/Alphabet,SUP_000003,Micron Tech,Chemicals,14154.44,141.54,tonnes,USA
+INV_00000201,2023-03-13,BUY_005133,Microsoft Corporation,SUP_000002,SH,Steel,12818.82,128.19,tonnes,Vietnam
+INV_00000202,2024-06-27,BUY_003452,Tesla Inc,SUP_000008,BASF Germany,Steel,25723.22,257.23,tonnes,USA
+INV_00000203,2023-06-11,BUY_005133,Microsoft Corporation,SUP_000007,Global Steel,Chemicals,8789.61,87.9,tonnes,India
+INV_00000204,2023-02-23,BUY_001671,Apple Inc,SUP_000011,Huntsman,Steel,7300.49,73.0,tonnes,USA
+INV_00000205,2024-11-21,BUY_002759,Intel Corporation,SUP_000008,BASF,Electronics,2999.38,299.94,units,China
+INV_00000206,2024-09-13,BUY_005133,Microsoft Corporation,SUP_000004,ArcelorMittal Vietnam,Textiles,3319.85,331.98,units,Vietnam
+INV_00000207,2023-12-20,BUY_002759,Intel Corporation,SUP_000010,LyondellBasell,Textiles,5882.26,588.23,units,USA
+INV_00000208,2024-06-23,BUY_001671,Apple Inc,SUP_000007,GS,Chemicals,7516.8,75.17,tonnes,India
+INV_00000209,2023-01-08,BUY_006268,Samsung Electronics,SUP_000004,ArcelorMittal Vietnam,Steel,21928.74,219.29,tonnes,Vietnam
+INV_00000210,2023-09-19,BUY_002759,Intel Corporation,SUP_000001,Taiwan Semiconductor,Chemicals,8547.15,85.47,tonnes,Vietnam
+INV_00000211,2024-03-16,BUY_005599,NVIDIA Corporation,SUP_000009,DC,Steel,14888.04,148.88,tonnes,China
+INV_00000212,2024-05-27,BUY_005133,Microsoft Corporation,SUP_000025,North Energy Corp,Energy,22105.61,2210.56,units,Vietnam
+INV_00000213,2024-02-11,BUY_005133,Microsoft Corporation,SUP_000008,BASF Germany,Electronics,5672.5,567.25,units,USA
+INV_00000214,2023-11-17,BUY_002443,Google/Alphabet,SUP_000007,GS,Energy,15730.06,1573.01,units,India
+INV_00000215,2023-10-24,BUY_006268,Samsung Electronics,SUP_000007,Global Steel,Electronics,5132.88,513.29,units,India
+INV_00000216,2024-09-24,BUY_005133,Microsoft Corporation,SUP_000026,Euro Energy Manufacturing,Textiles,2328.56,232.86,units,Germany
+INV_00000217,2024-03-23,BUY_002443,Google/Alphabet,SUP_000010,LyondellBasell,Electronics,4888.47,488.85,units,USA
+INV_00000218,2024-06-20,BUY_003452,Tesla Inc,SUP_000006,Nippon Steel,Electronics,3384.59,338.46,units,China
+INV_00000219,2023-08-15,BUY_005133,Microsoft Corporation,SUP_000006,Nippon Steel,Chemicals,7585.97,75.86,tonnes,China
+INV_00000220,2024-06-27,BUY_003452,Tesla Inc,SUP_000007,Global_Steel,Energy,32354.51,3235.45,units,Vietnam
+INV_00000221,2024-10-22,BUY_000316,H&M Group,SUP_000003,Micron Tech,Steel,7136.23,71.36,tonnes,USA
+INV_00000222,2023-07-22,BUY_005133,Microsoft Corporation,SUP_000049,Global Electronics Ltd,Steel,23315.6,233.16,tonnes,Germany
+INV_00000223,2023-07-01,BUY_002759,Intel Corporation,SUP_000010,LyondellBasell,Textiles,766.82,76.68,units,USA
+INV_00000224,2024-11-28,BUY_003452,Tesla Inc,SUP_000045,South_Electronics_Manufacturing,Energy,15575.56,1557.56,units,China
+INV_00000225,2024-10-04,BUY_002759,Intel Corporation,SUP_000002,SK_Hynix,Chemicals,13604.72,136.05,tonnes,Germany
+INV_00000226,2024-03-28,BUY_001671,Apple Inc,SUP_000043,Euro Chemicals Inc,Chemicals,5898.84,58.99,tonnes,Vietnam
+INV_00000227,2023-12-27,BUY_002759,Intel Corporation,SUP_000008,BASF Germany,Energy,17749.75,1774.97,units,USA
+INV_00000228,2023-02-08,BUY_005133,Microsoft Corporation,SUP_000006,Nippon Steel,Electronics,2141.64,214.16,units,China
+INV_00000229,2024-10-22,BUY_002443,Google/Alphabet,SUP_000038,NEL,Electronics,7344.87,734.49,units,Japan
+INV_00000230,2024-04-18,BUY_002759,Intel Corporation,SUP_000002,SK Hynix,Energy,10086.91,1008.69,units,India
+INV_00000231,2024-08-08,BUY_006268,Samsung Electronics,SUP_000009,Dow Chemical,Steel,22193.56,221.94,tonnes,USA
+INV_00000232,2023-03-05,BUY_005133,Microsoft Corporation,SUP_000007,Global Steel,Textiles,2071.14,207.11,units,India
+INV_00000233,2024-05-31,BUY_002759,Intel Corporation,SUP_000008,BASF Germany,Steel,14090.4,140.9,tonnes,USA
+INV_00000234,2024-06-20,BUY_003452,Tesla Inc,SUP_000026,Euro Energy Manufacturing,Energy,44860.5,4486.05,units,Germany
+INV_00000235,2023-10-17,BUY_001671,Apple Inc,SUP_000007,Global Steel,Textiles,3111.32,311.13,units,India
+INV_00000236,2024-10-08,BUY_002443,Google/Alphabet,SUP_000002,SH,Chemicals,1616.64,16.17,tonnes,Vietnam
+INV_00000237,2023-10-18,BUY_006268,Samsung Electronics,SUP_000049,Global_Electronics_Ltd,Chemicals,10784.8,107.85,tonnes,USA
+INV_00000238,2023-12-08,BUY_003452,Tesla Inc,SUP_000003,Micron Tech,Electronics,5735.23,573.52,units,USA
+INV_00000239,2023-11-14,BUY_000316,H&M Group,SUP_000002,SK_Hynix,Textiles,5904.54,590.45,units,Germany
+INV_00000240,2024-07-26,BUY_006268,Samsung Electronics,SUP_000022,GTI,Textiles,1593.87,159.39,units,China
+INV_00000241,2024-11-17,BUY_003452,Tesla Inc,SUP_000008,BASF,Energy,18318.82,1831.88,units,China
+INV_00000242,2023-01-19,BUY_003452,Tesla Inc,SUP_000004,ArcelorMittal Vietnam,Chemicals,6089.58,60.9,tonnes,Vietnam
+INV_00000243,2024-05-12,BUY_006268,Samsung Electronics,SUP_000003,Micron Tech,Steel,23194.53,231.95,tonnes,USA
+INV_00000244,2023-03-21,BUY_001671,Apple Inc,SUP_000007,GS,Chemicals,2969.4,29.69,tonnes,India
+INV_00000245,2024-11-08,BUY_006268,Samsung Electronics,SUP_000045,South_Electronics_Manufacturing,Chemicals,6716.64,67.17,tonnes,China
+INV_00000246,2024-09-03,BUY_006268,Samsung Electronics,SUP_000004,ArcelorMittal,Textiles,1887.26,188.73,units,India
+INV_00000247,2024-03-24,BUY_002759,Intel Corporation,SUP_000005,POSCO,Electronics,2659.21,265.92,units,China
+INV_00000248,2024-09-17,BUY_005599,NVIDIA Corporation,SUP_000035,North Textiles Corp,Chemicals,11700.8,117.01,tonnes,China
+INV_00000249,2024-06-30,BUY_005599,NVIDIA Corporation,SUP_000009,Dow Chemical,Steel,21451.38,214.51,tonnes,USA
+INV_00000250,2024-01-12,BUY_000316,H&M Group,SUP_000036,Global_Chemicals_Industries,Energy,5947.76,594.78,units,India
+INV_00000251,2024-01-27,BUY_005599,NVIDIA Corporation,SUP_000004,ArcelorMittal,Energy,16405.74,1640.57,units,India
+INV_00000252,2024-09-11,BUY_002759,Intel Corporation,SUP_000004,ArcelorMittal Vietnam,Steel,22537.49,225.37,tonnes,Vietnam
+INV_00000253,2024-01-16,BUY_005133,Microsoft Corporation,SUP_000039,Global_Steel_Manufacturing,Energy,18086.22,1808.62,units,China
+INV_00000254,2023-10-19,BUY_002759,Intel Corporation,SUP_000019,SSI,Electronics,2471.19,247.12,units,USA
+INV_00000255,2024-06-09,BUY_005599,NVIDIA Corporation,SUP_000007,Global_Steel,Steel,10566.22,105.66,tonnes,Vietnam
+INV_00000256,2024-04-06,BUY_001671,Apple Inc,SUP_000031,Euro Electronics Inc,Chemicals,8408.02,84.08,tonnes,India
+INV_00000257,2024-02-10,BUY_005133,Microsoft Corporation,SUP_000007,GS,Energy,8065.49,806.55,units,India
+INV_00000258,2024-01-19,BUY_003452,Tesla Inc,SUP_000002,SH,Steel,11020.22,110.2,tonnes,Vietnam
+INV_00000259,2023-05-30,BUY_006268,Samsung Electronics,SUP_000009,Dow Chemical,Steel,22647.8,226.48,tonnes,USA
+INV_00000260,2024-12-23,BUY_005133,Microsoft Corporation,SUP_000001,Taiwan Semiconductor,Textiles,1673.99,167.4,units,Vietnam
+INV_00000261,2023-01-20,BUY_002443,Google/Alphabet,SUP_000003,Micron Tech,Chemicals,7508.57,75.09,tonnes,USA
+INV_00000262,2023-04-24,BUY_001671,Apple Inc,SUP_000002,SH,Chemicals,76.0,0.76,tonnes,Vietnam
+INV_00000263,2023-09-02,BUY_002759,Intel Corporation,SUP_000045,South_Electronics_Manufacturing,Textiles,1287.81,128.78,units,China
+INV_00000264,2023-03-06,BUY_001671,Apple Inc,SUP_000038,North_Electronics_Ltd,Electronics,3236.3,323.63,units,China
+INV_00000265,2024-10-09,BUY_000316,H&M Group,SUP_000003,Micron Tech,Energy,12622.35,1262.23,units,USA
+INV_00000266,2024-03-15,BUY_002443,Google/Alphabet,SUP_000018,South_Electronics_Corp,Electronics,5950.67,595.07,units,Vietnam
+INV_00000267,2023-07-11,BUY_005133,Microsoft Corporation,SUP_000007,Global_Steel,Electronics,1882.95,188.3,units,Vietnam
+INV_00000268,2024-06-22,BUY_001671,Apple Inc,SUP_000009,Dow_Chemical,Energy,13842.9,1384.29,units,China
+INV_00000269,2024-02-04,BUY_003452,Tesla Inc,SUP_000007,GS,Textiles,1797.81,179.78,units,India
+INV_00000270,2023-09-17,BUY_003452,Tesla Inc,SUP_000002,SK_Hynix,Electronics,9971.42,997.14,units,Germany
+INV_00000271,2023-09-04,BUY_006268,Samsung Electronics,SUP_000022,GTI,Electronics,1872.88,187.29,units,China
+INV_00000272,2023-02-15,BUY_002759,Intel Corporation,SUP_000004,ArcelorMittal,Chemicals,6462.84,64.63,tonnes,India
+INV_00000273,2024-12-13,BUY_005133,Microsoft Corporation,SUP_000009,DC,Textiles,3135.96,313.6,units,China
+INV_00000274,2024-04-13,BUY_005599,NVIDIA Corporation,SUP_000002,SK Hynix,Electronics,2163.85,216.39,units,India
+INV_00000275,2023-02-12,BUY_002443,Google/Alphabet,SUP_000039,Global Steel Manufacturing,Chemicals,8447.68,84.48,tonnes,USA
+INV_00000276,2024-07-10,BUY_000316,H&M Group,SUP_000004,ArcelorMittal Vietnam,Textiles,2902.76,290.28,units,Vietnam
+INV_00000277,2024-01-01,BUY_000316,H&M Group,SUP_000022,GTI,Electronics,2431.72,243.17,units,China
+INV_00000278,2023-05-08,BUY_002759,Intel Corporation,SUP_000007,GS,Chemicals,6157.05,61.57,tonnes,India
+INV_00000279,2024-01-31,BUY_002759,Intel Corporation,SUP_000038,North_Electronics_Ltd,Chemicals,4380.2,43.8,tonnes,China
+INV_00000280,2024-01-12,BUY_002443,Google/Alphabet,SUP_000002,SK_Hynix,Energy,19235.49,1923.55,units,Germany
+INV_00000281,2023-03-22,BUY_000316,H&M Group,SUP_000014,Shell,Textiles,2875.1,287.51,units,Vietnam
+INV_00000282,2023-11-25,BUY_000316,H&M Group,SUP_000006,Nippon Steel,Electronics,7845.15,784.52,units,China
+INV_00000283,2024-04-01,BUY_002759,Intel Corporation,SUP_000012,Archroma,Energy,7674.08,767.41,units,Vietnam
+INV_00000284,2023-12-26,BUY_002443,Google/Alphabet,SUP_000007,Global_Steel,Textiles,6447.53,644.75,units,Vietnam
+INV_00000285,2023-10-09,BUY_003452,Tesla Inc,SUP_000007,GS,Electronics,862.96,86.3,units,India
+INV_00000286,2024-06-09,BUY_002759,Intel Corporation,SUP_000010,LyondellBasell,Steel,17943.75,179.44,tonnes,USA
+INV_00000287,2023-02-05,BUY_003452,Tesla Inc,SUP_000007,Global_Steel,Steel,10764.95,107.65,tonnes,Vietnam
+INV_00000288,2024-01-28,BUY_002759,Intel Corporation,SUP_000003,Micron Tech,Energy,21358.02,2135.8,units,USA
+INV_00000289,2024-01-15,BUY_006268,Samsung Electronics,SUP_000002,SK_Hynix,Chemicals,5641.35,56.41,tonnes,Germany
+INV_00000290,2024-06-26,BUY_005599,NVIDIA Corporation,SUP_000005,POSCO India,Chemicals,5808.31,58.08,tonnes,India
+INV_00000291,2023-04-27,BUY_002443,Google/Alphabet,SUP_000038,North_Electronics_Ltd,Electronics,3050.64,305.06,units,China
+INV_00000292,2024-07-29,BUY_002759,Intel Corporation,SUP_000005,POSCO India,Electronics,3152.55,315.25,units,India
+INV_00000293,2023-08-08,BUY_005599,NVIDIA Corporation,SUP_000009,Dow Chemical,Energy,36979.61,3697.96,units,USA
+INV_00000294,2023-05-06,BUY_006268,Samsung Electronics,SUP_000035,North Textiles Corp,Steel,13428.06,134.28,tonnes,China
+INV_00000295,2024-12-31,BUY_003452,Tesla Inc,SUP_000050,ACG,Textiles,2803.71,280.37,units,Japan
+INV_00000296,2024-11-14,BUY_000316,H&M Group,SUP_000040,ASC,Chemicals,10270.85,102.71,tonnes,China
+INV_00000297,2023-11-04,BUY_006268,Samsung Electronics,SUP_000047,Euro Textiles Group,Steel,15875.04,158.75,tonnes,Vietnam
+INV_00000298,2024-01-06,BUY_006268,Samsung Electronics,SUP_000004,ArcelorMittal Vietnam,Energy,16961.85,1696.19,units,Vietnam
+INV_00000299,2023-08-31,BUY_003452,Tesla Inc,SUP_000009,DC,Textiles,3628.89,362.89,units,China
+INV_00000300,2024-04-23,BUY_005133,Microsoft Corporation,SUP_000002,SK_Hynix,Energy,14604.58,1460.46,units,Germany
+INV_00000301,2023-11-13,BUY_002443,Google/Alphabet,SUP_000037,South_Chemicals_Industries,Textiles,2850.84,285.08,units,Japan
+INV_00000302,2024-02-24,BUY_005133,Microsoft Corporation,SUP_000007,Global Steel,Energy,14612.82,1461.28,units,India
+INV_00000303,2024-04-05,BUY_006268,Samsung Electronics,SUP_000024,Euro Energy Ltd,Textiles,2975.82,297.58,units,China
+INV_00000304,2024-07-18,BUY_002443,Google/Alphabet,SUP_000003,Micron Tech,Energy,26179.28,2617.93,units,USA
+INV_00000305,2024-05-29,BUY_006268,Samsung Electronics,SUP_000039,Global_Steel_Manufacturing,Electronics,4187.72,418.77,units,China
+INV_00000306,2023-11-08,BUY_003452,Tesla Inc,SUP_000005,POSCO,Steel,20532.79,205.33,tonnes,China
+INV_00000307,2024-06-15,BUY_005599,NVIDIA Corporation,SUP_000019,South Steel Inc,Chemicals,7190.21,71.9,tonnes,Japan
+INV_00000308,2024-10-12,BUY_005133,Microsoft Corporation,SUP_000006,Nippon Steel,Energy,20476.49,2047.65,units,China
+INV_00000309,2024-05-29,BUY_006268,Samsung Electronics,SUP_000010,LyondellBasell,Steel,16786.84,167.87,tonnes,USA
+INV_00000310,2023-06-25,BUY_003452,Tesla Inc,SUP_000044,Euro Chemicals Manufacturing,Energy,15337.18,1533.72,units,China
+INV_00000311,2024-07-31,BUY_005133,Microsoft Corporation,SUP_000002,SH,Electronics,6333.85,633.38,units,Vietnam
+INV_00000312,2023-02-16,BUY_002443,Google/Alphabet,SUP_000004,ArcelorMittal Vietnam,Energy,15962.0,1596.2,units,Vietnam
+INV_00000313,2024-09-24,BUY_000316,H&M Group,SUP_000009,DC,Electronics,5831.78,583.18,units,China
+INV_00000314,2024-10-19,BUY_000316,H&M Group,SUP_000007,GS,Chemicals,9384.19,93.84,tonnes,India
+INV_00000315,2024-04-09,BUY_002759,Intel Corporation,SUP_000011,Huntsman Vietnam,Electronics,3831.93,383.19,units,Vietnam
+INV_00000316,2024-03-01,BUY_006268,Samsung Electronics,SUP_000007,Global Steel,Textiles,2715.48,271.55,units,India
+INV_00000317,2023-11-17,BUY_002443,Google/Alphabet,SUP_000024,Euro Energy Ltd,Chemicals,6786.43,67.86,tonnes,China
+INV_00000318,2023-05-14,BUY_003452,Tesla Inc,SUP_000002,SH,Chemicals,7178.0,71.78,tonnes,Vietnam
+INV_00000319,2023-09-05,BUY_005599,NVIDIA Corporation,SUP_000008,BASF Germany,Textiles,3702.32,370.23,units,USA
+INV_00000320,2023-05-25,BUY_002443,Google/Alphabet,SUP_000007,GS,Electronics,3895.49,389.55,units,India
+INV_00000321,2023-09-12,BUY_003452,Tesla Inc,SUP_000041,GCG,Steel,22739.37,227.39,tonnes,Germany
+INV_00000322,2023-07-14,BUY_002759,Intel Corporation,SUP_000009,Dow_Chemical,Steel,9599.83,96.0,tonnes,China
+INV_00000323,2024-05-25,BUY_002443,Google/Alphabet,SUP_000002,SK_Hynix,Chemicals,16418.74,164.19,tonnes,Germany
+INV_00000324,2024-06-01,BUY_003452,Tesla Inc,SUP_000016,Exxon_Mobil,Textiles,1722.07,172.21,units,Japan
+INV_00000325,2023-02-19,BUY_002759,Intel Corporation,SUP_000011,Huntsman,Electronics,2314.46,231.45,units,USA
+INV_00000326,2023-10-20,BUY_002443,Google/Alphabet,SUP_000002,SH,Energy,24582.51,2458.25,units,Vietnam
+INV_00000327,2023-05-18,BUY_003452,Tesla Inc,SUP_000029,Euro Textiles Manufacturing,Chemicals,11931.24,119.31,tonnes,Germany
+INV_00000328,2023-02-16,BUY_005599,NVIDIA Corporation,SUP_000009,DC,Textiles,2361.71,236.17,units,China
+INV_00000329,2024-01-07,BUY_002759,Intel Corporation,SUP_000007,GS,Energy,15016.06,1501.61,units,India
+INV_00000330,2024-07-17,BUY_005133,Microsoft Corporation,SUP_000045,South_Electronics_Manufacturing,Chemicals,7007.67,70.08,tonnes,China
+INV_00000331,2023-05-12,BUY_003452,Tesla Inc,SUP_000007,Global Steel,Electronics,2404.12,240.41,units,India
+INV_00000332,2023-05-28,BUY_001671,Apple Inc,SUP_000029,Euro Textiles Manufacturing,Steel,17685.88,176.86,tonnes,Germany
+INV_00000333,2023-02-16,BUY_002759,Intel Corporation,SUP_000007,Global Steel,Electronics,2050.69,205.07,units,India
+INV_00000334,2024-06-15,BUY_006268,Samsung Electronics,SUP_000009,Dow_Chemical,Textiles,3748.65,374.87,units,China
+INV_00000335,2023-12-02,BUY_000316,H&M Group,SUP_000007,GS,Energy,18352.95,1835.3,units,India
+INV_00000336,2024-08-30,BUY_002759,Intel Corporation,SUP_000009,Dow_Chemical,Chemicals,5081.63,50.82,tonnes,China
+INV_00000337,2024-12-26,BUY_003452,Tesla Inc,SUP_000001,Taiwan Semiconductor,Energy,18126.07,1812.61,units,Vietnam
+INV_00000338,2023-12-06,BUY_000316,H&M Group,SUP_000042,Pacific Chemicals Manufacturing,Electronics,6058.9,605.89,units,Vietnam
+INV_00000339,2024-12-05,BUY_005599,NVIDIA Corporation,SUP_000005,POSCO India,Electronics,3775.74,377.57,units,India
+INV_00000340,2023-02-22,BUY_002443,Google/Alphabet,SUP_000009,Dow_Chemical,Energy,8053.34,805.33,units,China
+INV_00000341,2023-06-01,BUY_005599,NVIDIA Corporation,SUP_000002,SH,Steel,13623.49,136.23,tonnes,Vietnam
+INV_00000342,2023-01-20,BUY_002443,Google/Alphabet,SUP_000003,Micron Tech,Textiles,3232.75,323.28,units,USA
+INV_00000343,2024-12-08,BUY_002759,Intel Corporation,SUP_000011,Huntsman,Steel,19445.84,194.46,tonnes,USA
+INV_00000344,2023-03-05,BUY_003452,Tesla Inc,SUP_000009,DC,Steel,9104.26,91.04,tonnes,China
+INV_00000345,2024-11-09,BUY_006268,Samsung Electronics,SUP_000007,Global Steel,Textiles,3013.27,301.33,units,India
+INV_00000346,2024-04-15,BUY_000316,H&M Group,SUP_000007,Global_Steel,Energy,6395.65,639.56,units,Vietnam
+INV_00000347,2024-09-16,BUY_000316,H&M Group,SUP_000005,POSCO,Textiles,782.15,78.21,units,China
+INV_00000348,2024-07-25,BUY_000316,H&M Group,SUP_000006,Nippon Steel,Chemicals,5143.31,51.43,tonnes,China
+INV_00000349,2024-12-22,BUY_003452,Tesla Inc,SUP_000038,North Electronics Ltd,Steel,14490.07,144.9,tonnes,China
+INV_00000350,2024-05-06,BUY_000316,H&M Group,SUP_000005,POSCO India,Chemicals,6699.54,67.0,tonnes,India
+INV_00000351,2023-05-05,BUY_002443,Google/Alphabet,SUP_000027,Pacific Textiles Ltd,Energy,23852.14,2385.21,units,India
+INV_00000352,2023-12-20,BUY_005133,Microsoft Corporation,SUP_000006,Nippon Steel,Steel,20059.83,200.6,tonnes,China
+INV_00000353,2023-12-21,BUY_005599,NVIDIA Corporation,SUP_000037,South_Chemicals_Industries,Textiles,3946.93,394.69,units,Japan
+INV_00000354,2023-07-26,BUY_000316,H&M Group,SUP_000009,DC,Energy,17466.13,1746.61,units,China
+INV_00000355,2023-05-21,BUY_005599,NVIDIA Corporation,SUP_000043,Euro Chemicals Inc,Electronics,2395.95,239.6,units,Vietnam
+INV_00000356,2023-09-06,BUY_005599,NVIDIA Corporation,SUP_000039,GSM,Electronics,4367.42,436.74,units,Vietnam
+INV_00000357,2024-10-15,BUY_003452,Tesla Inc,SUP_000008,BASF,Steel,11387.63,113.88,tonnes,China
+INV_00000358,2024-04-28,BUY_001671,Apple Inc,SUP_000009,DC,Electronics,4290.53,429.05,units,China
+INV_00000359,2024-07-17,BUY_002759,Intel Corporation,SUP_000009,Dow Chemical,Steel,14340.28,143.4,tonnes,USA
+INV_00000360,2024-10-28,BUY_003452,Tesla Inc,SUP_000020,Euro_Electronics_Ltd,Steel,13857.43,138.57,tonnes,India
+INV_00000361,2023-10-20,BUY_005599,NVIDIA Corporation,SUP_000007,Global_Steel,Electronics,6775.0,677.5,units,Vietnam
+INV_00000362,2024-07-01,BUY_002443,Google/Alphabet,SUP_000013,DyStar,Electronics,6312.87,631.29,units,USA
+INV_00000363,2023-06-30,BUY_002759,Intel Corporation,SUP_000028,North_Electronics_Inc,Electronics,4874.88,487.49,units,Vietnam
+INV_00000364,2023-07-10,BUY_000316,H&M Group,SUP_000002,SK Hynix,Chemicals,8308.11,83.08,tonnes,India
+INV_00000365,2024-08-04,BUY_000316,H&M Group,SUP_000007,Global Steel,Energy,14481.58,1448.16,units,India
+INV_00000366,2024-04-10,BUY_002759,Intel Corporation,SUP_000003,Micron Tech,Energy,24843.72,2484.37,units,USA
+INV_00000367,2023-10-07,BUY_006268,Samsung Electronics,SUP_000022,GTI,Steel,12652.89,126.53,tonnes,China
+INV_00000368,2024-04-14,BUY_003452,Tesla Inc,SUP_000002,SK Hynix,Chemicals,5908.78,59.09,tonnes,India
+INV_00000369,2023-10-30,BUY_006268,Samsung Electronics,SUP_000014,Shell Germany,Energy,10880.04,1088.0,units,India
+INV_00000370,2024-09-17,BUY_003452,Tesla Inc,SUP_000039,Global Steel Manufacturing,Textiles,4008.53,400.85,units,USA
+INV_00000371,2023-03-30,BUY_006268,Samsung Electronics,SUP_000014,Shell,Textiles,2697.84,269.78,units,Vietnam
+INV_00000372,2024-05-03,BUY_000316,H&M Group,SUP_000001,Taiwan Semiconductor,Chemicals,9882.74,98.83,tonnes,Vietnam
+INV_00000373,2024-01-28,BUY_003452,Tesla Inc,SUP_000005,POSCO India,Steel,11877.81,118.78,tonnes,India
+INV_00000374,2023-11-06,BUY_000316,H&M Group,SUP_000002,SK Hynix,Energy,33502.91,3350.29,units,India
+INV_00000375,2024-10-31,BUY_005133,Microsoft Corporation,SUP_000005,POSCO,Chemicals,4786.28,47.86,tonnes,China
+INV_00000376,2024-04-21,BUY_000316,H&M Group,SUP_000009,Dow_Chemical,Chemicals,8068.89,80.69,tonnes,China
+INV_00000377,2024-12-07,BUY_003452,Tesla Inc,SUP_000020,EEL,Electronics,8023.19,802.32,units,Germany
+INV_00000378,2024-09-21,BUY_002759,Intel Corporation,SUP_000003,Micron Tech,Steel,34252.7,342.53,tonnes,USA
+INV_00000379,2023-06-06,BUY_003452,Tesla Inc,SUP_000044,Euro Chemicals Manufacturing,Textiles,1501.54,150.15,units,China
+INV_00000380,2024-03-01,BUY_005599,NVIDIA Corporation,SUP_000040,Asian Steel Corp,Energy,13149.4,1314.94,units,Japan
+INV_00000381,2023-09-11,BUY_002759,Intel Corporation,SUP_000007,Global Steel,Energy,12544.01,1254.4,units,India
+INV_00000382,2024-06-24,BUY_005133,Microsoft Corporation,SUP_000010,LyondellBasell,Chemicals,2051.67,20.52,tonnes,USA
+INV_00000383,2023-03-05,BUY_006268,Samsung Electronics,SUP_000015,BP,Energy,16346.75,1634.67,units,Germany
+INV_00000384,2023-06-18,BUY_005133,Microsoft Corporation,SUP_000034,Asian Textiles Corp,Chemicals,6910.04,69.1,tonnes,Germany
+INV_00000385,2024-11-27,BUY_005133,Microsoft Corporation,SUP_000038,North Electronics Ltd,Steel,15121.89,151.22,tonnes,China
+INV_00000386,2024-06-06,BUY_006268,Samsung Electronics,SUP_000036,Global Chemicals Industries,Textiles,2950.61,295.06,units,China
+INV_00000387,2024-06-09,BUY_002759,Intel Corporation,SUP_000002,SK Hynix,Textiles,4578.73,457.87,units,India
+INV_00000388,2024-11-19,BUY_000316,H&M Group,SUP_000028,North_Electronics_Inc,Chemicals,10417.22,104.17,tonnes,Vietnam
+INV_00000389,2023-01-04,BUY_002443,Google/Alphabet,SUP_000002,SK Hynix,Steel,7269.29,72.69,tonnes,India
+INV_00000390,2023-12-19,BUY_005133,Microsoft Corporation,SUP_000002,SK Hynix,Electronics,3123.09,312.31,units,India
+INV_00000391,2024-04-28,BUY_006268,Samsung Electronics,SUP_000004,ArcelorMittal,Electronics,4263.48,426.35,units,India
+INV_00000392,2024-10-18,BUY_002759,Intel Corporation,SUP_000007,GS,Textiles,802.97,80.3,units,India
+INV_00000393,2024-01-22,BUY_006268,Samsung Electronics,SUP_000009,DC,Textiles,3678.2,367.82,units,China
+INV_00000394,2024-10-31,BUY_002443,Google/Alphabet,SUP_000009,DC,Chemicals,9692.19,96.92,tonnes,China
+INV_00000395,2024-06-25,BUY_001671,Apple Inc,SUP_000017,Saudi Aramco,Steel,10629.46,106.29,tonnes,China
+INV_00000396,2023-01-24,BUY_002443,Google/Alphabet,SUP_000009,DC,Chemicals,1830.78,18.31,tonnes,China
+INV_00000397,2024-06-28,BUY_002759,Intel Corporation,SUP_000018,SEC,Textiles,4225.88,422.59,units,China
+INV_00000398,2023-12-21,BUY_001671,Apple Inc,SUP_000002,SH,Steel,15004.39,150.04,tonnes,Vietnam
+INV_00000399,2024-11-07,BUY_005599,NVIDIA Corporation,SUP_000002,SK_Hynix,Textiles,6702.28,670.23,units,Germany
+INV_00000400,2023-07-31,BUY_002759,Intel Corporation,SUP_000002,SK Hynix,Electronics,1494.19,149.42,units,India
+INV_00000401,2024-09-04,BUY_002443,Google/Alphabet,SUP_000002,SK Hynix,Electronics,3136.03,313.6,units,India
+INV_00000402,2024-03-25,BUY_006268,Samsung Electronics,SUP_000002,SK Hynix,Steel,10142.7,101.43,tonnes,India
+INV_00000403,2024-05-30,BUY_003452,Tesla Inc,SUP_000010,LyondellBasell,Chemicals,9769.13,97.69,tonnes,USA
+INV_00000404,2024-08-14,BUY_005599,NVIDIA Corporation,SUP_000022,Global_Textiles_Industries,Energy,22631.28,2263.13,units,USA
+INV_00000405,2023-11-06,BUY_005599,NVIDIA Corporation,SUP_000039,Global_Steel_Manufacturing,Steel,17389.68,173.9,tonnes,China
+INV_00000406,2024-02-28,BUY_006268,Samsung Electronics,SUP_000009,DC,Chemicals,2878.28,28.78,tonnes,China
+INV_00000407,2024-10-03,BUY_003452,Tesla Inc,SUP_000002,SK Hynix,Textiles,2194.31,219.43,units,India
+INV_00000408,2024-10-20,BUY_002443,Google/Alphabet,SUP_000022,Global Textiles Industries,Textiles,2671.57,267.16,units,China
+INV_00000409,2024-02-23,BUY_002759,Intel Corporation,SUP_000004,ArcelorMittal,Steel,9884.36,98.84,tonnes,India
+INV_00000410,2023-09-04,BUY_002759,Intel Corporation,SUP_000003,Micron Tech,Steel,24496.66,244.97,tonnes,USA
+INV_00000411,2023-03-01,BUY_006268,Samsung Electronics,SUP_000008,BASF,Energy,7922.06,792.21,units,China
+INV_00000412,2024-02-02,BUY_005133,Microsoft Corporation,SUP_000007,Global Steel,Steel,4122.8,41.23,tonnes,India
+INV_00000413,2024-04-05,BUY_001671,Apple Inc,SUP_000004,ArcelorMittal Vietnam,Chemicals,8993.1,89.93,tonnes,Vietnam
+INV_00000414,2023-10-02,BUY_001671,Apple Inc,SUP_000044,Euro Chemicals Manufacturing,Textiles,2938.72,293.87,units,China
+INV_00000415,2023-03-16,BUY_005599,NVIDIA Corporation,SUP_000043,Euro Chemicals Inc,Steel,8105.45,81.05,tonnes,Vietnam
+INV_00000416,2024-05-05,BUY_000316,H&M Group,SUP_000022,GTI,Steel,18204.61,182.05,tonnes,China
+INV_00000417,2023-01-16,BUY_002759,Intel Corporation,SUP_000009,Dow Chemical,Steel,14955.24,149.55,tonnes,USA
+INV_00000418,2023-09-06,BUY_005599,NVIDIA Corporation,SUP_000028,North_Electronics_Inc,Energy,25902.25,2590.23,units,Vietnam
+INV_00000419,2024-07-19,BUY_002759,Intel Corporation,SUP_000027,Pacific Textiles Ltd,Chemicals,6767.11,67.67,tonnes,India
+INV_00000420,2024-06-30,BUY_002759,Intel Corporation,SUP_000007,Global_Steel,Chemicals,11913.08,119.13,tonnes,Vietnam
+INV_00000421,2024-04-22,BUY_003452,Tesla Inc,SUP_000037,South Chemicals Industries,Electronics,8893.66,889.37,units,Japan
+INV_00000422,2023-07-28,BUY_005599,NVIDIA Corporation,SUP_000002,SK Hynix,Chemicals,5983.81,59.84,tonnes,India
+INV_00000423,2023-05-30,BUY_002443,Google/Alphabet,SUP_000010,LyondellBasell,Electronics,8331.77,833.18,units,USA
+INV_00000424,2023-10-30,BUY_002443,Google/Alphabet,SUP_000005,POSCO,Steel,15310.58,153.11,tonnes,China
+INV_00000425,2024-08-06,BUY_000316,H&M Group,SUP_000007,Global Steel,Steel,18839.72,188.4,tonnes,India
+INV_00000426,2024-05-15,BUY_006268,Samsung Electronics,SUP_000007,Global_Steel,Textiles,1242.09,124.21,units,Vietnam
+INV_00000427,2023-05-24,BUY_001671,Apple Inc,SUP_000009,DC,Energy,20390.73,2039.07,units,China
+INV_00000428,2024-06-20,BUY_001671,Apple Inc,SUP_000006,Nippon Steel,Electronics,5978.15,597.82,units,China
+INV_00000429,2023-01-07,BUY_005133,Microsoft Corporation,SUP_000005,POSCO,Textiles,231.61,23.16,units,China
+INV_00000430,2024-12-25,BUY_002759,Intel Corporation,SUP_000009,Dow_Chemical,Steel,9447.06,94.47,tonnes,China
+INV_00000431,2024-01-18,BUY_002759,Intel Corporation,SUP_000050,Asian Chemicals Group,Electronics,884.67,88.47,units,USA
+INV_00000432,2024-11-06,BUY_002443,Google/Alphabet,SUP_000009,DC,Textiles,2492.05,249.21,units,China
+INV_00000433,2023-01-13,BUY_000316,H&M Group,SUP_000005,POSCO India,Electronics,3861.05,386.11,units,India
+INV_00000434,2023-01-18,BUY_002443,Google/Alphabet,SUP_000050,Asian_Chemicals_Group,Energy,20492.07,2049.21,units,Vietnam
+INV_00000435,2023-07-03,BUY_006268,Samsung Electronics,SUP_000039,GSM,Electronics,4530.41,453.04,units,Vietnam
+INV_00000436,2023-09-04,BUY_003452,Tesla Inc,SUP_000019,South Steel Inc,Steel,28003.12,280.03,tonnes,Japan
+INV_00000437,2023-10-01,BUY_002759,Intel Corporation,SUP_000007,GS,Textiles,732.26,73.23,units,India
+INV_00000438,2024-08-01,BUY_000316,H&M Group,SUP_000017,Saudi Aramco,Steel,5964.44,59.64,tonnes,China
+INV_00000439,2024-12-01,BUY_001671,Apple Inc,SUP_000049,Global Electronics Ltd,Electronics,7308.91,730.89,units,Germany
+INV_00000440,2023-04-06,BUY_002759,Intel Corporation,SUP_000009,DC,Textiles,2717.83,271.78,units,China
+INV_00000441,2023-02-27,BUY_002759,Intel Corporation,SUP_000007,Global Steel,Electronics,2775.72,277.57,units,India
+INV_00000442,2024-03-20,BUY_001671,Apple Inc,SUP_000002,SH,Chemicals,1294.33,12.94,tonnes,Vietnam
+INV_00000443,2023-08-24,BUY_002759,Intel Corporation,SUP_000041,Global_Chemicals_Group,Steel,13390.05,133.9,tonnes,China
+INV_00000444,2023-10-05,BUY_000316,H&M Group,SUP_000050,ACG,Electronics,2761.68,276.17,units,Japan
+INV_00000445,2024-07-10,BUY_003452,Tesla Inc,SUP_000013,DyStar,Energy,33471.74,3347.17,units,USA
+INV_00000446,2023-01-17,BUY_005133,Microsoft Corporation,SUP_000007,GS,Steel,10099.79,101.0,tonnes,India
+INV_00000447,2023-11-03,BUY_002443,Google/Alphabet,SUP_000010,LyondellBasell,Steel,14832.87,148.33,tonnes,USA
+INV_00000448,2024-11-24,BUY_005133,Microsoft Corporation,SUP_000003,Micron Tech,Energy,22880.25,2288.03,units,USA
+INV_00000449,2024-05-27,BUY_005599,NVIDIA Corporation,SUP_000008,BASF,Chemicals,3857.89,38.58,tonnes,China
+INV_00000450,2023-03-19,BUY_002443,Google/Alphabet,SUP_000045,South Electronics Manufacturing,Chemicals,5624.61,56.25,tonnes,China
+INV_00000451,2023-12-01,BUY_002759,Intel Corporation,SUP_000035,North Textiles Corp,Electronics,7186.7,718.67,units,China
+INV_00000452,2023-08-22,BUY_002443,Google/Alphabet,SUP_000007,GS,Chemicals,4349.43,43.49,tonnes,India
+INV_00000453,2023-07-10,BUY_000316,H&M Group,SUP_000007,Global Steel,Energy,19826.71,1982.67,units,India
+INV_00000454,2023-09-10,BUY_002443,Google/Alphabet,SUP_000003,Micron Tech,Electronics,5200.12,520.01,units,USA
+INV_00000455,2024-12-29,BUY_003452,Tesla Inc,SUP_000022,Global Textiles Industries,Steel,11477.06,114.77,tonnes,China
+INV_00000456,2023-04-20,BUY_002759,Intel Corporation,SUP_000006,Nippon Steel,Electronics,3637.31,363.73,units,China
+INV_00000457,2024-01-04,BUY_006268,Samsung Electronics,SUP_000002,SK_Hynix,Chemicals,4502.73,45.03,tonnes,Germany
+INV_00000458,2024-03-17,BUY_002443,Google/Alphabet,SUP_000009,Dow_Chemical,Textiles,1562.06,156.21,units,China
+INV_00000459,2023-04-16,BUY_005133,Microsoft Corporation,SUP_000009,DC,Electronics,1979.23,197.92,units,China
+INV_00000460,2024-09-03,BUY_001671,Apple Inc,SUP_000028,North Electronics Inc,Energy,47147.5,4714.75,units,USA
+INV_00000461,2023-10-26,BUY_005599,NVIDIA Corporation,SUP_000002,SK_Hynix,Textiles,3686.37,368.64,units,Germany
+INV_00000462,2024-08-08,BUY_006268,Samsung Electronics,SUP_000007,GS,Energy,12421.89,1242.19,units,India
+INV_00000463,2023-05-23,BUY_006268,Samsung Electronics,SUP_000009,Dow Chemical,Chemicals,10370.33,103.7,tonnes,USA
+INV_00000464,2023-03-06,BUY_000316,H&M Group,SUP_000008,BASF,Steel,10395.62,103.96,tonnes,China
+INV_00000465,2024-05-10,BUY_002759,Intel Corporation,SUP_000005,POSCO,Electronics,3646.45,364.64,units,China
+INV_00000466,2024-08-31,BUY_006268,Samsung Electronics,SUP_000002,SH,Energy,22920.27,2292.03,units,Vietnam
+INV_00000467,2023-11-08,BUY_002443,Google/Alphabet,SUP_000022,GTI,Electronics,6254.41,625.44,units,China
+INV_00000468,2023-12-04,BUY_006268,Samsung Electronics,SUP_000011,Huntsman,Textiles,3438.63,343.86,units,USA
+INV_00000469,2023-11-04,BUY_002759,Intel Corporation,SUP_000015,BP,Chemicals,8656.11,86.56,tonnes,Germany
+INV_00000470,2023-11-18,BUY_000316,H&M Group,SUP_000022,Global Textiles Industries,Steel,13079.75,130.8,tonnes,China
+INV_00000471,2024-12-12,BUY_003452,Tesla Inc,SUP_000018,SEC,Textiles,104.0,10.4,units,China
+INV_00000472,2024-01-21,BUY_003452,Tesla Inc,SUP_000028,North_Electronics_Inc,Chemicals,2210.83,22.11,tonnes,Vietnam
+INV_00000473,2023-04-27,BUY_006268,Samsung Electronics,SUP_000009,DC,Energy,23510.6,2351.06,units,China
+INV_00000474,2024-11-29,BUY_005599,NVIDIA Corporation,SUP_000008,BASF Germany,Energy,47750.03,4775.0,units,USA
+INV_00000475,2024-03-24,BUY_002443,Google/Alphabet,SUP_000005,POSCO India,Chemicals,4895.7,48.96,tonnes,India
+INV_00000476,2024-11-20,BUY_005599,NVIDIA Corporation,SUP_000006,Nippon Steel,Textiles,3710.24,371.02,units,China
+INV_00000477,2023-09-16,BUY_005133,Microsoft Corporation,SUP_000027,Pacific Textiles Ltd,Steel,13658.91,136.59,tonnes,India
+INV_00000478,2024-04-04,BUY_002443,Google/Alphabet,SUP_000007,GS,Energy,31799.62,3179.96,units,India
+INV_00000479,2024-07-10,BUY_005133,Microsoft Corporation,SUP_000026,Euro Energy Manufacturing,Electronics,9157.52,915.75,units,Germany
+INV_00000480,2023-04-22,BUY_006268,Samsung Electronics,SUP_000025,North Energy Corp,Steel,10913.91,109.14,tonnes,Vietnam
+INV_00000481,2024-10-24,BUY_003452,Tesla Inc,SUP_000007,GS,Energy,9730.1,973.01,units,India
+INV_00000482,2024-03-16,BUY_005599,NVIDIA Corporation,SUP_000005,POSCO India,Electronics,1206.3,120.63,units,India
+INV_00000483,2024-06-06,BUY_005599,NVIDIA Corporation,SUP_000010,LyondellBasell,Energy,27250.91,2725.09,units,USA
+INV_00000484,2024-04-01,BUY_006268,Samsung Electronics,SUP_000010,LyondellBasell,Chemicals,6533.28,65.33,tonnes,USA
+INV_00000485,2023-12-20,BUY_002443,Google/Alphabet,SUP_000006,Nippon Steel,Electronics,2241.71,224.17,units,China
+INV_00000486,2023-03-29,BUY_003452,Tesla Inc,SUP_000010,LyondellBasell,Electronics,4003.4,400.34,units,USA
+INV_00000487,2023-11-16,BUY_002759,Intel Corporation,SUP_000004,ArcelorMittal Vietnam,Chemicals,4565.14,45.65,tonnes,Vietnam
+INV_00000488,2023-12-23,BUY_003452,Tesla Inc,SUP_000008,BASF Germany,Textiles,8627.91,862.79,units,USA
+INV_00000489,2023-03-10,BUY_001671,Apple Inc,SUP_000002,SH,Chemicals,7664.34,76.64,tonnes,Vietnam
+INV_00000490,2023-12-18,BUY_005599,NVIDIA Corporation,SUP_000012,Archroma,Electronics,5183.42,518.34,units,Vietnam
+INV_00000491,2024-06-12,BUY_002443,Google/Alphabet,SUP_000007,Global Steel,Steel,17639.78,176.4,tonnes,India
+INV_00000492,2024-04-18,BUY_006268,Samsung Electronics,SUP_000046,North Steel Manufacturing,Steel,16079.25,160.79,tonnes,Japan
+INV_00000493,2023-07-10,BUY_005599,NVIDIA Corporation,SUP_000011,Huntsman,Textiles,2254.66,225.47,units,USA
+INV_00000494,2024-04-05,BUY_005599,NVIDIA Corporation,SUP_000001,Taiwan Semiconductor,Energy,24460.59,2446.06,units,Vietnam
+INV_00000495,2023-07-30,BUY_005133,Microsoft Corporation,SUP_000005,POSCO India,Chemicals,7933.8,79.34,tonnes,India
+INV_00000496,2024-07-03,BUY_002759,Intel Corporation,SUP_000004,ArcelorMittal Vietnam,Steel,8636.12,86.36,tonnes,Vietnam
+INV_00000497,2023-04-27,BUY_003452,Tesla Inc,SUP_000038,North Electronics Ltd,Chemicals,5646.03,56.46,tonnes,China
+INV_00000498,2024-09-03,BUY_005133,Microsoft Corporation,SUP_000043,Euro Chemicals Inc,Textiles,1484.18,148.42,units,Vietnam
+INV_00000499,2023-12-23,BUY_006268,Samsung Electronics,SUP_000045,South_Electronics_Manufacturing,Chemicals,4005.66,40.06,tonnes,China

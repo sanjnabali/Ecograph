@@ -36,7 +36,7 @@ import time
 from pathlib import Path
 from typing import Any, Optional
 
-import google.generativeai as genai
+import google.genai as genai
 
 from ecograph.config import settings
 from ecograph.graph.schema import NodeLabel, RelationshipType
@@ -119,8 +119,8 @@ class ESGPDFParser(BaseIngestor):
                 "or pass api_key= to ESGPDFParser()."
             )
 
-        genai.configure(api_key=api_key)
-        self._model = genai.GenerativeModel(model or settings.GEMINI_MODEL)
+        self._client = genai.Client(api_key=api_key)
+        self._model = model or settings.GEMINI_MODEL
         self._chunk_size    = chunk_size    or settings.PDF_CHUNK_SIZE
         self._chunk_overlap = chunk_overlap or settings.PDF_CHUNK_OVERLAP
         self._min_confidence = (
@@ -346,16 +346,19 @@ class ESGPDFParser(BaseIngestor):
         Implements exponential back-off retry for quota errors (429).
         Returns a list of raw triple dicts, or raises on unrecoverable error.
         """
-        prompt = _EXTRACTION_PROMPT.format(chunk=chunk)
+        # Use simple replace to avoid KeyError when the chunk contains
+        # braces `{}` which would be interpreted by str.format().
+        prompt = _EXTRACTION_PROMPT.replace("{chunk}", chunk)
         last_exc: Optional[Exception] = None
 
         for attempt in range(1, settings.MAX_RETRIES + 1):
             try:
-                response = self._model.generate_content(
+                chat = self._client.chats.create(model=self._model)
+                response = chat.send_message(
                     prompt,
-                    generation_config=genai.types.GenerationConfig(
+                    config=genai.types.GenerateContentConfig(
                         temperature=0.0,              # deterministic extraction
-                        max_output_tokens=settings.GEMINI_MAX_TOKENS,
+                        maxOutputTokens=settings.GEMINI_MAX_TOKENS,
                     ),
                 )
                 time.sleep(settings.RATE_LIMIT_DELAY)
@@ -414,11 +417,47 @@ class ESGPDFParser(BaseIngestor):
         try:
             data = json.loads(text)
         except json.JSONDecodeError as exc:
-            raise ValueError(
-                f"Gemini response is not valid JSON "
-                f"(chunk {chunk_idx}): {exc}. "
-                f"Response (first 200 chars): {text[:200]}"
-            ) from exc
+            # Attempt several fallbacks for common LLM JSON formatting issues.
+            # 1) Extract content between outermost brackets if present.
+            try:
+                first_br = text.find("[")
+                last_br = text.rfind("]")
+                if first_br != -1 and last_br != -1 and last_br > first_br:
+                    candidate = text[first_br:last_br+1]
+                    data = json.loads(candidate)
+                else:
+                    raise
+            except Exception:
+                # 2) Try to aggregate top-level JSON objects if the model
+                # returned a sequence of objects without an array wrapper.
+                try:
+                    objs = re.findall(r"\{.*?\}", text, flags=re.DOTALL)
+                    if objs:
+                        candidate = "[" + ",".join(objs) + "]"
+                        data = json.loads(candidate)
+                    else:
+                        raise
+                except Exception:
+                    # 3) As a last resort, try converting single quotes to
+                    # double quotes (dangerous but sometimes necessary) and
+                    # normalise common JS null/true/false to JSON.
+                    try:
+                        t2 = text.replace("\'", '"')
+                        t2 = t2.replace("None", "null").replace("True", "true").replace("False", "false")
+                        data = json.loads(t2)
+                    except Exception as exc2:
+                        # Dump the raw response to a debug file for offline inspection
+                        try:
+                            dbg_dir = Path.cwd() / "logs" / "genai_debug"
+                            dbg_dir.mkdir(parents=True, exist_ok=True)
+                            dbg_file = dbg_dir / f"response_chunk_{chunk_idx}.txt"
+                            dbg_file.write_text(text, encoding="utf-8")
+                        except Exception:
+                            pass
+                        raise ValueError(
+                            f"Gemini response is not valid JSON (chunk {chunk_idx}): {exc2}. "
+                            f"Response (first 400 chars): {text[:400]}"
+                        ) from exc2
 
         if not isinstance(data, list):
             raise ValueError(
