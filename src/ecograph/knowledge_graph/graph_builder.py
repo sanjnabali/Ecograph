@@ -19,39 +19,9 @@ from datetime import datetime, timezone
 import json
 
 from neo4j import Driver, ManagedTransaction, Result
+from ecograph.knowledge_graph.schema import KG_SCHEMA
 
 logger = logging.getLogger(__name__)
-
-
-@dataclass
-class GraphSchema:
-    """Neo4j graph schema definition."""
-
-    # Node constraints (uniqueness)
-    CONSTRAINTS = [
-        "CREATE CONSTRAINT unique_company_id IF NOT EXISTS FOR (c:Company) REQUIRE c.entity_id IS UNIQUE",
-        "CREATE CONSTRAINT unique_supplier_id IF NOT EXISTS FOR (s:Supplier) REQUIRE s.entity_id IS UNIQUE",
-        "CREATE CONSTRAINT unique_facility_id IF NOT EXISTS FOR (f:Facility) REQUIRE f.entity_id IS UNIQUE",
-        "CREATE CONSTRAINT unique_region_name IF NOT EXISTS FOR (r:Region) REQUIRE r.name IS UNIQUE",
-        "CREATE CONSTRAINT unique_scope_name IF NOT EXISTS FOR (s:Scope) REQUIRE s.name IS UNIQUE",
-        "CREATE CONSTRAINT unique_observation_id IF NOT EXISTS FOR (o:Observation) REQUIRE o.observation_id IS UNIQUE",
-    ]
-
-    # Indexes (performance)
-    INDEXES = [
-        "CREATE INDEX idx_company_name IF NOT EXISTS FOR (c:Company) ON (c.name)",
-        "CREATE INDEX idx_supplier_name IF NOT EXISTS FOR (s:Supplier) ON (s.name)",
-        "CREATE INDEX idx_supplier_country IF NOT EXISTS FOR (s:Supplier) ON (s.country)",
-        "CREATE INDEX idx_facility_name IF NOT EXISTS FOR (f:Facility) ON (f.name)",
-        "CREATE INDEX idx_emission_value IF NOT EXISTS FOR (e:EmissionMetric) ON (e.value)",
-        "CREATE INDEX idx_observation_timestamp IF NOT EXISTS FOR (o:Observation) ON (o.timestamp)",
-    ]
-
-    # Full-text search indexes
-    FULLTEXT_INDEXES = [
-        'CREATE FULLTEXT INDEX company_fulltext IF NOT EXISTS FOR (c:Company) ON EACH [c.name, c.country, c.sector]',
-        'CREATE FULLTEXT INDEX supplier_fulltext IF NOT EXISTS FOR (s:Supplier) ON EACH [s.name, s.country]',
-    ]
 
 
 class GraphBuilder:
@@ -74,7 +44,6 @@ class GraphBuilder:
             driver: Neo4j driver instance
         """
         self.driver = driver
-        self.schema = GraphSchema()
         self.write_stats = {
             "nodes_created": 0,
             "edges_created": 0,
@@ -98,7 +67,7 @@ class GraphBuilder:
 
         with self.driver.session() as session:
             # Apply constraints
-            for constraint_cypher in self.schema.CONSTRAINTS:
+            for constraint_cypher in self.KG_SCHEMA.get_constraints():
                 try:
                     session.run(constraint_cypher)
                     stats["constraints_created"] += 1
@@ -108,7 +77,7 @@ class GraphBuilder:
                     logger.debug(f"Constraint already exists or error: {exc}")
 
             # Apply indexes
-            for index_cypher in self.schema.INDEXES:
+            for index_cypher in self.KG_SCHEMA.get_indexes():
                 try:
                     session.run(index_cypher)
                     stats["indexes_created"] += 1
@@ -117,7 +86,7 @@ class GraphBuilder:
                     logger.debug(f"Index already exists or error: {exc}")
 
             # Apply full-text indexes
-            for ft_cypher in self.schema.FULLTEXT_INDEXES:
+            for ft_cypher in self.KG_SCHEMA.get_fulltext_indexes():
                 try:
                     session.run(ft_cypher)
                     stats["fulltext_indexes_created"] += 1

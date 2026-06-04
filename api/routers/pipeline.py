@@ -1,9 +1,9 @@
 """
 api/routers/pipeline.py - Pipeline trigger and status endpoints.
 
-POST /api/pipeline/run         - trigger a full or partial pipeline run (background)
-GET  /api/pipeline/status      - current run status
-GET  /api/pipeline/last-result - result of the most recent completed run
+POST /api/pipeline/run          - trigger a full or partial pipeline run (background)
+GET  /api/pipeline/status       - current run status
+GET  /api/pipeline/last-result  - result of the most recent completed run
 
 The pipeline runs in a background thread so the HTTP response returns
 immediately. Status polling keeps the frontend in sync.
@@ -31,26 +31,26 @@ logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/pipeline", tags=["Pipeline"])
 
 # -----------------------------------------------------------------------------
-# In-memory run state  (single-process; sufficient for this app)
+# In-memory run state (single-process; sufficient for this app)
 # -----------------------------------------------------------------------------
 
 class RunStatus(str, Enum):
-    IDLE      = "idle"
-    RUNNING   = "running"
-    SUCCEEDED = "succeeded"
-    FAILED    = "failed"
+    IDLE       = "idle"
+    RUNNING    = "running"
+    SUCCEEDED  = "succeeded"
+    FAILED     = "failed"
 
 class _RunState:
     """Thread-safe run state container."""
 
     def __init__(self):
-        self._lock    = threading.Lock()
-        self.status   : RunStatus      = RunStatus.IDLE
-        self.stage    : str            = ""
-        self.started  : Optional[str]  = None
-        self.finished : Optional[str]  = None
-        self.result   : Dict[str, Any] = {}
-        self.errors   : List[str]      = []
+        self._lock     = threading.Lock()
+        self.status    : RunStatus   = RunStatus.IDLE
+        self.stage     : str         = ""
+        self.started   : Optional[str] = None
+        self.finished  : Optional[str] = None
+        self.result    : Dict[str, Any] = {}
+        self.errors    : List[str]   = []
 
     def start(self, stages: List[str]) -> None:
         with self._lock:
@@ -88,16 +88,12 @@ class _RunState:
 
 _state = _RunState()
 
-# -----------------------------------------------------------------------------
-# Request / Response models
-# -----------------------------------------------------------------------------
-
 class PipelineRunRequest(BaseModel):
-    skip_extract:  bool = False
-    skip_neo4j:    bool = False
-    skip_erp:      bool = False
-    skip_geo:      bool = False
-    skip_resolve:  bool = False
+    skip_extract: bool = False
+    skip_neo4j:   bool = False
+    skip_erp:     bool = False
+    skip_geo:     bool = False
+    skip_resolve: bool = False
 
 class PipelineStatusResponse(BaseModel):
     status:   RunStatus
@@ -125,8 +121,8 @@ def _run_pipeline_background(
     Runs the full pipeline in a background thread.
     Updates _state so the /status endpoint stays live.
     """
-    errors: List[str]   = []    # fatal - marks run as FAILED
-    warnings: List[str] = []    # non-fatal - run still SUCCEEDED
+    errors: List[str] = []   # fatal - marks run as FAILED
+    warnings: List[str] = [] # non-fatal - run still SUCCEEDED
     result: Dict[str, Any] = {}
 
     # --- Stage 1: LLM Extraction ---
@@ -138,7 +134,7 @@ def _run_pipeline_background(
             extractor.process_all_documents()
             logger.info("Pipeline: extraction stage complete.")
         except ValueError as exc:
-            # Missing API key - abort immediately
+            # Missing API key - abort immediataly
             errors.append(f"Extraction failed (missing API key): {exc}")
             _state.finish(result, errors, warnings)
             return
@@ -182,14 +178,14 @@ def _run_pipeline_background(
             logger.info(f"Pipeline: ERP stage complete - {erp_stats}")
         except Exception as exc:
             warnings.append(f"ERP load non-fatal: {exc}")
-            logger.warning(f"Pipeline ERP error: {exc}")
+            logger.warning(f"Pipeline ERP error (non-fatal): {exc}")
 
     # --- Stage 5: Geo Enrichment ---
     if not request.skip_geo:
         _state.set_stage("geo_enrichment")
         try:
             from src.ingestion.geo_loader import enrich_regions, enrich_facilities
-            region_stats   = enrich_regions(driver)
+            region_stats = enrich_regions(driver)
             facility_stats = enrich_facilities(driver)
             result["geo"] = {"regions": region_stats, "facilities": facility_stats}
             logger.info(f"Pipeline: geo stage complete - {result['geo']}")
@@ -220,32 +216,32 @@ def _run_pipeline_background(
 )
 def trigger_run(
     payload: PipelineRunRequest = PipelineRunRequest(),
-    driver:  Driver             = Depends(get_driver),
+    driver: Driver = Depends(get_driver),
 ) -> PipelineStatusResponse:
     # Guard: only one run at a time
     if _state.status == RunStatus.RUNNING:
         raise HTTPException(
             status_code=409,
             detail={
-                "error":   "run_in_progress",
+                "error": "run_in_progress",
                 "message": "A pipeline run is already in progress. Poll /status to track it.",
-                "stage":   _state.stage,
-            },
+                "stage": _state.stage,
+            }
         )
 
     # Determine which stages will run
     stages = []
-    if not payload.skip_extract:  stages.append("extraction")
-    if not payload.skip_neo4j:    stages.append("neo4j_load")
-    if not payload.skip_resolve:  stages.append("resolution")
-    if not payload.skip_erp:      stages.append("erp_load")
-    if not payload.skip_geo:      stages.append("geo_enrichment")
+    if not payload.skip_extract: stages.append("extraction")
+    if not payload.skip_neo4j:   stages.append("neo4j_load")
+    if not payload.skip_resolve: stages.append("resolution")
+    if not payload.skip_erp:     stages.append("erp_load")
+    if not payload.skip_geo:     stages.append("geo_enrichment")
 
     if not stages:
         raise HTTPException(
             status_code=400,
             detail={
-                "error":   "nothing_to_run",
+                "error": "nothing_to_run",
                 "message": "All stages are skipped. Enable at least one stage.",
             },
         )
@@ -283,9 +279,9 @@ def get_last_result() -> PipelineResultResponse:
         raise HTTPException(
             status_code=409,
             detail={
-                "error":   "run_in_progress",
+                "error": "run_in_progress",
                 "message": "Run is still in progress.",
-                "stage":   state["stage"],
+                "stage": state["stage"],
             },
         )
     return PipelineResultResponse(**state)

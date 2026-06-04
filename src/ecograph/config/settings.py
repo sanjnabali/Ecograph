@@ -140,16 +140,19 @@ NEO4J_MAX_POOL:     int = _int("NEO4J_MAX_POOL", 50)
 # Gemini / LLM
 # ---------------------------------------------------------------------------
 
-GEMINI_API_KEY:       str   = _str("GEMINI_API_KEY")
-GEMINI_MODEL:         str   = _str("GEMINI_MODEL", "gemini-1.5-flash")
-GEMINI_TEMPERATURE:   float = _float("GEMINI_TEMPERATURE", 0.1)
-GEMINI_MAX_TOKENS:    int   = _int("GEMINI_MAX_TOKENS", 2048)
+GROQ_API_KEY:       str   = _str("GROQ_API_KEY")
+GROQ_MODEL:         str   = _str("GROQ_MODEL", "llama3.3-70B-versatile")
+GROQ_TEMPERATURE:   float = _float("GROQ_TEMPERATURE", 0.1)
+GROQ_MAX_TOKENS:    int   = _int("GROQ_MAX_TOKENS", 2048)
 
 # Free-tier rate limiting: 15 RPM / 1500 RPD
 # RATE_LIMIT_DELAY is the minimum inter-request sleep in seconds.
-RATE_LIMIT_DELAY: float = _float("RATE_LIMIT_DELAY", 4.0)
-MAX_RETRIES:      int   = _int("MAX_RETRIES", 3)
-RETRY_BACKOFF:    int   = _int("RETRY_BACKOFF", 2)   # seconds; doubles per attempt
+RATE_LIMIT_DELAY: float = _float("RATE_LIMIT_DELAY", 3.0)
+MAX_RETRIES:      int   = _int("MAX_RETRIES", 4)
+RETRY_BACKOFF:    int   = _int("RETRY_BACKOFF", 5)   # seconds; doubles per attempt
+GROQ_TOKENS_PER_MINUTE: int = _int("GROQ_TOKENS_PER_MINUTE", 6000)  # for rate limiting
+GROQ_REQUESTS_PER_MINUTE: int = _int("GROQ_REQUESTS_PER_MINUTE", 30)  # for rate limiting
+GROQ_REQUESTS_PER_DAY: int = _int("GROQ_REQUESTS_PER_DAY", 14400)  # for rate limiting
 
 
 # ---------------------------------------------------------------------------
@@ -291,7 +294,7 @@ def validate() -> None:
         one per run so the developer fixes them all in one pass.
     """
     required: list[tuple[str, str]] = [
-        ("GEMINI_API_KEY", GEMINI_API_KEY),
+        ("GROQ_API_KEY", GROQ_API_KEY),
         ("NEO4J_URI",      NEO4J_URI),
         ("NEO4J_PASSWORD", NEO4J_PASSWORD),
     ]

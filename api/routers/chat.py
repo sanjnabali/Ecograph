@@ -1,8 +1,8 @@
 """
 api/routers/chat.py - AI Chat endpoint (Gemini + graph context).
 
-POST /api/chat/message      - send a message, get a graph-aware AI response
-GET  /api/chat/suggestions  - pre-built example questions for the UI
+POST /api/chat/message       - send a message, get a graph-aware AI response
+GET /api/chat/suggestions    - pre-built example questions for the UI
 
 How it works:
 1. Receive user question
@@ -68,13 +68,13 @@ class Suggestion(BaseModel):
 
 _SUGGESTIONS = [
     Suggestion(question="Which companies have the highest Scope 3 emissions?", category="Emissions"),
-    Suggestion(question="What are the net-zero targets in the graph?",       category="Targets"),
-    Suggestion(question="List all Tier 1 suppliers and their regions.",      category="Supply Chain"),
-    Suggestion(question="Which companies report under GRI standards?",       category="Governance"),
-    Suggestion(question="What Scope 3 categories are most common?",          category="Emissions"),
-    Suggestion(question="Which suppliers have the highest annual spend?",    category="Supply Chain"),
-    Suggestion(question="Are there any companies with reduction targets?",   category="Targets"),
-    Suggestion(question="Show me facilities and where they are located.",    category="Locations"),
+    Suggestion(question="What are the net-zero targets in the graph?", category="Targets"),
+    Suggestion(question="List all Tier 1 suppliers and their regions.", category="Supply Chain"),
+    Suggestion(question="Which companies report under GRI standards?", category="Governance"),
+    Suggestion(question="What Scope 3 categories are most common?", category="Emissions"),
+    Suggestion(question="Which suppliers have the highest annual spend?", category="Supply Chain"),
+    Suggestion(question="Are there any companies with reduction targets?", category="Targets"),
+    Suggestion(question="Show me facilities and where they are located.", category="Locations"),
 ]
 
 def _fetch_graph_context(driver: Driver, question: str) -> tuple[str, List[str]]:
@@ -92,29 +92,29 @@ def _fetch_graph_context(driver: Driver, question: str) -> tuple[str, List[str]]
     candidate_names = [t.strip() for t in tokens if len(t.strip()) > 2]
 
     context_parts: List[str] = []
-    mentioned:     List[str] = []
+    mentioned: List[str] = []
 
     with driver.session() as session:
         # --- Company-specific context ---
         if candidate_names:
             company_cypher = """
-                UNWIND $names AS keyword
-                MATCH (c:Company)
-                WHERE toLower(c.name) CONTAINS toLower(keyword)
-                OPTIONAL MATCH (c)-[:REPORTS_EMISSION]->(e:EmissionMetric)
-                OPTIONAL MATCH (e)-[:MEASURED_IN_YEAR]->(y:Year)
-                OPTIONAL MATCH (e)-[:FALLS_UNDER_SCOPE]->(s:Scope)
-                OPTIONAL MATCH (c)-[:COMMITS_TO_NET_ZERO]->(ty:Year)
-                OPTIONAL MATCH (c)-[:HAS_SUPPLIER]->(sup:Company)
-                RETURN DISTINCT
-                    c.name       AS company,
-                    e.value      AS emission,
-                    COALESCE(e.unit, 'tCO2e') AS unit,
-                    y.value      AS year,
-                    s.name       AS scope,
-                    ty.value     AS net_zero_year,
-                    sup.name     AS supplier
-                LIMIT 20
+            UNWIND $names AS keyword
+            MATCH (c:Company)
+            WHERE toLower(c.name) CONTAINS toLower(keyword)
+            OPTIONAL MATCH (c)-[:REPORTS_EMISSION]->(e:EmissionMetric)
+            OPTIONAL MATCH (e)-[:FALLS_UNDER_SCOPE]->(s:Scope)
+            OPTIONAL MATCH (e)-[:MEASURED_IN_YEAR]->(y:Year)
+            OPTIONAL MATCH (c)-[:COMMITS_TO_NET_ZERO]->(ty:Year)
+            OPTIONAL MATCH (c)-[:HAS_SUPPLIER]->(sup:Company)
+            RETURN DISTINCT
+                c.name AS company,
+                e.value AS emission,
+                COALESCE(e.unit, 'tCO2e') AS unit,
+                y.value AS year,
+                s.name AS scope,
+                ty.value AS net_zero_year,
+                sup.name AS supplier
+            LIMIT 20
             """
             rows = list(session.run(company_cypher, names=candidate_names))
             if rows:
@@ -125,29 +125,29 @@ def _fetch_graph_context(driver: Driver, question: str) -> tuple[str, List[str]]
                         mentioned.append(company)
                     if r["emission"] is not None:
                         lines.append(
-                            f"- {company}: {r['emission']} {r['unit']} "
+                            f"{company}: {r['emission']} {r['unit']} "
                             f"({r['scope'] or 'unknown scope'}, {r['year'] or 'unknown year'})"
                         )
                     if r["net_zero_year"]:
-                        lines.append(f"- {company}: net-zero target by {r['net_zero_year']}")
+                        lines.append(f"{company}: net-zero target by {r['net_zero_year']}")
                     if r["supplier"]:
-                        lines.append(f"- {company} has supplier: {r['supplier']}")
+                        lines.append(f"{company} has supplier: {r['supplier']}")
                 if lines:
                     context_parts.append("Specific company data:\n" + "\n".join(lines))
 
         # --- Global top-5 emissions (always included) ---
         top_cypher = """
-            MATCH (c:Company)-[:REPORTS_EMISSION]->(e:EmissionMetric)
-            OPTIONAL MATCH (e)-[:FALLS_UNDER_SCOPE]->(s:Scope)
-            RETURN c.name AS company, e.value AS value,
-                   COALESCE(e.unit, 'tCO2e') AS unit, s.name AS scope
-            ORDER BY CASE WHEN e.value IS NOT NULL THEN toFloat(e.value) ELSE 0 END DESC
-            LIMIT 5
+        MATCH (c:Company)-[:REPORTS_EMISSION]->(e:EmissionMetric)
+        OPTIONAL MATCH (e)-[:FALLS_UNDER_SCOPE]->(s:Scope)
+        RETURN c.name AS company, e.value AS value,
+               COALESCE(e.unit, 'tCO2e') AS unit, s.name AS scope
+        ORDER BY CASE WHEN e.value IS NOT NULL THEN toFloat(e.value) ELSE 0 END DESC
+        LIMIT 5
         """
         top_rows = list(session.run(top_cypher))
         if top_rows:
             top_lines = [
-                f"- {r['company']}: {r['value']} {r['unit']} ({r['scope'] or 'unknown scope'})"
+                f"{r['company']}: {r['value']} {r['unit']} ({r['scope'] or 'unknown scope'})"
                 for r in top_rows if r["company"]
             ]
             if top_lines:
@@ -156,13 +156,13 @@ def _fetch_graph_context(driver: Driver, question: str) -> tuple[str, List[str]]
         # --- Targets context ---
         if any(kw in question.lower() for kw in ("target", "net-zero", "netzero", "commit", "reduction")):
             target_cypher = """
-                MATCH (c:Company)-[:COMMITS_TO_NET_ZERO]->(y:Year)
-                RETURN c.name AS company, y.value AS year
-                ORDER BY y.value LIMIT 10
+            MATCH (c:Company)-[:COMMITS_TO_NET_ZERO]->(y:Year)
+            RETURN c.name AS company, y.value AS year
+            ORDER BY y.value LIMIT 10
             """
             t_rows = list(session.run(target_cypher))
             if t_rows:
-                t_lines = [f"- {r['company']}: net-zero by {r['year']}" for r in t_rows if r["company"]]
+                t_lines = [f"{r['company']}: net-zero by {r['year']}" for r in t_rows if r["company"]]
                 context_parts.append("Net-zero commitments:\n" + "\n".join(t_lines))
 
     context_text = "\n\n".join(context_parts) if context_parts else ""
@@ -243,11 +243,11 @@ def send_message(
     4. Return answer + metadata
 
     Edge cases handled:
-      - Empty/whitespace question      -> 422 (Pydantic validation)
-      - No graph data yet              -> answered without context, flagged
-      - Gemini quota exhausted         -> 429 with clear message
-      - Gemini unavailable             -> 503
-      - Malicious prompt injection     -> system prompt hard-coded, user input isolated
+    - Empty/whitespace question      -> 422 (Pydantic validation)
+    - No graph data yet              -> answered without context, flagged
+    - Gemini quota exhausted         -> 429 with clear message
+    - Gemini unavailable             -> 503
+    - Malicious prompt injection     -> system prompt hard-coded, user input isolated
     """
     # Validate API key is present before hitting Neo4j
     import os
@@ -256,7 +256,7 @@ def send_message(
         raise HTTPException(
             status_code=503,
             detail={
-                "error":   "missing_api_key",
+                "error": "missing_api_key",
                 "message": "GOOGLE_API_KEY is not set. Add it to your .env file.",
             },
         )
@@ -270,13 +270,14 @@ def send_message(
         prompt = (
             f"Graph database context (use this to answer accurately):\n\n"
             f"{context_text}\n\n"
-            f"---\n"
+            f"--\n"
             f"User question: {payload.question}"
         )
     else:
         prompt = (
             f"Note: no specific graph data was found matching this question. "
             f"Answer based on general ESG/Scope 3 knowledge.\n\n"
+            f"--\n"
             f"User question: {payload.question}"
         )
 
@@ -290,13 +291,14 @@ def send_message(
             raise HTTPException(
                 status_code=429,
                 detail={
-                    "error":   "rate_limit_exceeded",
+                    "error": "rate_limit_exceeded",
                     "message": (
                         "Gemini API quota exhausted. "
                         "Wait a minute and try again (free tier: 15 req/min)."
                     ),
                 },
             )
+
         raise HTTPException(
             status_code=503,
             detail={"error": "llm_unavailable", "message": str(exc)},

@@ -8,7 +8,7 @@ Provides a managed Neo4j driver that is:
   - Injected into route handlers via Depends(get_driver)
 
 Never import get_driver() from src directly inside a route -
-always use the Depends pattern so the driver lifecycle is centralised.
+always use the Depends pattern so the driver lifecycle is centralized.
 """
 
 import logging
@@ -22,53 +22,52 @@ from src.graph.connection import get_driver as _create_driver
 
 logger = logging.getLogger(__name__)
 
-# -----------------------------------------------------------------------------
+# #############################################################################
 # App Lifespan - driver created once, closed on shutdown
-# -----------------------------------------------------------------------------
+# #############################################################################
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """
     FastAPI lifespan context manager.
-    Runs startup logic before `yield` and shutdown logic after.
+    Runs startup logic before yield and shutdown logic after.
     """
-    # --- Startup -------------------------------------------------------------
+    # --- Startup ---
     logger.info("EcoGraph API starting up...")
     try:
         driver = _create_driver()
         app.state.driver = driver
-        logger.info("Neo4j driver initialised and stored in app.state.")
+        logger.info("Neo4j driver initialized and stored in app.state.")
     except (EnvironmentError, ConnectionError, PermissionError) as exc:
         # Log clearly but don't crash - routes will return 503 gracefully
         logger.error(f"Neo4j unavailable at startup: {exc}")
         app.state.driver = None
 
-    yield    # <- app is running here
+    yield
 
-    # --- Shutdown ------------------------------------------------------------
+    # --- Shutdown ---
     logger.info("EcoGraph API shutting down...")
     driver = getattr(app.state, "driver", None)
     if driver:
         driver.close()
         logger.info("Neo4j driver closed.")
 
-# -----------------------------------------------------------------------------
+# #############################################################################
 # Dependency: inject driver into route handlers
-# -----------------------------------------------------------------------------
+# #############################################################################
 
 def get_driver(request: Request) -> Driver:
     """
     FastAPI dependency that injects the shared Neo4j driver.
-
+    
     Raises HTTP 503 if:
       - Driver was never created (bad env vars / Neo4j unreachable at startup)
       - Driver connection was lost during runtime
-
-    Usage in a route:
-        @router.get("/something")
-        def my_route(driver: Driver = Depends(get_driver)):
-            ...
     """
+    # Usage in a route:
+    #   @router.get("/something")
+    #   def my_route(driver: Driver = Depends(get_driver)):
+    #   ...
     driver: Driver = getattr(request.app.state, "driver", None)
 
     if driver is None:
@@ -87,8 +86,8 @@ def get_driver(request: Request) -> Driver:
     # Lightweight liveness check: trivial Cypher instead of verify_connectivity()
     # which opens a full new TCP handshake on every request.
     try:
-        with driver.session() as _s:
-            _s.run("RETURN 1").consume()
+        with driver.session() as s:
+            s.run("RETURN 1").consume()
     except Exception as exc:
         logger.error(f"Neo4j liveness check failed: {exc}")
         raise HTTPException(

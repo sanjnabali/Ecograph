@@ -1,11 +1,11 @@
 """
 api/routers/stats.py - Dashboard statistics endpoints.
 
-GET /api/stats/summary      - node/rel counts + emission totals
-GET /api/stats/emissions    - emissions grouped by company
-GET /api/stats/categories   - Scope 3 category breakdown
-GET /api/stats/targets      - net-zero targets per company
-GET /api/stats/health       - DB connectivity probe (used by frontend heartbeat)
+GET /api/stats/summary     - node/rel counts + emission totals
+GET /api/stats/emissions   - emissions grouped by company
+GET /api/stats/categories  - Scope 3 category breakdown
+GET /api/stats/targets     - net-zero targets per company
+GET /api/stats/health      - DB connectivity probe (used by frontend heartbeat)
 """
 
 import logging
@@ -27,7 +27,7 @@ class GraphSummary(BaseModel):
     emission_metrics:    int
     regions:             int
     facilities:          int
-    suppliers:           int   # Company nodes with supply_chain_tier set
+    suppliers:           int  # Company nodes with supply_chain_tier set
 
 class EmissionRow(BaseModel):
     company: str
@@ -46,9 +46,9 @@ class TargetRow(BaseModel):
     description: str = ""
 
 class HealthStatus(BaseModel):
-    status:  str  # "ok" | "degraded"
+    status:  str # "ok" | "degraded"
     neo4j:   bool
-    message: str  = ""
+    message: str = ""
 
 @router.get(
     "/health",
@@ -71,12 +71,12 @@ def get_summary(driver: Driver = Depends(get_driver)) -> GraphSummary:
     All counts default to 0 if no data exists yet.
     """
     cypher = """
-        MATCH (n) RETURN labels(n)[0] AS label, count(n) AS cnt
+    MATCH (n) RETURN labels(n)[0] AS label, count(n) AS cnt
     """
     rel_cypher = "MATCH ()-[r]->() RETURN count(r) AS total"
-    
+
     supplier_cypher = """
-        MATCH (c:Company) WHERE c.supply_chain_tier IS NOT NULL RETURN count(c) AS cnt
+    MATCH (c:Company) WHERE c.supply_chain_tier IS NOT NULL RETURN count(c) AS cnt
     """
 
     counts: Dict[str, int] = {}
@@ -114,26 +114,26 @@ def get_emissions(
 ) -> List[EmissionRow]:
     """
     Query param:
-      limit (int, default 50, max 500) - cap on returned rows
+    limit (int, default 50, max 500) - cap on returned rows
     """
     if limit < 1 or limit > 500:
-        raise ValueError("limit must be between 1 and 500.")
+        raise ValueError("Limit must be between 1 and 500.")
 
     cypher = """
-        MATCH (c:Company)-[:REPORTS_EMISSION]->(e:EmissionMetric)
-        OPTIONAL MATCH (e)-[:MEASURED_IN_YEAR]->(y:Year)
-        OPTIONAL MATCH (e)-[:FALLS_UNDER_SCOPE]->(s:Scope)
-        RETURN
-            c.name      AS company,
-            e.value     AS value,
-            COALESCE(e.unit, 'tCO2e') AS unit,
-            COALESCE(y.value, 'unknown') AS year,
-            COALESCE(s.name, 'unknown')  AS scope
-        ORDER BY
-            CASE WHEN e.value IS NOT NULL THEN toFloat(e.value) ELSE 0 END DESC
-        LIMIT $limit
+    MATCH (c:Company)-[:REPORTS_EMISSION]->(e:EmissionMetric)
+    OPTIONAL MATCH (e)-[:MEASURED_IN_YEAR]->(y:Year)
+    OPTIONAL MATCH (e)-[:FALLS_UNDER_SCOPE]->(s:Scope)
+    RETURN
+        c.name       AS company,
+        e.value      AS value,
+        COALESCE(e.unit, 'tCO2e') AS unit,
+        COALESCE(y.value, 'unknown') AS year,
+        COALESCE(s.name, 'unknown') AS scope
+    ORDER BY
+        CASE WHEN e.value IS NOT NULL THEN toFloat(e.value) ELSE 0 END DESC
+    LIMIT $limit
     """
-    
+
     rows: List[EmissionRow] = []
     with driver.session() as session:
         for r in session.run(cypher, limit=limit):
@@ -157,15 +157,17 @@ def get_emissions(
 )
 def get_categories(driver: Driver = Depends(get_driver)) -> List[CategoryRow]:
     cypher = """
-        MATCH (e:EmissionMetric)-[:BELONGS_TO_CATEGORY]->(cat:Category)
-        RETURN cat.name AS category, count(e) AS count
-        ORDER BY count DESC
+    MATCH (e:EmissionMetric)-[:BELONGS_TO_CATEGORY]->(cat:Category)
+    RETURN cat.name AS category, count(e) AS count
+    ORDER BY count DESC
     """
+
     rows: List[CategoryRow] = []
     with driver.session() as session:
         for r in session.run(cypher):
             if r["category"]:
                 rows.append(CategoryRow(category=r["category"], count=r["count"]))
+
     return rows
 
 @router.get(
@@ -175,22 +177,22 @@ def get_categories(driver: Driver = Depends(get_driver)) -> List[CategoryRow]:
 )
 def get_targets(driver: Driver = Depends(get_driver)) -> List[TargetRow]:
     cypher = """
-        MATCH (c:Company)-[:COMMITS_TO_NET_ZERO]->(y:Year)
-        RETURN c.name AS company, y.value AS target_year, '' AS description
-        UNION
-        MATCH (c:Company)-[:SETS_TARGET]->(t:Target)
-        RETURN c.name AS company, COALESCE(t.year, 'unknown') AS target_year,
-               COALESCE(t.description, '') AS description
-        ORDER BY target_year ASC
+    MATCH (c:Company)-[:COMMITS_TO_NET_ZERO]->(y:Year)
+    RETURN c.name AS company, y.value AS target_year, '' AS description
+    UNION
+    MATCH (c:Company)-[:SETS_TARGET]->(t:Target)
+    RETURN c.name AS company, COALESCE(t.year, 'unknown') AS target_year,
+           COALESCE(t.description, '') AS description
+    ORDER BY target_year ASC
     """
-    
+
     rows: List[TargetRow] = []
     with driver.session() as session:
         for r in session.run(cypher):
             if r["company"]:
                 rows.append(TargetRow(
                     company     = r["company"],
-                    target_year = str(r["target_year"] or "unknown"),
+                    target_year = str(r["target_year"]) or "unknown",
                     description = r["description"] or "",
                 ))
     return rows

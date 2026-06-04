@@ -1,13 +1,12 @@
-
 """
 api/routers/graph.py - Knowledge Graph exploration endpoints.
 
-GET  /api/graph/nodes                  - paginated node list with optional label filter
-GET  /api/graph/node/{name}            - single node with all its relationships
-GET  /api/graph/search?q=              - full-text node name search
-GET  /api/graph/subgraph/{name}        - ego-graph (node + N-hop neighbours)
-GET  /api/graph/map                    - all geocoded nodes for map view
-GET  /api/graph/supply-chain           - all HAS_SUPPLIER / SUPPLIES_TO edges
+GET  /api/graph/nodes               - paginated node list with optional label filter
+GET  /api/graph/node/{name}         - single node with all its relationships
+GET  /api/graph/search?q=           - full-text node name search
+GET  /api/graph/subgraph/{name}     - ego-graph (node + N-hop neighbours)
+GET  /api/graph/map                 - all geocoded nodes for map view
+GET  /api/graph/supply-chain        - all HAS_SUPPLIER / SUPPLIES_TO edges
 """
 
 import logging
@@ -26,15 +25,15 @@ router = APIRouter(prefix="/api/graph", tags=["Knowledge Graph"])
 _VALID_LABELS = NodeLabel.ALL | {"Entity"}
 
 class NodeOut(BaseModel):
-    id:          str
-    label:       str
-    name:        str
+    id:         str
+    label:      str
+    name:       str
     properties: Dict[str, Any] = Field(default_factory=dict)
 
 class EdgeOut(BaseModel):
-    source:      str
-    target:      str
-    type:        str
+    source:     str
+    target:     str
+    type:       str
     properties: Dict[str, Any] = Field(default_factory=dict)
 
 class NodeDetail(BaseModel):
@@ -57,9 +56,9 @@ def _record_to_node(record: Any, node_key: str = "n") -> Optional[NodeOut]:
     try:
         node = record[node_key]
         labels = list(node.labels)
-        label  = labels[0] if labels else "Entity"
-        props  = dict(node)
-        name   = props.get("name") or props.get("value") or str(node.element_id)
+        label = labels[0] if labels else "Entity"
+        props = dict(node)
+        name  = props.get("name") or props.get("value") or str(node.element_id)
         return NodeOut(
             id         = str(node.element_id),
             label      = label,
@@ -92,10 +91,10 @@ def _record_to_edge(record: Any) -> Optional[EdgeOut]:
     summary="List nodes with optional label filter and pagination",
 )
 def list_nodes(
-    label:  Optional[str] = Query(None, description="Filter by node label, e.g. 'Company'"),
-    skip:   int           = Query(0,  ge=0,   description="Pagination offset"),
-    limit:  int           = Query(50, ge=1,   le=500, description="Max nodes to return"),
-    driver: Driver        = Depends(get_driver),
+    label: Optional[str] = Query(None, description="Filter by node label, e.g. 'Company'"),
+    skip:  int           = Query(0, ge=0,      description="Pagination offset"),
+    limit: int           = Query(50, ge=1, le=500, description="Max nodes to return"),
+    driver: Driver       = Depends(get_driver),
 ) -> List[NodeOut]:
     if label and label not in _VALID_LABELS:
         raise ValueError(
@@ -114,6 +113,7 @@ def list_nodes(
             node = _record_to_node(record)
             if node:
                 nodes.append(node)
+
     return nodes
 
 @router.get(
@@ -126,9 +126,9 @@ def list_nodes(
     ),
 )
 def search_nodes(
-    q:      str    = Query(..., min_length=1, max_length=200, description="Search term"),
-    label:  str    = Query("Company", description="Node label to search"),
-    limit:  int    = Query(20, ge=1, le=100),
+    q:      str = Query(..., min_length=1, max_length=200, description="Search term"),
+    label:  str = Query("Company", description="Node label to search"),
+    limit:  int = Query(20, ge=1, le=100),
     driver: Driver = Depends(get_driver),
 ) -> List[NodeOut]:
     q = q.strip()
@@ -141,9 +141,9 @@ def search_nodes(
     # Use full-text index for Company (fastest), fallback CONTAINS for others
     if label == "Company":
         cypher = """
-            CALL db.index.fulltext.queryNodes('company_fulltext', $q)
-            YIELD node AS n, score
-            RETURN n ORDER BY score DESC LIMIT $limit
+        CALL db.index.fulltext.queryNodes('company_fulltext', $q)
+        YIELD node AS n, score
+        RETURN n ORDER BY score DESC LIMIT $limit
         """
     else:
         prop   = "value" if label in ("EmissionMetric", "Year") else "name"
@@ -178,22 +178,23 @@ def search_nodes(
     summary="Get a single node with all its relationships",
 )
 def get_node(
-    name:   str    = Path(..., min_length=1, max_length=300, description="Node name"),
-    label:  str    = Query("Company", description="Label to look up"),
+    name:   str = Path(..., min_length=1, max_length=300, description="Node name"),
+    label:  str = Query("Company", description="Label to look up"),
     driver: Driver = Depends(get_driver),
 ) -> NodeDetail:
     if label not in _VALID_LABELS:
         raise ValueError(f"Invalid label '{label}'.")
-
-    prop   = "value" if label in ("EmissionMetric", "Year") else "name"
+    
+    prop = "value" if label in ("EmissionMetric", "Year") else "name"
     cypher = f"""
-        MATCH (n:{label} {{{prop}: $name}})
-        OPTIONAL MATCH (n)-[r]-(neighbour)
-        RETURN n,
-               r,
-               elementId(startNode(r)) AS start_id,
-               elementId(endNode(r))   AS end_id
+    MATCH (n:{label} {{{prop}: $name}})
+    OPTIONAL MATCH (n)-[r]-(neighbour)
+    RETURN n,
+           r,
+           elementId(startNode(r)) AS start_id,
+           elementId(endNode(r))   AS end_id
     """
+    
     node_out: Optional[NodeOut] = None
     edges:    List[EdgeOut]     = []
 
@@ -205,7 +206,7 @@ def get_node(
         raise HTTPException(
             status_code=404,
             detail={
-                "error":    "node_not_found",
+                "error":   "node_not_found",
                 "message": f"No {label} node found with name='{name}'.",
             },
         )
@@ -217,13 +218,13 @@ def get_node(
             edge = _record_to_edge(record)
             if edge:
                 edges.append(edge)
-
+    
     # _record_to_node can return None if the record is malformed
     if node_out is None:
         raise HTTPException(
             status_code=404,
             detail={
-                "error":    "node_not_found",
+                "error":   "node_not_found",
                 "message": f"No {label} node found with name='{name}' (record parse failed).",
             },
         )
@@ -252,17 +253,17 @@ def get_subgraph(
 
     prop   = "value" if label in ("EmissionMetric", "Year") else "name"
     cypher = f"""
-        MATCH path = (root:{label} {{{prop}: $name}})-[*1..{hops}]-(neighbour)
-        WITH nodes(path) AS ns, relationships(path) AS rs
-        UNWIND ns AS n
-        WITH DISTINCT n, rs
-        UNWIND rs AS r
-        RETURN DISTINCT
-            n,
-            r,
-            elementId(startNode(r)) AS start_id,
-            elementId(endNode(r))   AS end_id
-        LIMIT $limit
+    MATCH path = (root:{label} {{{prop}: $name}})-[*1..{hops}]-(neighbour)
+    WITH nodes(path) AS ns, relationships(path) AS rs
+    UNWIND ns AS n
+    WITH DISTINCT n, rs
+    UNWIND rs AS r
+    RETURN DISTINCT
+        n,
+        r,
+        elementId(startNode(r)) AS start_id,
+        elementId(endNode(r))   AS end_id
+    LIMIT $limit
     """
 
     nodes_map: Dict[str, NodeOut] = {}
@@ -274,6 +275,7 @@ def get_subgraph(
                 node = _record_to_node(record)
                 if node and node.id not in nodes_map:
                     nodes_map[node.id] = node
+                
                 edge = _record_to_edge(record)
                 if edge:
                     edges.append(edge)
@@ -306,16 +308,17 @@ def get_subgraph(
 )
 def get_map_nodes(driver: Driver = Depends(get_driver)) -> List[GeoNode]:
     cypher = """
-        MATCH (n)
-        WHERE n.latitude IS NOT NULL AND n.longitude IS NOT NULL
-        RETURN
-            labels(n)[0]             AS label,
-            COALESCE(n.name, n.value) AS name,
-            n.latitude               AS lat,
-            n.longitude              AS lon,
-            properties(n)            AS props
-        ORDER BY label, name
+    MATCH (n)
+    WHERE n.latitude IS NOT NULL AND n.longitude IS NOT NULL
+    RETURN
+        labels(n)[0]              AS label,
+        COALESCE(n.name, n.value) AS name,
+        n.latitude                AS lat,
+        n.longitude               AS lon,
+        properties(n)             AS props
+    ORDER BY label, name
     """
+
     geo_nodes: List[GeoNode] = []
     with driver.session() as session:
         for r in session.run(cypher):
@@ -347,13 +350,14 @@ def get_supply_chain(
     driver: Driver = Depends(get_driver),
 ) -> SubGraph:
     cypher = """
-        MATCH (a:Company)-[r:HAS_SUPPLIER|SUPPLIES_TO]->(b:Company)
-        RETURN
-            a, b, r,
-            elementId(a) AS start_id,
-            elementId(b) AS end_id
-        LIMIT $limit
+    MATCH (a:Company)-[r:HAS_SUPPLIER|SUPPLIES_TO]->(b:Company)
+    RETURN 
+        a, b, r,
+        elementId(a) AS start_id,
+        elementId(b) AS end_id
+    LIMIT $limit
     """
+
     nodes_map: Dict[str, NodeOut] = {}
     edges:     List[EdgeOut]      = []
 
@@ -363,6 +367,7 @@ def get_supply_chain(
                 node = _record_to_node(record, key)
                 if node and node.id not in nodes_map:
                     nodes_map[node.id] = node
+            
             edge = _record_to_edge(record)
             if edge:
                 edges.append(edge)
