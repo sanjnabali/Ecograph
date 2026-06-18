@@ -41,8 +41,16 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Optional
 
-from google_crc32c import exc
-from google_crc32c import exc
+import sys
+try:
+    import google_crc32c
+    if not hasattr(google_crc32c, "exc"):
+        import types
+        google_crc32c.exc = types.ModuleType("exc")
+
+        google_crc32c.exc.CrcError = Exception
+except ImportError:
+    pass
 from groq import Groq, RateLimitError, APIStatusError, APIConnectionError
 
 from ecograph.config import settings
@@ -326,6 +334,7 @@ class GroqClient(ILLMClient):
 
         self._sdk = Groq(api_key=resolved_key)
         self._model = model or settings.GROQ_MODEL
+        self._timeout = settings.GROQ_API_TIMEOUT
         self._bucket = _TokenBucket(
             rpm=rpm or settings.GROQ_REQUESTS_PER_MINUTE,
             tpm=tpm or settings.GROQ_TOKENS_PER_MINUTE,
@@ -445,11 +454,11 @@ class GroqClient(ILLMClient):
 
         last_exec: Optional[Exception] = None
 
+        last_exc: Optional[Exception] = None
         for attempt in range(1, settings.MAX_RETRIES + 1):
             try:
                 t0 = time.monotonic()
-                completion = self._sdk.chat.completions.create(
-                    model=self._model,
+                completion = self._sdk_call_with_timeout(
                     messages=messages,
                     temperature=temperature,
                     max_tokens=max_tokens,
@@ -503,10 +512,47 @@ class GroqClient(ILLMClient):
                 )
                 time.sleep(wait)
 
+        raise LLMQuotaExhaustedError(
+            f"Groq call failed after {settings.MAX_RETRIES} retries. "
+            f"Last error: {last_exc}"
+        )
+
+    def _sdk_call_with_timeout(
+        self,
+        *,
+        messages: list[dict],
+        temperature: float,
+        max_tokens: int,
+    ):
+        """Execute a Groq SDK completion call with a hard request timeout."""
+        result: dict[str, object] = {}
+        error: list[Exception] = []
+
+        def target() -> None:
+            try:
+                result["completion"] = self._sdk.chat.completions.create(
+                    model=self._model,
+                    messages=messages,
+                    temperature=temperature,
+                    max_tokens=max_tokens,
+                )
+            except Exception as exc:
+                error.append(exc)
+
+        thread = threading.Thread(target=target, daemon=True)
+        thread.start()
+        thread.join(self._timeout)
+
+        if thread.is_alive():
             raise LLMQuotaExhaustedError(
-                f"Groq call failed after {settings.MAX_RETRIES} retries. "
-                f"Last error: {last_exc}"
+                f"Groq request timed out after {self._timeout}s. "
+                "The SDK call did not return in time."
             )
+
+        if error:
+            raise error[0]
+
+        return result["completion"]
 
     @staticmethod
     def _backoff(attempt: int) -> float:

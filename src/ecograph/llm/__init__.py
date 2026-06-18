@@ -1,7 +1,5 @@
 """
 src/ecograph/llm/__init__.py
-
-Public surface of the LLM sub-package.
 """
 
 from ecograph.llm.groq_client import (
@@ -13,8 +11,12 @@ from ecograph.llm.groq_client import (
     get_groq_client,
 )
 
+# Alias so files importing LLMClient or LLMClient still work
+LLMClient = GroqClient
+
 __all__ = [
     "ILLMClient",
+    "LLMClient",       # alias for GroqClient
     "GroqClient",
     "MockGroqClient",
     "LLMQuotaExhaustedError",

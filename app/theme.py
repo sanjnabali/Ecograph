@@ -873,12 +873,13 @@ def theme_toggle(label_light: str = "Switch to Dark Mode",
 
 
 def status_card(label: str, value: str, desc: str = "", status: str = "ok") -> None:
+    desc_html = f'<div class="stat-desc">{desc}</div>' if desc else ""
     st.markdown(
         f'<div class="stat-strip">'
         f'<div class="stat-dot {status}"></div>'
         f'<div class="stat-lbl">{label}</div>'
         f'<div class="stat-val">{value}</div>'
-        f'{"<div class=\"stat-desc\">" + desc + "</div>" if desc else ""}'
+        f'{desc_html}'
         f'</div>',
         unsafe_allow_html=True,
     )
@@ -890,10 +891,11 @@ def section_header(title: str, level: int = 3) -> None:
 
 def empty_state(icon: str, title: str, subtitle: str = "") -> None:
     # icon param kept for API compat but not rendered
+    subtitle_html = f'<div class="e-sub">{subtitle}</div>' if subtitle else ""
     st.markdown(
         f'<div class="empty-blk">'
         f'<div class="e-title">{title}</div>'
-        f'{"<div class=\"e-sub\">" + subtitle + "</div>" if subtitle else ""}'
+        f'{subtitle_html}'
         f'</div>',
         unsafe_allow_html=True,
     )

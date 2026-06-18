@@ -1,0 +1,13 @@
+{
+  "run_at": "2026-06-04T21:39:49.071974+00:00",
+  "total_elapsed_s": 2.0,
+  "steps": [
+    {
+      "step": 4,
+      "name": "ESG PDFs",
+      "error": "Invalid or missing GROQ_API_KEY - see instructions above",
+      "pdfs_processed": 0,
+      "elapsed_s": 2.0
+    }
+  ]
+}

@@ -1,22 +1,12 @@
 """
 api/errors.py - Centralised exception handlers and error response shapes
-
-Every route in the API raises standard Python exceptions.
-These handlers convert them into consistemt JSON error responses
-so the frontend always gets the same shape on failure:
-    
-    {
-    "error": "error_code_snake_case",
-    "message": "Human-readable explanation",
-    "detail": <optional extra context>
-    }
 """
 
 import logging
 from typing import Any, Optional
 
-from fastapi import FASTAPI, Request
-from fastapi.exception import RequestValidationError
+from fastapi import FastAPI, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 
@@ -28,7 +18,8 @@ class ErrorResponse(BaseModel):
     message: str
     detail: Optional[Any] = None
 
-def _error(status: int, code: str, message: str, default: Any = None) -> JSONResponse:
+
+def _error(status: int, code: str, message: str, detail: Any = None) -> JSONResponse:
     return JSONResponse(
         status_code=status,
         content=ErrorResponse(error=code, message=message, detail=detail).model_dump(
@@ -36,16 +27,14 @@ def _error(status: int, code: str, message: str, default: Any = None) -> JSONRes
         ),
     )
 
-def register_error_handlers(app: FASTAPI) -> None:
-    """
-    Call once in api/main.py to attach all exception handlers"""
+
+def register_error_handlers(app: FastAPI) -> None:
+    """Call once in api/main.py to attach all exception handlers."""
 
     @app.exception_handler(RequestValidationError)
     async def validation_error_handler(
         request: Request, exc: RequestValidationError
     ) -> JSONResponse:
-        """
-        Pydantic / query-param validation failures -> 422 with clear filed errors."""
         errors = [
             {"field": ".".join(str(loc) for loc in e["loc"]), "msg": e["msg"]}
             for e in exc.errors()
@@ -57,23 +46,30 @@ def register_error_handlers(app: FASTAPI) -> None:
             "One or more request fields are invalid",
             detail=errors,
         )
-    
+
     @app.exception_handler(ValueError)
     async def value_error_handler(
         request: Request, exc: ValueError
     ) -> JSONResponse:
         logger.warning(f"ValueError on {request.url}: {exc}")
         return _error(400, "bad_request", str(exc))
-    
+
     @app.exception_handler(PermissionError)
     async def permission_error_handler(
         request: Request, exc: PermissionError
     ) -> JSONResponse:
+        logger.error(f"PermissionError on {request.url}: {exc}")
+        return _error(503, "database_unavailable", str(exc))
+
+    @app.exception_handler(ConnectionError)
+    async def connection_error_handler(
+        request: Request, exc: ConnectionError
+    ) -> JSONResponse:
         logger.error(f"ConnectionError on {request.url}: {exc}")
         return _error(503, "database_unavailable", str(exc))
-    
+
     @app.exception_handler(Exception)
-    async def handled_error_handler(
+    async def unhandled_error_handler(
         request: Request, exc: Exception
     ) -> JSONResponse:
         """Catch-all: never leak stack traces to the client in production."""
@@ -81,5 +77,5 @@ def register_error_handlers(app: FASTAPI) -> None:
         return _error(
             500,
             "internal_server_error",
-            "An unexpected error occurred. check server logs",
+            "An unexpected error occurred. Check server logs.",
         )

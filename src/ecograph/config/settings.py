@@ -134,6 +134,7 @@ NEO4J_PASSWORD:     str = _str("NEO4J_PASSWORD")
 NEO4J_DATABASE:     str = _str("NEO4J_DATABASE", "neo4j")
 NEO4J_TIMEOUT:      int = _int("NEO4J_TIMEOUT", 30)       # seconds
 NEO4J_MAX_POOL:     int = _int("NEO4J_MAX_POOL", 50)
+NEO4J_QUERY_API:    str = _str("NEO4J_QUERY_API", "https")  # "bolt" or "http"
 
 
 # ---------------------------------------------------------------------------
@@ -144,6 +145,7 @@ GROQ_API_KEY:       str   = _str("GROQ_API_KEY")
 GROQ_MODEL:         str   = _str("GROQ_MODEL", "llama3.3-70B-versatile")
 GROQ_TEMPERATURE:   float = _float("GROQ_TEMPERATURE", 0.1)
 GROQ_MAX_TOKENS:    int   = _int("GROQ_MAX_TOKENS", 2048)
+GROQ_API_TIMEOUT:   int   = _int("GROQ_API_TIMEOUT", 45)  # seconds per Groq request
 
 # Free-tier rate limiting: 15 RPM / 1500 RPD
 # RATE_LIMIT_DELAY is the minimum inter-request sleep in seconds.

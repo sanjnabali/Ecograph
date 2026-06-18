@@ -2,20 +2,6 @@
 src/ecograph/graphrag/query_translator.py
 
 Translates natural-language queries into Cypher statements for Neo4j retrieval.
-
-Design decisions:
-- The translator is a stateless function (not a class) because it has no
-  persistent state between calls. Callers inject the LLM client.
-- Few-shot examples are embedded in the system prompt to dramatically improve
-  Cypher output quality without increasing the user prompt length.
-- Output validation enforces READ-ONLY queries: any generated Cypher
-  containing CREATE / MERGE / DELETE / SET / REMOVE / DROP is rejected and
-  replaced with the safe fallback query.
-- The LIMIT clause is always enforced: if the LLM omits it, we append
-  the configured maximum before execution.
-- Translation failures fall back to a broad supplier-observation query
-  rather than raising exceptions, ensuring the pipeline always produces
-  some output even when the LLM is degraded.
 """
 
 from __future__ import annotations
@@ -29,7 +15,6 @@ from ecograph.llm import ILLMClient, LLMQuotaExhaustedError, get_groq_client
 logger = logging.getLogger(__name__)
 
 # Constants
-# --------------------------------------------------------------------------
 DEFAULT_LIMIT = 200
 MAX_LIMIT = 500
 _WRITE_KEYWORDS = re.compile(
@@ -40,9 +25,6 @@ _FALLBACK_QUERY = (
     "MATCH (s:Supplier)-[:HAS_OBSERVATION]->(o:Observation) "
     "RETURN s, o ORDER BY o.value DESC LIMIT 100"
 )
-
-# System prompt with few-shot examples
-# --------------------------------------------------------------------------
 
 _SYSTEM_PROMPT = """
 You are a Cypher query generator for a Neo4j supply chain carbon accounting \
@@ -83,12 +65,11 @@ User: Identify top 10 carbon hotspots across all tiers.
 Cypher: MATCH (c:Company)-[:PURCHASES*1..5]->(s:Supplier)-[:HAS_OBSERVATION]->(o:Observation) WHERE o.metric IN ['co2_flux_tonnes_per_year', 'scope3_tco2e'] RETURN s.name, s.entity_id, s.country, sum(o.value) AS total_emissions ORDER BY total_emissions DESC LIMIT 10
 """
 
-# Validation helpers
-# --------------------------------------------------------------------------
 
 def _is_read_only(cypher: str) -> bool:
     """Return False if the Cypher contains any write operations."""
     return not bool(_WRITE_KEYWORDS.search(cypher))
+
 
 def _ensure_limit(cypher: str, limit: int = DEFAULT_LIMIT) -> str:
     """Append a LIMIT clause if one is not already present."""
@@ -96,46 +77,42 @@ def _ensure_limit(cypher: str, limit: int = DEFAULT_LIMIT) -> str:
         return cypher
     return cypher.rstrip().rstrip(";") + f" LIMIT {limit}"
 
+
 def _extract_cypher(text: str) -> str:
     """
     Extract clean Cypher from an LLM response.
-
-    Handles common LLM formatting issues:
-    - Markdown code fences (```cypher ... ```)
-    - Leading/trailing whitespace
-    - Multiple queries separated by newlines (take only the first MATCH block)
     """
     # Strip markdown code fences
-    text = re.sub(r"^```(?:cypher|sql)?\s*", "", text.strip(), flags = re.MULTILINE)
-    text = re.sub(r"\s*```\s*$", "", text, flags = re.MULTILINE).strip()
+    text = re.sub(r"^```(?:cypher|sql)?\s*", "", text.strip(), flags=re.MULTILINE)
+    text = re.sub(r"\s*```\s*$", "", text, flags=re.MULTILINE).strip()
+
+    # Take only the first MATCH statement if multiple are returned
+    lines = text.split("\n")
+    cypher_lines = []
+    in_query = False
+    for line in lines:
+        stripped = line.strip()
+        if re.match(r"^MATCH\b", stripped, flags=re.IGNORECASE):
+            in_query = True
+        if in_query:
+            cypher_lines.append(line)
+            # Stop at LIMIT clause (end of query)
+            if re.search(r"\bLIMIT\s+\d+", stripped, flags=re.IGNORECASE):
+                break
+
+    if cypher_lines:
+        return " ".join(cypher_lines).strip()
+
+    return text.strip()
+
 
 def translate_to_cypher(
     query: str,
-    llm: Optional[LLMClient] = None,
+    llm: Optional[ILLMClient] = None,
     limit: int = DEFAULT_LIMIT,
 ) -> str:
     """
     Translate a natural-language query to a safe, read-only Cypher statement.
-
-    Parameters
-    ----------
-    query:
-        Natural language question about the supply chain / emissions.
-    llm:
-        LLM client to use. Defaults to the process-singleton GroqClient.
-    limit:
-        Maximum number of records the generated query may return.
-        Clamped to MAX_LIMIT regardless of input.
-
-    Returns
-    -------
-    str: A valid, read-only Cypher query with a LIMIT clause.
-         Returns the safe fallback query if translation fails.
-
-    Raises
-    ------
-    LLMQuotaExhaustedError:
-        Propagated when Groq daily/minute quota is exhausted.
     """
     resolved_llm = llm or get_groq_client()
     effective_limit = min(max(limit, 1), MAX_LIMIT)
@@ -145,7 +122,7 @@ def translate_to_cypher(
             query,
             temperature=0.0,
             max_tokens=512,
-            system_prompt=SYSTEM_PROMPT,
+            system_prompt=_SYSTEM_PROMPT,
         )
     except LLMQuotaExhaustedError:
         raise
@@ -158,7 +135,6 @@ def translate_to_cypher(
 
     cypher = _extract_cypher(raw_response)
 
-    # Validate: must be non-empty, contain MATCH + RETURN, and be read-only
     if not cypher:
         logger.warning("Empty Cypher response; using fallback.")
         return _ensure_limit(_FALLBACK_QUERY, effective_limit)
@@ -184,4 +160,3 @@ def translate_to_cypher(
         extra={"cypher_preview": cypher[:200]},
     )
     return cypher
-

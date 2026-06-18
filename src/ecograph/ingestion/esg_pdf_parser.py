@@ -433,8 +433,11 @@ class ESGPDFParser(BaseIngestor):
             )
 
         prompt = _EXTRACTION_PROMPT.format(chunk=chunk)
-        raw_response = self.llm.generate(
-            system_prompt=_SYSTEM_PROMPT, user_prompt=prompt
+        raw_response = self.llm.complete(
+            prompt,
+            temperature=0.0,
+            max_tokens=settings.GROQ_MAX_TOKENS,
+            system_prompt=_SYSTEM_PROMPT,
         )
         return _parse_llm_response(raw_response, chunk_idx, debug_dir=self.debug_dir)
 
@@ -464,153 +467,4 @@ class ESGPDFParser(BaseIngestor):
             ),
         )
     
-    def _extract_chunk(self, chunk: str, chunk_idx: int) -> list[dict]:
-        """
-        Submit one text chunk to Groq for triple extraction.
-
-        Splits oversized chunks (estimated tokens > 80% of TPM ceiling) in
-        half and processes each half independently to avoid TPM breaches.
-
-        Parameters
-        ----------
-        chunk:
-            Text window to extract triples from.
-        chunk_idx:
-            Index used for logging and debug file naming.
-
-        Returns
-        -------
-        list[dict]: Raw triple dicts.
-
-        Raises
-        ------
-        LLMQuotaExhaustedError: Daily or per-minute quota exhausted.
-        LLMResponseError: Non-retryable API error.
-        ValueError: JSON parsing failed after all fallbacks.
-        """
-        estimated = self._llm.count_tokens(chunk) + settings.GROQ_MAX_TOKENS
-        if estimated > settings.GROQ_TOKENS_PER_MINUTE * 0.8:
-            self._logger.debug(
-                "Chunk too large; splitting into halves.",
-                extra={"chunk_idx": chunk_idx, "estimated_tokens": estimated},
-            )
-            mid = len(chunk) // 2
-            return self._extract_chunk(chunk[:mid], chunk_idx) + \
-                self._extract_chunk(chunk[mid:], chunk_idx)
-
-        prompt = _EXTRACTION_PROMPT.replace("{chunk}", chunk)
-        response_text = self._llm.complete(
-            prompt,
-            temperature=0.0,
-            max_tokens=settings.GROQ_MAX_TOKENS,
-            system_prompt=SYSTEM_PROMPT,
-        )
-        return _parse_llm_response(response_text, chunk_idx, self._debug_dir)
-
-    # -----------------------------------------------------------------
-    # Triple construction
-    # -----------------------------------------------------------------
-
-    def _build_triple(
-        self,
-        raw: dict,
-        filename: str,
-        chunk_idx: int,
-    ) -> Optional[GraphTriple]:
-        """
-        Validate one raw extraction dict and convert it to a GraphTriple.
-
-        Returns None for triples that are below confidence threshold or
-        have missing required fields (subject, relationship, object).
-        """
-        try:
-            confidence = float(raw.get("confidence", 0.0))
-        except (TypeError, ValueError):
-            confidence = 0.0
-
-        if confidence < self._min_confidence:
-            return None
-
-        subject_name = str(raw.get("subject_name", "")).strip()
-        subject_type = str(raw.get("subject_type", "Company")).strip()
-        relationship = str(raw.get("relationship", "")).strip()
-        object_name = str(raw.get("object_name", "")).strip()
-        object_type = str(raw.get("object_type", "Entity")).strip()
-
-        if not subject_name or not relationship or not object_name:
-            self._logger.debug(
-                "Skipping triple with missing required fields.",
-                extra={"raw_preview": str(raw)[:200]},
-            )
-            return None
-
-        raw_props = raw.get("properties", {}) or {}
-        properties: dict[str, Any] = {}
-        for key in ("value", "unit", "scope", "category", "target_year", "baseline_year"):
-            val = raw_props.get(key)
-            if val is not None and str(val).strip() not in ("", "null", "None"):
-                properties[key] = val
-        
-        source_sentence = str(raw.get("source_sentence", "")).strip()
-        if source_sentence:
-            properties["source_sentence"] = source_sentence[:300]
-
-        return self._triple(
-            subject=self._node(label=map_type(subject_type), name=subject_name),
-            relationship=map_rel(relationship),
-            obj=self._node(label=map_type(object_type), name=object_name),
-            properties=properties,
-            provenance=Provenance(source="ESG_PDF", file=filename, chunk_index=chunk_idx,
-            confidence=confidence,
-            )
-        )
-
-    # -----------------------------------------------------------------
-    # Text extraction
-    # -----------------------------------------------------------------
-
-    def _extract_text(self, filepath: Path) -> str:
-        """
-        Extract plain text from a PDF using pdfplumber.
-
-        Skips pages that are clearly non-content (cover, TOC, legal boilerplate)
-        based on page number heuristics. Pages 1 and 2 are skipped (cover + TOC).
-        The last 3 pages are skipped (references, legal).
-        """
-        try:
-            import pdfplumber
-        except ImportError as exc:
-            raise RuntimeError(
-                "pdfplumber is required for PDF parsing. "
-                "Install with: pip install pdfplumber"
-            ) from exc
-
-        try:
-            pages_text: list[str] = []
-            with pdfplumber.open(filepath) as pdf:
-                total = len(pdf.pages)
-                # Skip cover/TOC (pages 0-1) and tail (last 3 pages)
-                skip_head = min(2, total)
-                skip_tail = max(0, total - 3)
-
-                for page_num, page in enumerate(pdf.pages):
-                    if page_num < skip_head:
-                        continue
-                    if page_num >= skip_tail:
-                        continue
-                    try:
-                        page_text = page.extract_text(x_tolerance=3, y_tolerance=3)
-                        if page_text:
-                            pages_text.append(page_text)
-                    except Exception as exc:
-                        self._logger.debug(
-                            "Page extraction failed, skipping.",
-                            extra={"page": page_num, "error": str(exc)},
-                        )
-
-                return "\n\n".join(pages_text)
-        except Exception as exc:
-            raise RuntimeError(
-                f"pdfplumber failed to open '{filepath.name}': {exc}"
-            ) from exc
     

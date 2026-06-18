@@ -108,12 +108,15 @@ with col_a:
     if state.get("supply_mitigation_plan"):
         with st.expander("Mitigation Plan", expanded=True):
             plan = state["supply_mitigation_plan"]
-            recs = plan.get("recommendations", [])
-            if recs:
-                import pandas as pd
-                st.dataframe(pd.DataFrame(recs), use_container_width=True)
+            if isinstance(plan, dict):
+                recs = plan.get("recommendations", [])
+                if recs:
+                    import pandas as pd
+                    st.dataframe(pd.DataFrame(recs), use_container_width=True)
+                else:
+                    st.json(plan)
             else:
-                st.json(plan)
+                st.write(plan)
     if state.get("compliance_violations"):
         with st.expander("Compliance Violations"):
             for v in state["compliance_violations"]:

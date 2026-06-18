@@ -1,0 +1,501 @@
+subject_name,subject_label,relationship,object_name,object_label,confidence,source_file
+Samsung Electronics,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Global Electronics Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,South Steel Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,South_Steel_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Global Chemicals Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Asian Energy Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,North Energy Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,South_Electronics_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,GTI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Global_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Asian Steel Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,South_Steel_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Euro_Chemicals_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global Steel Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Asian Steel Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Asian Chemicals Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Global_Textiles_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Shell Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,DyStar,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,South Energy Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Euro Chemicals Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Exxon_Mobil,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Saudi Aramco,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,South Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,GCG,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SEC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Global_Steel_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global Chemicals Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,NEL,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,South Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Euro Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Asian_Steel_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Asian_Steel_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Euro Electronics Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,GCG,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,South Energy Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Asian_Steel_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,North Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Euro Textiles Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Asian Steel Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Pacific Textiles Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,South Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Euro Energy Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Global Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Archroma,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Global_Chemicals_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Euro Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Asian Energy Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Euro Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Euro Textiles Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Euro Chemicals Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Exxon Mobil,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,North Steel Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global_Textiles_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Shell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,South Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Euro_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Euro Textiles Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,North_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SEC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Euro Electronics Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Euro_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,North Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,South_Electronics_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,GTI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,EEL,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global_Chemicals_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global Electronics Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,North Energy Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Asian_Chemicals_Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Asian Energy Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Euro Energy Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,South_Chemicals_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global Chemicals Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Asian_Chemicals_Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Euro_Energy_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Euro Textiles Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Asian_Steel_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Euro_Energy_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Euro_Chemicals_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Euro_Chemicals_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Asian_Steel_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,South_Electronics_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,South Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,ASC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Global Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Asian Steel Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Euro_Energy_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Euro_Energy_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,South_Electronics_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,North Energy Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Euro Energy Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,South_Electronics_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Euro Chemicals Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,NEL,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Euro Energy Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,GTI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,South_Electronics_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,North Textiles Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global_Chemicals_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global_Steel_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SSI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Euro Electronics Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,South_Electronics_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,North_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,South_Electronics_Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,GTI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Global Steel Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,GTI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,North_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Shell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Archroma,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,North_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,North Textiles Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,ACG,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,ASC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Euro Textiles Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,South_Chemicals_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Euro Energy Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global_Steel_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,South Steel Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Euro Chemicals Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Huntsman Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Euro Energy Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,GCG,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Exxon_Mobil,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Euro Textiles Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,South_Electronics_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Euro Textiles Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Pacific Chemicals Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,North Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Pacific Textiles Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,South_Chemicals_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Euro Chemicals Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,GSM,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Euro_Electronics_Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,DyStar,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,North_Electronics_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,GTI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Shell Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global Steel Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Shell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,EEL,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Euro Chemicals Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Asian Steel Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,BP,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Asian Textiles Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,North Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,North_Electronics_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Saudi Aramco,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SEC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Global_Textiles_Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Global_Steel_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Global Textiles Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,ArcelorMittal,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Euro Chemicals Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Euro Chemicals Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,GTI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,North_Electronics_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Pacific Textiles Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,South Chemicals Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,SK Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Global_Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Asian Chemicals Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Asian_Chemicals_Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,GSM,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,South Steel Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Saudi Aramco,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,Global Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Global_Chemicals_Group,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,ACG,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,DyStar,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,South Electronics Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,North Textiles Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Micron Tech,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,Global Textiles Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Dow_Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,North Electronics Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,SK_Hynix,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Dow Chemical,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,BASF,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,POSCO,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,GTI,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,BP,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+H&M Group,Company,HAS_SUPPLIER,Global Textiles Industries,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,SEC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,North_Electronics_Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,DC,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Pacific Textiles Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Euro Energy Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,North Energy Corp,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,GS,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Nippon Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,LyondellBasell,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,BASF Germany,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Apple Inc,Company,HAS_SUPPLIER,SH,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Archroma,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Google/Alphabet,Company,HAS_SUPPLIER,Global Steel,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,North Steel Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Huntsman,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+NVIDIA Corporation,Company,HAS_SUPPLIER,Taiwan Semiconductor,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,POSCO India,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Intel Corporation,Company,HAS_SUPPLIER,ArcelorMittal Vietnam,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Tesla Inc,Company,HAS_SUPPLIER,North Electronics Ltd,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Microsoft Corporation,Company,HAS_SUPPLIER,Euro Chemicals Inc,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
+Samsung Electronics,Company,HAS_SUPPLIER,South_Electronics_Manufacturing,Supplier,1.0,C:\Users\SANJNA BALI\Documents\Desktop\Ecograph\data\raw\erp_invoices\synthetic_invoices.csv
